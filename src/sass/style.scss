@@ -1,0 +1,12 @@
+@import "variables";
+@import "header";
+
+body{
+	background:$bgColor;
+}
+
+#main_container {
+	width:960px;
+	margin:auto;
+	background-color: $coreBlue;
+}

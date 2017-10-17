@@ -1,3 +1,9 @@
+/* Browser Reset */
+*{
+	margin:0;
+	padding: 0;
+}
+
 @import "variables";
 @import "header";
 
@@ -10,3 +16,11 @@ body{
 	margin:auto;
 	background-color: $coreBlue;
 }
+
+@font-face{
+	font-family:iosRegular;
+	src:url('../font/iosevka-regular.woff2') format('woff2'),
+		url('../font/iosevka-regular.woff') format('woff'),
+		url('../font/iosevka-regular.ttf') format('ttf');
+}
+

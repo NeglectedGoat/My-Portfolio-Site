@@ -1,9 +1,8 @@
 #logo {
 	display: inline-block;
-	position: relative;
 	float: left;
-	left:90px;
-	top:35px;
+	margin-top: 50px;
+	margin-left: 120px;
 }
 
 .clearfix:after {
@@ -15,10 +14,9 @@
 }
 
 nav{
+	margin-top: 48px;
+	margin-left: 248px;
 	display: inline-block;
-	position: relative;
-	left: 350px;
-	top:20px;
 	li{
 		list-style-type: none;
 		padding: 0;
@@ -26,6 +24,7 @@ nav{
 		float: left;
 	}
 	a{
+		font-family: iosRegular;
 		text-align:center;
 		display: block;
 		text-decoration: none;

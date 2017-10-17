@@ -1,9 +1,13 @@
+/* Browser Reset */
+* {
+  margin: 0;
+  padding: 0; }
+
 #logo {
   display: inline-block;
-  position: relative;
   float: left;
-  left: 90px;
-  top: 35px; }
+  margin-top: 50px;
+  margin-left: 120px; }
 
 .clearfix:after {
   content: "";
@@ -13,16 +17,16 @@
   clear: both; }
 
 nav {
-  display: inline-block;
-  position: relative;
-  left: 350px;
-  top: 20px; }
+  margin-top: 48px;
+  margin-left: 248px;
+  display: inline-block; }
   nav li {
     list-style-type: none;
     padding: 0;
     margin: 0;
     float: left; }
   nav a {
+    font-family: iosRegular;
     text-align: center;
     display: block;
     text-decoration: none;
@@ -36,3 +40,7 @@ body {
   width: 960px;
   margin: auto;
   background-color: #0f0aca; }
+
+@font-face {
+  font-family: iosRegular;
+  src: url("../font/iosevka-regular.woff2") format("woff2"), url("../font/iosevka-regular.woff") format("woff"), url("../font/iosevka-regular.ttf") format("ttf"); }

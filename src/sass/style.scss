@@ -24,3 +24,10 @@ body{
 		url('../font/iosevka-regular.ttf') format('ttf');
 }
 
+@font-face {
+	font-family:iosBold;
+	src:url('../font/iosevka-bold.woff2') format('woff2'),
+		url('../font/iosevka-bold.woff') format('woff'),
+		url('../font/iosevka-bold.ttf') format('ttf');
+}
+

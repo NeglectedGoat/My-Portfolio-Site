@@ -1,6 +1,5 @@
 #logo {
 	display: inline-block;
-	float: left;
 	margin-top: 50px;
 	margin-left: 120px;
 }
@@ -31,4 +30,20 @@ nav{
 		padding:18px;
 		color:white;
 	}
+}
+
+#headshot{
+	margin-top: 70px;
+	margin-left: 25px;
+	display: inline-block;
+}
+
+#blurb {
+	color: $primaryTextWhite;
+	font-size: 51px;
+	font-family: iosBold;
+	display: inline-block;
+	width: 385px;
+	position: relative;
+	bottom: 140px;
 }

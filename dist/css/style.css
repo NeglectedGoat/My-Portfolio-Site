@@ -21,16 +21,13 @@ nav {
   display: inline-block; }
   nav li {
     list-style-type: none;
-    padding: 0;
+    padding: 18px;
     margin: 0;
     float: left; }
-  nav a {
+  nav a:link, nav a:visited {
     font-family: iosRegular;
-    text-align: center;
     display: block;
-    text-decoration: none;
-    padding: 18px;
-    color: white; }
+    text-decoration: none; }
 
 #headshot {
   margin-top: 70px;
@@ -44,7 +41,36 @@ nav {
   display: inline-block;
   width: 385px;
   position: relative;
-  bottom: 140px; }
+  bottom: 140px;
+  left: 55px; }
+
+#headerBtn {
+  font-family: iosRegular;
+  text-decoration: none;
+  color: #fff;
+  border: solid 2px #fff;
+  padding: 12.5px;
+  position: relative;
+  right: 332px;
+  bottom: 79px; }
+
+hr {
+  border: 0.5px solid #fff;
+  background-color: #fff;
+  margin-bottom: 7px;
+  position: relative;
+  bottom: 15px; }
+
+a {
+  color: #fff;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+a:hover, a:active {
+  color: #d1d1d6; }
 
 body {
   background: #cccccc; }
@@ -52,7 +78,7 @@ body {
 #main_container {
   width: 960px;
   margin: auto;
-  background-color: #0f0aca; }
+  background-color: #981036; }
 
 @font-face {
   font-family: iosRegular;

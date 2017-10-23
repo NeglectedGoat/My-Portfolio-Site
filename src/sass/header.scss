@@ -47,17 +47,20 @@ nav{
 }
 
 #headerBtn {
+	display: inline-block;
+	width: 100px;
 	font-family: iosRegular;
 	text-decoration: none;
 	color: #fff;
 	border: solid 2px #fff;
-	padding: 12.5px;
+	padding: 12px;
+	text-align: center;
 	position: relative;
-	right: 332px;
-	bottom: 79px;
+	bottom: 85px;
+	right:332px;
 }
 
-hr{
+.hrHeader{
 	border: 0.5px solid #fff;
 	background-color: #fff;
 	margin-bottom: 7px;

@@ -1,12 +1,10 @@
-/* Browser Reset */
-*{
-	margin:0;
-	padding: 0;
-}
 
+@import "reset";
 @import "variables";
 @import "header";
 @import "cssanimations";
+@import "intro";
+
 
 body{
 	background:$bgColor;
@@ -31,4 +29,6 @@ body{
 		url('../font/iosevka-bold.woff') format('woff'),
 		url('../font/iosevka-bold.ttf') format('ttf');
 }
+
+
 

@@ -1,0 +1,69 @@
+#experience {
+	font-size: 16px;
+	color: $primaryTextWhite;
+	font-family: iosRegular;
+	margin-left: 50px;
+	margin-bottom: 35px;
+}
+#threeColumnContainer{
+	margin-bottom: 35px;
+	#ColumnOne {
+		width: 252px;
+		height: 267px;
+		display: inline-block;
+		background-image: url("../images/column_box.png");
+		background-repeat: no-repeat;
+		margin-left:48px;
+		position: relative;
+
+		#frontEnd{
+		position: absolute;
+		top: 20px;
+		left:25px;
+		font-family: iosRegular;
+		font-size:36px;
+		color:$primaryTextWhite;
+		}
+	}
+
+	#ColumnTwo {
+		width: 252px;
+		height: 267px;
+		display: inline-block;
+		background-image: url("../images/column_box.png");
+		background-repeat: no-repeat;
+		margin-left:48px;
+		position: relative;
+
+		#digitalDisplay{
+		position: absolute;
+		top:20px;
+		left:25px;
+		font-family: iosRegular;
+		font-size:36px;
+		color:$primaryTextWhite;
+		}
+	}
+
+	#ColumnThree {
+		width: 252px;
+		height: 267px;
+		display: inline-block;
+		background-image: url("../images/column_box.png");
+		background-repeat: no-repeat;
+		margin-left:48px;
+		position: relative;
+
+		#appDev{
+		position: absolute;
+		top:20px;
+		left:25px;
+		font-family: iosRegular;
+		font-size:36px;
+		color:$primaryTextWhite;
+		}
+	}
+
+
+}
+	

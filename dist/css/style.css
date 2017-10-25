@@ -130,10 +130,20 @@ a:hover, a:active {
       font-size: 36px;
       color: #ffffff; }
 
-body {
-  background: #cccccc; }
+#hrFooter {
+  margin-bottom: 10px; }
 
-#main_container {
+#footerSig {
+  font-size: 12px;
+  font-family: iosRegular;
+  color: #fff;
+  display: inline-block;
+  margin-left: 48px; }
+
+body {
+  background: #981036; }
+
+.container {
   width: 960px;
   margin: auto;
   background-color: #981036; }

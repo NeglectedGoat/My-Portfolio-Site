@@ -1,3 +1,5 @@
+@import "variables";
+
 #logo {
 	display: inline-block;
 	margin-top: 50px;
@@ -36,7 +38,6 @@ nav{
 }
 
 #blurb {
-	color: $primaryTextWhite;
 	font-size: 51px;
 	font-family: iosBold;
 	display: inline-block;
@@ -44,6 +45,7 @@ nav{
 	position: relative;
 	bottom: 140px;
 	left:55px;
+	color: $primaryTextWhite;
 }
 
 #headerBtn {

@@ -1,0 +1,60 @@
+#logo {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 120px; }
+
+.clearfix:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+nav {
+  margin-top: 48px;
+  margin-left: 248px;
+  display: inline-block; }
+  nav li {
+    list-style-type: none;
+    padding: 18px;
+    margin: 0;
+    float: left; }
+  nav a:link, nav a:visited {
+    font-family: iosRegular;
+    display: block;
+    text-decoration: none; }
+
+#headshot {
+  margin-top: 70px;
+  margin-left: 25px;
+  display: inline-block; }
+
+#blurb {
+  font-size: 51px;
+  font-family: iosBold;
+  display: inline-block;
+  width: 385px;
+  position: relative;
+  bottom: 140px;
+  left: 55px;
+  color: #ffffff; }
+
+#headerBtn {
+  display: inline-block;
+  width: 100px;
+  font-family: iosRegular;
+  text-decoration: none;
+  color: #fff;
+  border: solid 2px #fff;
+  padding: 12px;
+  text-align: center;
+  position: relative;
+  bottom: 85px;
+  right: 332px; }
+
+.hrHeader {
+  border: 0.5px solid #fff;
+  background-color: #fff;
+  margin-bottom: 7px;
+  position: relative;
+  bottom: 15px; }

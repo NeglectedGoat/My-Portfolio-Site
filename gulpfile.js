@@ -45,6 +45,7 @@ gulp.task('minify', function(){
 
 // Compile sass
 gulp.task('sass', function(){
+	gulp.src('src/sass/style.scss')
 		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('dist/css'));
 });
@@ -54,6 +55,6 @@ gulp.task('default', ['message', 'copyHtml', 'imageMin', 'sass', 'scripts']);
 gulp.task('watch', function(){
 	gulp.watch('src/js/*.js',['scripts']);
 	gulp.watch('src/images/*',['imageMin']);
-	gulp.watch('src/sass/*.scss', ['sass']);
+	gulp.watch('src/sass/style.scss', ['sass']);
 	gulp.watch('src/*.html', ['copyHtml']);
 });

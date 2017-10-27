@@ -35,14 +35,14 @@ nav {
   display: inline-block; }
 
 #blurb {
-  color: #ffffff;
   font-size: 51px;
   font-family: iosBold;
   display: inline-block;
   width: 385px;
   position: relative;
   bottom: 140px;
-  left: 55px; }
+  left: 55px;
+  color: #ffffff; }
 
 #headerBtn {
   display: inline-block;
@@ -77,10 +77,10 @@ a:hover, a:active {
 
 #experience {
   font-size: 16px;
-  color: #ffffff;
   font-family: iosRegular;
   margin-left: 50px;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  color: #ffffff; }
 
 #threeColumnContainer {
   margin-bottom: 35px; }
@@ -139,6 +139,16 @@ a:hover, a:active {
   color: #fff;
   display: inline-block;
   margin-left: 48px; }
+
+#githubIcon {
+  padding: 2px;
+  margin-left: 600px; }
+
+#twitterIcon {
+  padding: 2px; }
+
+#linkedinIcon {
+  padding: 2px; }
 
 body {
   background: #981036; }

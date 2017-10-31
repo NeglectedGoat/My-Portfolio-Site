@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0; }
 
-#logo {
+#logoContainer {
   display: inline-block;
   margin-top: 50px;
   margin-left: 120px; }
@@ -176,7 +176,7 @@ body {
     width: 860px; }
   nav {
     margin-left: 180px; }
-  #logo {
+  #logoContainer {
     margin-left: 105px; }
   #blurb {
     font-size: 45px;
@@ -190,10 +190,10 @@ body {
 @media only screen and (max-width: 860px) {
   .container {
     width: 760px; }
-  #logo {
+  #logoContainer {
     margin-left: 85px; }
   nav {
-    margin-left: 120px; }
+    margin-left: 130px; }
   li > a {
     font-size: 14px; }
   #githubIcon {
@@ -212,4 +212,22 @@ body {
   .container {
     width: 660px; }
   nav {
-    margin: 0; } }
+    margin-left: 138px; }
+  li > a {
+    font-size: 12px; }
+  #logoContainer {
+    margin-left: 65px; }
+  #logo {
+    width: 150px; }
+  #headshotContainer {
+    margin-left: 5px; }
+  #headshot {
+    width: 285px; }
+  #blurb {
+    font-size: 35px;
+    bottom: 110px;
+    left: 60px; }
+  #headerBtn {
+    width: 80px;
+    font-size: 13px;
+    padding: 10px; } }

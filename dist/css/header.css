@@ -25,6 +25,7 @@ nav {
     text-decoration: none; }
 
 #headshot {
+  width:42%;
   margin-top: 70px;
   margin-left: 25px;
   display: inline-block; }
@@ -33,7 +34,7 @@ nav {
   font-size: 51px;
   font-family: iosBold;
   display: inline-block;
-  width: 385px;
+  width: 40%;
   position: relative;
   bottom: 140px;
   left: 55px;

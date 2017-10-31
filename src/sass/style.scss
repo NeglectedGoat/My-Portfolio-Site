@@ -6,7 +6,6 @@
 @import "index";
 @import "footer";
 
-
 body{
 	background:$coreBgColor;
 }
@@ -30,6 +29,8 @@ body{
 		url('../font/iosevka-bold.woff') format('woff'),
 		url('../font/iosevka-bold.ttf') format('ttf');
 }
+
+@import "mediaqueries";
 
 
 

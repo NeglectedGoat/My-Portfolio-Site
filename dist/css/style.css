@@ -15,6 +15,9 @@
   height: 0;
   clear: both; }
 
+#logoAndNav {
+  width: 100%; }
+
 nav {
   margin-top: 48px;
   margin-left: 248px;
@@ -29,7 +32,8 @@ nav {
     display: block;
     text-decoration: none; }
 
-#headshot {
+#headshotContainer {
+  width: 42%;
   margin-top: 70px;
   margin-left: 25px;
   display: inline-block; }
@@ -38,11 +42,12 @@ nav {
   font-size: 51px;
   font-family: iosBold;
   display: inline-block;
-  width: 385px;
+  width: 40%;
   position: relative;
   bottom: 140px;
   left: 55px;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: left; }
 
 #headerBtn {
   display: inline-block;
@@ -78,9 +83,9 @@ a:hover, a:active {
 #experience {
   font-size: 16px;
   font-family: iosRegular;
-  margin-left: 50px;
-  margin-bottom: 35px;
-  color: #ffffff; }
+  margin: 20px 0px 35px 50px;
+  color: #ffffff;
+  text-align: left; }
 
 #threeColumnContainer {
   margin-bottom: 35px; }
@@ -142,7 +147,7 @@ a:hover, a:active {
 
 #githubIcon {
   padding: 2px;
-  margin-left: 600px; }
+  margin-left: 62.5%; }
 
 #twitterIcon {
   padding: 2px; }
@@ -165,3 +170,46 @@ body {
 @font-face {
   font-family: iosBold;
   src: url("../font/iosevka-bold.woff2") format("woff2"), url("../font/iosevka-bold.woff") format("woff"), url("../font/iosevka-bold.ttf") format("ttf"); }
+
+@media only screen and (max-width: 960px) {
+  .container {
+    width: 860px; }
+  nav {
+    margin-left: 180px; }
+  #logo {
+    margin-left: 105px; }
+  #blurb {
+    font-size: 45px;
+    bottom: 135px; }
+  #headshot {
+    width: 365px; }
+  #headerBtn {
+    left: 450px;
+    bottom: 120px; } }
+
+@media only screen and (max-width: 860px) {
+  .container {
+    width: 760px; }
+  #logo {
+    margin-left: 85px; }
+  nav {
+    margin-left: 120px; }
+  li > a {
+    font-size: 14px; }
+  #githubIcon {
+    margin-left: 55%; }
+  #blurb {
+    font-size: 40px;
+    left: 45px;
+    bottom: 120px; }
+  #headshot {
+    width: 320px; }
+  #headerBtn {
+    left: 395px;
+    bottom: 105px; } }
+
+@media only screen and (max-width: 760px) {
+  .container {
+    width: 660px; }
+  nav {
+    margin: 0; } }

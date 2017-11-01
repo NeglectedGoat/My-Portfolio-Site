@@ -1,4 +1,4 @@
-a {
+nav a {
 	color:#fff;
 	-o-transition:.5s;
 	-ms-transition:.5s;
@@ -6,6 +6,6 @@ a {
 	-webkit-transition:.5s;
 	transition: .5s;
 }
-a:hover, a:active {
+nav a:hover, nav a:active {
 	color:#d1d1d6;
 }

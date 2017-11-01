@@ -1,9 +1,20 @@
 @import "variables";
 
-#logoContainer {
+.blurb {
+	/*--Layout--*/
+	bottom: 140px;
 	display: inline-block;
-	margin-top: 50px;
-	margin-left: 120px;
+	left:55px;
+	position: relative;
+	width: 40%;
+
+	/*--Typography--*/
+	font-family: iosBold;
+	font-size: 51px;
+
+	/*--Appearance--*/
+	color: $primaryTextWhite;
+	text-align:left;	
 }
 
 .clearfix:after {
@@ -14,64 +25,75 @@
 	clear: both;
 }
 
-#logoAndNav {
-	width:100%;
+.cta {
+	/*--Layout--*/
+	border: solid 2px #fff;
+	bottom: 85px;
+	display: inline-block;
+	padding: 12px;
+	position: relative;
+	right:332px;
+	width: 100px;
+	
+	/*--Typography--*/
+	font-family: iosRegular;
+	font-size: 16px;
+	text-decoration: none;
+
+	/*--Appearance--*/
+	color: #fff;
+	text-align: center;	
+}
+
+.headshotContainer{
+	/*--Layout--*/
+	display: inline-block;
+	margin:70px 0px 0px 25px;
+}
+
+.hrHeader{
+	/*--Layout--*/
+	border: 0.5px solid #fff;
+	bottom: 15px;
+	margin-bottom: 7px;
+	position: relative;
+
+	/*--Appearance--*/
+	background-color: #fff;
+}
+
+.logoContainer {
+	/* --- Layout --- */
+	display: inline-block;
+	margin: 50px 0px 0px 120px;
 }
 
 nav{
-	margin-top: 48px;
-	margin-left: 248px;
+	/* --- Layout --- */
 	display: inline-block;
-	li{
-		list-style-type: none;
-		padding: 18px;
-		margin:0;
+	margin:48px 0px 0px 248px;
+	li{ 
+		/* --- Layout --- */
 		float: left;
+		margin:0;
+		padding: 18px;
+
+		/*--Typography--*/
+		list-style-type: none;
 	}
 	a:link, a:visited{
-		font-family: iosRegular;
+		/* --- Layout --- */
 		display: block;
+
+		/*--Typography--*/
+		font-family: iosRegular;
 		text-decoration: none;
 	}
 }
 
-#headshotContainer{
-	width:42%;
-	margin-top: 70px;
-	margin-left: 25px;
-	display: inline-block;
-}
 
-#blurb {
-	font-size: 51px;
-	font-family: iosBold;
-	display: inline-block;
-	width: 40%;
-	position: relative;
-	bottom: 140px;
-	left:55px;
-	color: $primaryTextWhite;
-	text-align:left;
-}
 
-#headerBtn {
-	display: inline-block;
-	width: 100px;
-	font-family: iosRegular;
-	text-decoration: none;
-	color: #fff;
-	border: solid 2px #fff;
-	padding: 12px;
-	text-align: center;
-	position: relative;
-	bottom: 85px;
-	right:332px;
-}
 
-.hrHeader{
-	border: 0.5px solid #fff;
-	background-color: #fff;
-	margin-bottom: 7px;
-	position: relative;
-	bottom: 15px;
-}
+
+
+

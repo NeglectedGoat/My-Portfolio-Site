@@ -10,7 +10,7 @@ body{
 	background:$coreBgColor;
 }
 
-.container {
+.container{
 	width:960px;
 	margin:auto;
 	background-color: $coreBgColor;
@@ -23,7 +23,7 @@ body{
 		url('../font/iosevka-regular.ttf') format('ttf');
 }
 
-@font-face {
+@font-face{
 	font-family:iosBold;
 	src:url('../font/iosevka-bold.woff2') format('woff2'),
 		url('../font/iosevka-bold.woff') format('woff'),

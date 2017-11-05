@@ -7,7 +7,9 @@
 	font-family: iosRegular;
 	color:#fff;
 	display: inline-block;
-	margin-left: 48px;
+	margin: 0px 0px 0px 48px;
+	position:relative;
+	top:30px;
 }
 
 .githubIcon{
@@ -24,4 +26,6 @@
 
 .socialIcons{
 	display: inline-block;
+	float:right;
+	margin-right: 50px;
 }

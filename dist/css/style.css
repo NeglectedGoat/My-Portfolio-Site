@@ -170,7 +170,9 @@ nav a:hover, nav a:active {
   font-family: iosRegular;
   color: #fff;
   display: inline-block;
-  margin-left: 48px; }
+  margin: 0px 0px 0px 48px;
+  position: relative;
+  top: 30px; }
 
 .githubIcon {
   padding: 2px; }
@@ -182,7 +184,9 @@ nav a:hover, nav a:active {
   padding: 2px; }
 
 .socialIcons {
-  display: inline-block; }
+  display: inline-block;
+  float: right;
+  margin-right: 50px; }
 
 body {
   background: #981036; }
@@ -231,8 +235,24 @@ body {
     /*--Layout--*/
     bottom: 120px;
     left: 450px; }
-  .footer {
-    width: 860px; } }
+  .experienceInCopy {
+    margin: 20px 0px 35px 124px; }
+  .threeColumnContainer {
+    text-align: center; }
+  #column1 {
+    margin: 0px 50px 35px 0px; }
+  .frontEnd {
+    left: 0px; }
+  #column2 {
+    margin: 0px 0px 35px 50px; }
+  .digitalDisplay {
+    left: 0px; }
+  #column3 {
+    margin: 0px 0px 0px 0px; }
+  .socialIcons {
+    margin: 0px 70px 0px 0px; }
+  .appDev {
+    left: 0px; } }
 
 @media only screen and (max-width: 860px) {
   .container {
@@ -256,10 +276,26 @@ body {
     left: 45px;
     /*--Typography--*/
     font-size: 40px; }
+  .experienceInCopy {
+    margin: 20px 0px 35px 100px; }
+  #column1 {
+    margin: 0px 25px 35px 0px; }
+  .frontEnd {
+    left: 0px; }
+  #column2 {
+    margin: 0px 0px 35px 25px; }
+  .digitalDisplay {
+    left: 0px; }
+  #column3 {
+    margin: 0px 0px 0px 0px; }
   .cta {
     /*--Layout--*/
     bottom: 105px;
-    left: 395px; } }
+    left: 395px; }
+  .footerSig {
+    margin: 0px 0px 0px 102px; }
+  .socialIcons {
+    margin: 0px 98px 0px 0px; } }
 
 @media only screen and (max-width: 760px) {
   .container {
@@ -273,7 +309,7 @@ body {
     width: 150px; }
   nav {
     /*--Layout--*/
-    margin: 35px 0px 0px 138px; }
+    margin: 35px 0px 0px 145px; }
   li > a {
     /*--Typography--*/
     font-size: 12px; }
@@ -295,7 +331,13 @@ body {
     left: 355px;
     width: 80px;
     /*--Typography--*/
-    font-size: 13px; } }
+    font-size: 13px; }
+  .experienceInCopy {
+    margin: 20px 0px 35px 50px; }
+  .footerSig {
+    margin: 0px 0px 0px 48px; }
+  .socialIcons {
+    margin: 0px 70px 0px 0px; } }
 
 @media only screen and (max-width: 660px) {
   .container {
@@ -352,7 +394,31 @@ body {
     position: static;
     width: 100px;
     /*--Typography--*/
-    font-size: 16px; } }
+    font-size: 16px; }
+  .experienceInCopy {
+    /*--Layout--*/
+    margin: 20px 0px 35px 0px;
+    text-align: center; }
+  #column1 {
+    /*--Layout--*/
+    display: block;
+    margin: 0px auto 35px auto; }
+  #column2 {
+    /*--Layout--*/
+    display: block;
+    margin: 0px auto 35px auto; }
+  .footerSig {
+    /*--Layout--*/
+    display: block;
+    margin: 15px 0px 15px 0px;
+    position: static;
+    text-align: center; }
+  .socialIcons {
+    /*--Layout--*/
+    display: block;
+    float: none;
+    margin: 0px 0px 0px 0px;
+    text-align: center; } }
 
 @media only screen and (max-width: 540px) {
   .container {

@@ -1,0 +1,19 @@
+@import "variables";
+
+.quote{
+	font-family: iosRegular;
+	font-size: 32px;
+	margin:30px 0px 30px 0px;
+	text-align: center;
+	color: $primaryTextWhite;
+}
+	.tsEliot{
+		font-size:20px;
+	}
+.aboutMe{
+	font-family: iosRegular;
+	font-size: 16px;
+	text-align: left;
+	color: $primaryTextWhite;
+	margin:0px 0px 10px 0px;
+}

@@ -165,7 +165,7 @@ nav a:hover, nav a:active {
 .quote {
   font-family: iosRegular;
   font-size: 32px;
-  margin: 30px 0px 30px 0px;
+  margin: 30px 58px 30px 40px;
   text-align: center;
   color: #ffffff; }
 
@@ -177,7 +177,124 @@ nav a:hover, nav a:active {
   font-size: 16px;
   text-align: left;
   color: #ffffff;
-  margin: 0px 0px 10px 0px; }
+  margin: 0px 48px 10px 48px; }
+
+.mySkillsCopy {
+  font-family: iosRegular;
+  font-size: 16px;
+  margin: 45px 0px 35px 48px;
+  color: #ffffff; }
+
+.mySkillsGrid {
+  margin: 0px 48px 0px 48px; }
+
+.ht {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-family: iosRegular;
+  font-size: 40px;
+  color: #ffffff; }
+
+.sc {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-family: iosRegular;
+  font-size: 40px;
+  color: #ffffff; }
+
+.js {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-family: iosRegular;
+  font-size: 40px;
+  color: #ffffff; }
+
+.html {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 69px 15px 69px;
+  width: 150px;
+  display: inline-block;
+  font-family: iosRegular;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center; }
+
+.scss {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 69px 45px 69px;
+  width: 150px;
+  display: inline-block;
+  font-family: iosRegular;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center; }
+
+.javaScript {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 0px 45px 69px;
+  width: 150px;
+  display: inline-block;
+  font-family: iosRegular;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center; }
+
+.jq {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-family: iosRegular;
+  font-size: 40px;
+  color: #ffffff; }
+
+.aa {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-family: iosRegular;
+  font-size: 40px;
+  color: #ffffff; }
+
+.ps {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-family: iosRegular;
+  font-size: 40px;
+  color: #ffffff; }
+
+.jquery {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 69px 15px 69px;
+  width: 150px;
+  display: inline-block;
+  font-family: iosRegular;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center; }
+
+.adobeAnimate {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 69px 45px 69px;
+  width: 150px;
+  display: inline-block;
+  font-family: iosRegular;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center; }
+
+.photoshop {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 0px 45px 69px;
+  width: 150px;
+  display: inline-block;
+  font-family: iosRegular;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center; }
 
 .hrFooter {
   margin-bottom: 10px; }

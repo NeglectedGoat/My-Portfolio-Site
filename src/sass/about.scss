@@ -1,19 +1,138 @@
 @import "variables";
 
 .quote{
-	font-family: iosRegular;
-	font-size: 32px;
-	margin:30px 0px 30px 0px;
-	text-align: center;
-	color: $primaryTextWhite;
+	font-family:iosRegular;
+	font-size:32px;
+	margin:30px 58px 30px 40px;
+	text-align:center;
+	color:$primaryTextWhite;
 }
 	.tsEliot{
 		font-size:20px;
 	}
 .aboutMe{
-	font-family: iosRegular;
-	font-size: 16px;
-	text-align: left;
-	color: $primaryTextWhite;
-	margin:0px 0px 10px 0px;
+	font-family:iosRegular;
+	font-size:16px;
+	text-align:left;
+	color:$primaryTextWhite;
+	margin:0px 48px 10px 48px;
 }
+.mySkillsCopy{
+	font-family:iosRegular;
+	font-size:16px;
+	margin:45px 0px 35px 48px;
+	color:$primaryTextWhite;
+}
+.mySkillsGrid{
+	margin:0px 48px 0px 48px;
+}
+
+	.ht{
+		display:inline-block;
+		margin:0px 120px 15px 125px;
+		font-family:iosRegular;
+		font-size:40px;
+		color:$primaryTextWhite;
+	}
+	.sc{
+		display:inline-block;
+		margin:0px 120px 15px 125px;
+		font-family:iosRegular;
+		font-size:40px;
+		color:$primaryTextWhite;
+	}
+	.js{
+		display:inline-block;
+		margin:0px 120px 15px 125px;
+		font-family:iosRegular;
+		font-size:40px;
+		color:$primaryTextWhite;
+	}
+	.html{
+		border:1px solid #fff;
+		box-sizing:border-box;
+		margin:0px 69px 15px 69px;
+		width:150px;
+		display:inline-block;
+		font-family:iosRegular;
+		font-size:18px;
+		color:$primaryTextWhite;
+		text-align:center;
+	}
+	.scss{
+		border:1px solid #fff;
+		box-sizing:border-box;
+		margin:0px 69px 45px 69px;
+		width:150px;
+		display:inline-block;
+		font-family:iosRegular;
+		font-size:18px;
+		color:$primaryTextWhite;
+		text-align:center;
+	}
+	.javaScript{
+		border:1px solid #fff;
+		box-sizing:border-box;
+		margin:0px 0px 45px 69px;
+		width:150px;
+		display:inline-block;
+		font-family:iosRegular;
+		font-size:18px;
+		color:$primaryTextWhite;
+		text-align:center;
+	}
+	.jq{
+		display:inline-block;
+		margin:0px 120px 15px 125px;
+		font-family:iosRegular;
+		font-size:40px;
+		color:$primaryTextWhite;
+	}
+	.aa{
+		display:inline-block;
+		margin:0px 120px 15px 125px;
+		font-family:iosRegular;
+		font-size:40px;
+		color:$primaryTextWhite;
+	}
+	.ps{
+		display:inline-block;
+		margin:0px 120px 15px 125px;
+		font-family:iosRegular;
+		font-size:40px;
+		color:$primaryTextWhite;
+	}
+	.jquery{
+		border:1px solid #fff;
+		box-sizing:border-box;
+		margin:0px 69px 15px 69px;
+		width:150px;
+		display:inline-block;
+		font-family:iosRegular;
+		font-size:18px;
+		color:$primaryTextWhite;
+		text-align:center;
+	}
+	.adobeAnimate{
+		border:1px solid #fff;
+		box-sizing:border-box;
+		margin:0px 69px 45px 69px;
+		width:150px;
+		display:inline-block;
+		font-family:iosRegular;
+		font-size:18px;
+		color:$primaryTextWhite;
+		text-align:center;
+	}
+	.photoshop{
+		border:1px solid #fff;
+		box-sizing:border-box;
+		margin:0px 0px 45px 69px;
+		width:150px;
+		display:inline-block;
+		font-family:iosRegular;
+		font-size:18px;
+		color:$primaryTextWhite;
+		text-align:center;
+	}
+

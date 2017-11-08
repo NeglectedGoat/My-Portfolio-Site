@@ -15,10 +15,10 @@
 /** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
 /** 
 
-	ELEMENT PROPERTIES ARE ORGANIZED INTO: 
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
 		- Layout (Box Model/Positioning Stuff etc.)
 		- Typography (Font-Family, Font-Size etc.)
-		- Apperance (Color etc.)
+		- Appearance (Color etc.)
 
 	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
 
@@ -26,55 +26,44 @@
 /** NESTING WHERE APPROPRIATE **/
 /*----- LOGO - MY NAME CONTAINER -----*/
 .logoContainer {
-  /* --- Layout --- */
   display: inline-block;
   margin: 50px 0px 0px 120px; }
 
 /*----- NAVIGATION -----*/
 nav {
-  /* --- Layout --- */
   display: inline-block;
   margin: 48px 0px 0px 248px; }
 
 li {
-  /* --- Layout --- */
   float: left;
   margin: 0;
   padding: 18px;
-  /*--Typography--*/
   list-style-type: none; }
 
 a:link, a:visited {
-  /* --- Layout --- */
   /* display: block; */
-  /*--Typography--*/
   font-family: iosRegular;
   text-decoration: none; }
 
 /*----- HEADSHOT IMAGE CONTAINER -----*/
 .headshotContainer {
-  /*--Layout--*/
   display: inline-block;
   margin: 70px 0px 0px 25px; }
 
 /*----- BLURB -----*/
 .blurb {
-  /*--Layout--*/
   bottom: 140px;
   display: inline-block;
   left: 55px;
   position: relative;
   width: 40%;
-  /*--Typography--*/
   font-family: iosBold;
   font-size: 51px;
-  /*--Appearance--*/
   color: #ffffff;
   text-align: left; }
 
-/*----- CTA BUTTTON -----*/
+/*----- CTA BUTTON -----*/
 .cta {
-  /*--Layout--*/
   border: solid 2px #fff;
   bottom: 85px;
   display: inline-block;
@@ -82,22 +71,18 @@ a:link, a:visited {
   position: relative;
   right: 332px;
   width: 100px;
-  /*--Typography--*/
   font-family: iosRegular;
   font-size: 16px;
   text-decoration: none;
-  /*--Appearance--*/
   color: #fff;
   text-align: center; }
 
 /*----- HR PAGE DIVIDERS -----*/
 .hrHeader {
-  /*--Layout--*/
   border: 0.5px solid #fff;
   bottom: 15px;
   margin-bottom: 7px;
   position: relative;
-  /*--Appearance--*/
   background-color: #fff; }
 
 /*----- CLEARFIX HACK -----*/
@@ -120,52 +105,52 @@ nav a:hover, nav a:active {
   color: #d1d1d6; }
 
 .experienceInCopy {
-  font-size: 16px;
-  font-family: iosRegular;
   margin: 20px 0px 35px 50px;
-  color: #ffffff;
-  text-align: left; }
+  font-family: iosRegular;
+  font-size: 16px;
+  text-align: left;
+  color: #ffffff; }
 
 .threeColumnContainer {
   margin-bottom: 35px; }
 
 .Column {
+  display: inline-block;
   width: 252px;
   height: 267px;
-  display: inline-block;
+  margin: 0px 0px 0px 48px;
+  position: relative;
   background-image: url("../images/column_box.png");
-  background-repeat: no-repeat;
-  margin-left: 48px;
-  position: relative; }
+  background-repeat: no-repeat; }
 
 .frontEnd {
+  left: 25px;
   position: absolute;
   top: 20px;
-  left: 25px;
   font-family: iosRegular;
   font-size: 36px;
   color: #ffffff; }
 
 .digitalDisplay {
+  left: 25px;
   position: absolute;
   top: 20px;
-  left: 25px;
   font-family: iosRegular;
   font-size: 36px;
   color: #ffffff; }
 
 .appDev {
+  left: 25px;
   position: absolute;
   top: 20px;
-  left: 25px;
   font-family: iosRegular;
   font-size: 36px;
   color: #ffffff; }
 
 .quote {
+  margin: 30px 58px 30px 40px;
   font-family: iosRegular;
   font-size: 32px;
-  margin: 30px 58px 30px 40px;
   text-align: center;
   color: #ffffff; }
 
@@ -173,16 +158,16 @@ nav a:hover, nav a:active {
   font-size: 20px; }
 
 .aboutMe {
+  margin: 0px 48px 10px 48px;
   font-family: iosRegular;
   font-size: 16px;
   text-align: left;
-  color: #ffffff;
-  margin: 0px 48px 10px 48px; }
+  color: #ffffff; }
 
 .mySkillsCopy {
+  margin: 45px 0px 35px 48px;
   font-family: iosRegular;
   font-size: 16px;
-  margin: 45px 0px 35px 48px;
   color: #ffffff; }
 
 .mySkillsGrid {
@@ -212,35 +197,35 @@ nav a:hover, nav a:active {
 .html {
   border: 1px solid #fff;
   box-sizing: border-box;
-  margin: 0px 69px 15px 69px;
-  width: 150px;
   display: inline-block;
+  margin: 0px 69px 45px 69px;
+  width: 150px;
   font-family: iosRegular;
   font-size: 18px;
-  color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  color: #ffffff; }
 
 .scss {
   border: 1px solid #fff;
   box-sizing: border-box;
+  display: inline-block;
   margin: 0px 69px 45px 69px;
   width: 150px;
-  display: inline-block;
   font-family: iosRegular;
   font-size: 18px;
-  color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  color: #ffffff; }
 
 .javaScript {
   border: 1px solid #fff;
   box-sizing: border-box;
+  display: inline-block;
   margin: 0px 0px 45px 69px;
   width: 150px;
-  display: inline-block;
   font-family: iosRegular;
   font-size: 18px;
-  color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  color: #ffffff; }
 
 .jq {
   display: inline-block;
@@ -266,47 +251,47 @@ nav a:hover, nav a:active {
 .jquery {
   border: 1px solid #fff;
   box-sizing: border-box;
+  display: inline-block;
   margin: 0px 69px 15px 69px;
   width: 150px;
-  display: inline-block;
   font-family: iosRegular;
   font-size: 18px;
-  color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  color: #ffffff; }
 
 .adobeAnimate {
   border: 1px solid #fff;
   box-sizing: border-box;
+  display: inline-block;
   margin: 0px 69px 45px 69px;
   width: 150px;
-  display: inline-block;
   font-family: iosRegular;
   font-size: 18px;
-  color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  color: #ffffff; }
 
 .photoshop {
   border: 1px solid #fff;
   box-sizing: border-box;
+  display: inline-block;
   margin: 0px 0px 45px 69px;
   width: 150px;
-  display: inline-block;
   font-family: iosRegular;
   font-size: 18px;
-  color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  color: #ffffff; }
 
 .hrFooter {
   margin-bottom: 10px; }
 
 .footerSig {
-  font-size: 12px;
-  font-family: iosRegular;
-  color: #fff;
   display: inline-block;
   margin: 0px 0px 0px 48px;
   position: relative;
-  top: 30px; }
+  top: 30px;
+  font-family: iosRegular;
+  font-size: 12px;
+  color: #fff; }
 
 .githubIcon {
   padding: 2px; }
@@ -349,26 +334,22 @@ body {
 */
 @media only screen and (max-width: 960px) {
   .container {
-    /*--Layout--*/
     width: 860px; }
+  /*****------- <HEADER> -------*****/
   .logoContainer {
-    /*--Layout--*/
     margin: 50px 0px 0px 105px; }
   nav {
-    /*--Layout--*/
     margin: 50px 0px 0px 180px; }
   .headshot {
-    /*--Layout--*/
     width: 365px; }
   .blurb {
-    /*--Layout--*/
     bottom: 135px;
-    /*--Typography--*/
     font-size: 45px; }
   .cta {
-    /*--Layout--*/
     bottom: 120px;
     left: 450px; }
+  /*****------- </HEADER> -------*****/
+  /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
     margin: 20px 0px 35px 124px; }
   .threeColumnContainer {
@@ -386,30 +367,47 @@ body {
   .socialIcons {
     margin: 0px 70px 0px 0px; }
   .appDev {
-    left: 0px; } }
+    left: 0px; }
+  /*****------- </INTRO PAGE> -------*****/
+  /*****------- <ABOUT PAGE> -------*****/
+  .ht {
+    margin: 0px 105px 15px 105px; }
+  .sc {
+    margin: 0px 105px 15px 105px; }
+  .js {
+    margin: 0px 105px 15px 105px; }
+  .html {
+    margin: 0px 50px 45px 50px; }
+  .scss {
+    margin: 0px 50px 45px 50px; }
+  .javaScript {
+    margin: 0px 50px 45px 50px; }
+  /*****------- </ABOUT PAGE> -------*****/ }
 
 @media only screen and (max-width: 860px) {
   .container {
-    /*--Layout--*/
     width: 760px; }
+  /*****------- <HEADER> -------*****/
   .logoContainer {
-    /*--Layout--*/
     margin: 45px 0px 0px 85px; }
   nav {
-    /*--Layout--*/
     margin: 45px 0px 0px 130px; }
   li > a {
-    /*--Typography--*/
     font-size: 14px; }
   .headshot {
-    /*--Layout--*/
     width: 320px; }
   .blurb {
-    /*--Layout--*/
     bottom: 120px;
     left: 45px;
-    /*--Typography--*/
     font-size: 40px; }
+  .cta {
+    bottom: 105px;
+    left: 395px; }
+  .cta {
+    bottom: 105px;
+    left: 395px; }
+  /*****------- </HEADER> -------*****/
+  /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
     margin: 20px 0px 35px 100px; }
   #column1 {
@@ -422,158 +420,153 @@ body {
     left: 0px; }
   #column3 {
     margin: 0px 0px 0px 0px; }
-  .cta {
-    /*--Layout--*/
-    bottom: 105px;
-    left: 395px; }
+  /*****------- </INTRO PAGE> -------*****/
+  /*****------- <ABOUT PAGE> -------*****/
+  .ht {
+    margin: 0px 89px 15px 89px; }
+  .sc {
+    margin: 0px 89px 15px 89px; }
+  .js {
+    margin: 0px 89px 15px 89px; }
+  .html {
+    margin: 0px 35px 45px 35px; }
+  .scss {
+    margin: 0px 35px 45px 35px; }
+  .javaScript {
+    margin: 0px 35px 45px 35px; }
+  /*****------- <FOOTER> -------*****/
   .footerSig {
     margin: 0px 0px 0px 102px; }
   .socialIcons {
-    margin: 0px 98px 0px 0px; } }
+    margin: 0px 98px 0px 0px; }
+  /*****------- </FOOTER> -------*****/ }
 
 @media only screen and (max-width: 760px) {
   .container {
-    /*--Layout--*/
     width: 660px; }
+  /*****------- <HEADER> -------*****/
   .logoContainer {
-    /*--Layout--*/
     margin: 35px 0px 0px 65px; }
   .logo {
-    /*--Layout--*/
     width: 150px; }
   nav {
-    /*--Layout--*/
     margin: 35px 0px 0px 145px; }
   li > a {
-    /*--Typography--*/
     font-size: 12px; }
   .headshotContainer {
-    /*--Layout--*/
     margin: 70px 0px 0px 5px; }
   .headshot {
-    /*--Layout--*/
     width: 285px; }
   .blurb {
-    /*--Layout--*/
     bottom: 110px;
     left: 60px;
-    /*--Typography--*/
     font-size: 35px; }
   .cta {
-    /*--Layout--*/
     bottom: 100px;
     left: 355px;
     width: 80px;
-    /*--Typography--*/
     font-size: 13px; }
+  /*****------- </HEADER> -------*****/
+  /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
     margin: 20px 0px 35px 50px; }
+  /*****------- </INTRO PAGE> -------*****/
+  /*****------- <FOOTER> -------*****/
   .footerSig {
     margin: 0px 0px 0px 48px; }
   .socialIcons {
-    margin: 0px 70px 0px 0px; } }
+    margin: 0px 70px 0px 0px; }
+  /*****------- </FOOTER> -------*****/ }
 
 @media only screen and (max-width: 660px) {
   .container {
-    /*--Layout--*/
     width: 540px; }
+  /*****------- <HEADER> -------*****/
   .logoContainer {
-    /*--Layout--*/
     display: block;
     margin: 35px 0px 0px 0px;
-    /*--Appearance--*/
     text-align: center; }
   .logo {
-    /*--Layout--*/
     width: 199px; }
   nav {
-    /*--Layout--*/
     display: block;
     margin: 35px 0px 0px 0px; }
   nav li {
-    /*--Layout--*/
     float: none;
     padding: 5px;
-    /*--Appearance--*/
     text-align: center; }
   li > a {
-    /*--Typography--*/
     font-size: 16px; }
   /*** --Centers headshot, blurb and CTA on smaller screens-- ***/
   .headshotAndBlurbContainer {
-    /*--Appearance--*/
     text-align: center; }
   .blurb {
-    /*--Layout--*/
     bottom: 0px;
     left: 0px;
     margin: 0px 0px 20px 0px;
     width: 100%;
-    /*--Typography--*/
     font-size: 40px;
-    /*--Appearance--*/
     text-align: center; }
   .headshotContainer {
-    /*--Layout--*/
     display: block;
     margin: 40px 0px 0px 0px; }
   .headshot {
-    /*--Layout--*/
     width: 401px; }
   .cta {
-    /*--Layout--*/
     bottom: 0px;
     left: 300px;
     margin: 0px 0px 60px 0px;
     position: static;
     width: 100px;
-    /*--Typography--*/
     font-size: 16px; }
+  /*****------- </HEADER> -------*****/
+  /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    /*--Layout--*/
     margin: 20px 0px 35px 0px;
     text-align: center; }
   #column1 {
-    /*--Layout--*/
     display: block;
     margin: 0px auto 35px auto; }
   #column2 {
-    /*--Layout--*/
     display: block;
     margin: 0px auto 35px auto; }
+  /*****------- </INTRO PAGE> -------*****/
+  /*****------- <FOOTER> -------*****/
   .footerSig {
-    /*--Layout--*/
     display: block;
     margin: 15px 0px 15px 0px;
     position: static;
     text-align: center; }
   .socialIcons {
-    /*--Layout--*/
     display: block;
     float: none;
     margin: 0px 0px 0px 0px;
-    text-align: center; } }
+    text-align: center; }
+  /*****------- </FOOTER> -------*****/ }
 
 @media only screen and (max-width: 540px) {
   .container {
-    /*--Layout--*/
     width: 420px; }
+  /*****------- <HEADER> -------*****/
   .blurb {
-    /*--Layout--*/
     width: 90%;
-    /*--Typography--*/
-    font-size: 36px; } }
+    font-size: 36px; }
+  /*****------- </HEADER> -------*****/ }
 
 @media only screen and (max-width: 420px) {
   .container {
     width: 380px; }
+  /*****------- <HEADER> -------*****/
   .blurb {
-    font-size: 32px; } }
+    font-size: 32px; }
+  /*****------- </HEADER> -------*****/ }
 
 @media only screen and (max-width: 380px) {
   .container {
     width: 320px; }
+  /*****------- <HEADER> -------*****/
   .headshot {
     width: 320px; }
   .blurb {
-    width: 80%; } }
+    width: 80%; }
+  /*****------- </HEADER> -------*****/ }

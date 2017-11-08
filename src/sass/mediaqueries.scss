@@ -10,37 +10,35 @@
 
 @media only screen and (max-width: 960px) {
 	.container{
-	/*--Layout--*/
 		width:860px;
 	}
+
+	/*****------- <HEADER> -------*****/
 		.logoContainer{
-		/*--Layout--*/
 			margin:50px 0px 0px 105px;
 		}
 		nav{
-		/*--Layout--*/
 			margin:50px 0px 0px 180px;
 		}
 		.headshot{
-		/*--Layout--*/
 			width:365px;
 		}
 		.blurb{
-		/*--Layout--*/
 		bottom:135px;
-		/*--Typography--*/
 		font-size:45px;
 		}
 		.cta{
-		/*--Layout--*/
-			bottom: 120px;
+			bottom:120px;
 			left:450px;
 		}
+	/*****------- </HEADER> -------*****/
+
+	/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:20px 0px 35px 124px;
 		}
 		.threeColumnContainer {
-			text-align: center;
+			text-align:center;
 		}
 			#column1{
 				margin:0px 50px 35px 0px;
@@ -63,36 +61,64 @@
 			.appDev{
 				left:0px;
 			}
+	/*****------- </INTRO PAGE> -------*****/
+
+	/*****------- <ABOUT PAGE> -------*****/
+		.ht{
+			margin:0px 105px 15px 105px;
+		}
+		.sc{
+			margin:0px 105px 15px 105px;
+		}
+		.js{
+			margin:0px 105px 15px 105px;
+		}
+		.html{
+			margin:0px 50px 45px 50px;
+		}
+		.scss{
+			margin:0px 50px 45px 50px;
+		}
+		.javaScript{
+			margin:0px 50px 45px 50px;
+		}
+	/*****------- </ABOUT PAGE> -------*****/
 }
 
 @media only screen and (max-width: 860px) {
 	.container{
-	/*--Layout--*/	
 		width:760px;
 	}
+
+	/*****------- <HEADER> -------*****/
 		.logoContainer{
-		/*--Layout--*/
-			margin: 45px 0px 0px 85px;
+			margin:45px 0px 0px 85px;
 		}
 		nav{
-		/*--Layout--*/
-			margin: 45px 0px 0px 130px;
+			margin:45px 0px 0px 130px;
 		}
 			li > a{
-			/*--Typography--*/
 				font-size:14px;
 			}
 		.headshot{
-		/*--Layout--*/
 			width:320px;
 		}
 		.blurb{
-		/*--Layout--*/
 			bottom:120px;
 			left:45px;
-		/*--Typography--*/
 			font-size:40px;
 		}
+				.cta{
+			bottom:105px;
+			left:395px;
+		}
+		.cta{
+			bottom:105px;
+			left:395px;
+		}
+	/*****------- </HEADER> -------*****/
+
+	/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:20px 0px 35px 100px;
 		}
@@ -111,198 +137,205 @@
 		#column3{
 			margin:0px 0px 0px 0px;
 		}
-		.cta{
-		/*--Layout--*/
-			bottom: 105px;
-			left:395px;
+	/*****------- </INTRO PAGE> -------*****/
+
+	/*****------- <ABOUT PAGE> -------*****/
+		.ht{
+			margin:0px 89px 15px 89px;
 		}
+		.sc{
+			margin:0px 89px 15px 89px;
+		}
+		.js{
+			margin:0px 89px 15px 89px;
+		}
+		.html{
+			margin:0px 35px 45px 35px;
+		}
+		.scss{
+			margin:0px 35px 45px 35px;
+		}
+		.javaScript{
+			margin:0px 35px 45px 35px;
+		}
+
+	/*****------- <FOOTER> -------*****/
 		.footerSig{
-			margin: 0px 0px 0px 102px;
+			margin:0px 0px 0px 102px;
 		}
 		.socialIcons{
 			margin:0px 98px 0px 0px;
 		}
+	/*****------- </FOOTER> -------*****/
 }
 
 @media only screen and (max-width: 760px) {
 	.container{
-	/*--Layout--*/
 		width:660px;
 	}
+
+	/*****------- <HEADER> -------*****/
 		.logoContainer{
-		/*--Layout--*/
-			margin: 35px 0px 0px 65px;
+			margin:35px 0px 0px 65px;
 		}
 			.logo{
-			/*--Layout--*/
 				width:150px;
 			}
 		nav{
-		/*--Layout--*/
 			margin:35px 0px 0px 145px;
 		}
 			li > a{
-			/*--Typography--*/
-				font-size: 12px;
+				font-size:12px;
 			}
 		.headshotContainer{
-		/*--Layout--*/
-			margin: 70px 0px 0px 5px;
+			margin:70px 0px 0px 5px;
 		}
 			.headshot{
-			/*--Layout--*/
 				width:285px;
 			}
 		.blurb{
-		/*--Layout--*/
 			bottom:110px;
 			left:60px;
-		/*--Typography--*/
 			font-size:35px;
 		}
 		.cta{
-		/*--Layout--*/
 			bottom:100px;
 			left:355px;
 			width:80px;
-		/*--Typography--*/
 			font-size:13px;
 		}
+	/*****------- </HEADER> -------*****/
+
+	/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:20px 0px 35px 50px;
 		}
+	/*****------- </INTRO PAGE> -------*****/
+
+	/*****------- <FOOTER> -------*****/
 		.footerSig{
-			margin: 0px 0px 0px 48px;
+			margin:0px 0px 0px 48px;
 		}
 		.socialIcons{
 			margin:0px 70px 0px 0px;
 		}
+	/*****------- </FOOTER> -------*****/
 }
 
 @media only screen and (max-width: 660px) {
 	.container{
-	/*--Layout--*/	
 		width:540px;
 	}
+
+	/*****------- <HEADER> -------*****/
 		.logoContainer{
-		/*--Layout--*/
-			display: block;
+			display:block;
 			margin:35px 0px 0px 0px;
-		/*--Appearance--*/
-			text-align: center;
+			text-align:center;
 		}
 			.logo{
-			/*--Layout--*/
 				width:199px;
 			}
 		nav{
-		/*--Layout--*/
-			display: block;
-			margin: 35px 0px 0px 0px;
+			display:block;
+			margin:35px 0px 0px 0px;
 		}
 			nav li{
-			/*--Layout--*/
 				float:none;
-				padding: 5px;
-			/*--Appearance--*/
-				text-align: center;
+				padding:5px;
+				text-align:center;
 			}
 				li > a{
-				/*--Typography--*/
-					font-size: 16px;
+					font-size:16px;
 				}
 	/*** --Centers headshot, blurb and CTA on smaller screens-- ***/
 		.headshotAndBlurbContainer{
-		/*--Appearance--*/
-			text-align: center;
+			text-align:center;
 		}
 			.blurb{
-			/*--Layout--*/
 				bottom:0px;
 				left:0px;
 				margin:0px 0px 20px 0px;
 				width:100%;
-			/*--Typography--*/
-				font-size: 40px;
-			/*--Appearance--*/
-				text-align: center;
+				font-size:40px;
+				text-align:center;
 			}
 			.headshotContainer{
-			/*--Layout--*/
-				display: block;
+				display:block;
 				margin:40px 0px 0px 0px;
 			}
 				.headshot{
-				/*--Layout--*/
 					width:401px;
 				}
 		.cta{
-		/*--Layout--*/	
 			bottom:0px;
 			left:300px;
 			margin:0px 0px 60px 0px;
-			position: static;
+			position:static;
 			width:100px;
-		/*--Typography--*/
-			font-size: 16px;
+			font-size:16px;
 		}
+	/*****------- </HEADER> -------*****/
+
+	/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
-		/*--Layout--*/
 			margin:20px 0px 35px 0px;
-			text-align: center;
+			text-align:center;
 		}
 		#column1{
-		/*--Layout--*/	
-			display: block;
+			display:block;
 			margin:0px auto 35px auto;
 		}
 		#column2{
-		/*--Layout--*/	
-			display: block;
+			display:block;
 			margin:0px auto 35px auto;
 		}
+	/*****------- </INTRO PAGE> -------*****/
+
+	/*****------- <FOOTER> -------*****/
 		.footerSig{
-		/*--Layout--*/	
-			display: block;
+			display:block;
 			margin:15px 0px 15px 0px;
-			position: static;
-			text-align: center;
+			position:static;
+			text-align:center;
 		}
 		.socialIcons{
-		/*--Layout--*/	
-			display: block;
+			display:block;
 			float:none;
-			margin: 0px 0px 0px 0px;
-			text-align: center;
+			margin:0px 0px 0px 0px;
+			text-align:center;
 		}
+	/*****------- </FOOTER> -------*****/
 }
 
 @media only screen and (max-width: 540px) {
 	.container{
-	/*--Layout--*/
 		width:420px;
 	}
+	/*****------- <HEADER> -------*****/
 		.blurb {
-		/*--Layout--*/
 			width:90%;
-		/*--Typography--*/	
-			font-size: 36px;
+			font-size:36px;
 		}
+	/*****------- </HEADER> -------*****/
 }
 
 @media only screen and (max-width: 420px) {
 	.container{
 		width:380px;
 	}
+	/*****------- <HEADER> -------*****/
 		.blurb{
 			font-size:32px;
 		}
+	/*****------- </HEADER> -------*****/
 }
 
 @media only screen and (max-width: 380px) {
 	.container{
 		width:320px;
 	}
+	/*****------- <HEADER> -------*****/
 		.headshot{
 			width:320px;
 
@@ -310,4 +343,5 @@
 		.blurb{
 			width:80%;
 		}
+	/*****------- </HEADER> -------*****/
 }

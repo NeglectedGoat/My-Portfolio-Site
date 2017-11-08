@@ -1,48 +1,48 @@
 @import "variables";
 
 .experienceInCopy{
-	font-size: 16px;
-	font-family: iosRegular;
-	margin: 20px 0px 35px 50px;
-	color: $primaryTextWhite;
-	text-align: left;
+	margin:20px 0px 35px 50px;
+	font-family:iosRegular;
+	font-size:16px;
+	text-align:left;
+	color:$primaryTextWhite;
 }
 .threeColumnContainer{
-	margin-bottom: 35px;
+	margin-bottom:35px;
 }
 	.Column{
-		width: 252px;
-		height: 267px;
-		display: inline-block;
-		background-image: url("../images/column_box.png");
-		background-repeat: no-repeat;
-		margin-left:48px;
-		position: relative;
+		display:inline-block;
+		width:252px;
+		height:267px;
+		margin:0px 0px 0px 48px;
+		position:relative;
+		background-image:url("../images/column_box.png");
+		background-repeat:no-repeat;
 	}
 			.frontEnd{
-			position: absolute;
-			top: 20px;
 			left:25px;
-			font-family: iosRegular;
+			position:absolute;
+			top:20px;
+			font-family:iosRegular;
 			font-size:36px;
-			color: $primaryTextWhite;
+			color:$primaryTextWhite;
 			}
 
 			.digitalDisplay{
-			position: absolute;
-			top:20px;
 			left:25px;
-			font-family: iosRegular;
+			position:absolute;
+			top:20px;
+			font-family:iosRegular;
 			font-size:36px;
-			color: $primaryTextWhite;
+			color:$primaryTextWhite;
 			}
 
 			.appDev{
-			position: absolute;
-			top:20px;
 			left:25px;
-			font-family: iosRegular;
+			position:absolute;
+			top:20px;
+			font-family:iosRegular;
 			font-size:36px;
-			color: $primaryTextWhite;
+			color:$primaryTextWhite;
 			}
 	

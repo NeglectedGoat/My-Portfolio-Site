@@ -12,10 +12,10 @@
 
 /** 
 
-	ELEMENT PROPERTIES ARE ORGANIZED INTO: 
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
 		- Layout (Box Model/Positioning Stuff etc.)
 		- Typography (Font-Family, Font-Size etc.)
-		- Apperance (Color etc.)
+		- Appearance (Color etc.)
 
 	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
 
@@ -28,106 +28,76 @@
 
 /*----- LOGO - MY NAME CONTAINER -----*/
 .logoContainer{
-/* --- Layout --- */
-	display: inline-block;
-	margin: 50px 0px 0px 120px;
+	display:inline-block;
+	margin:50px 0px 0px 120px;
 }
 
 /*----- NAVIGATION -----*/
 nav{
-/* --- Layout --- */
-	display: inline-block;
+	display:inline-block;
 	margin:48px 0px 0px 248px;
 }
 	li{ 
-	/* --- Layout --- */
-		float: left;
+		float:left;
 		margin:0;
-		padding: 18px;
-	/*--Typography--*/
-		list-style-type: none;
+		padding:18px;
+		list-style-type:none;
 	}
 		a:link, a:visited{
-		/* --- Layout --- */
 			/* display: block; */
-		/*--Typography--*/
-			font-family: iosRegular;
-			text-decoration: none;
+			font-family:iosRegular;
+			text-decoration:none;
 		}
 
 /*----- HEADSHOT IMAGE CONTAINER -----*/
 .headshotContainer{
-/*--Layout--*/
-	display: inline-block;
+	display:inline-block;
 	margin:70px 0px 0px 25px;
 }
 
 /*----- BLURB -----*/
 .blurb{
-/*--Layout--*/
-	bottom: 140px;
-	display: inline-block;
+	bottom:140px;
+	display:inline-block;
 	left:55px;
-	position: relative;
-	width: 40%;
-/*--Typography--*/
-	font-family: iosBold;
-	font-size: 51px;
-/*--Appearance--*/
-	color: $primaryTextWhite;
+	position:relative;
+	width:40%;
+	font-family:iosBold;
+	font-size:51px;
+	color:$primaryTextWhite;
 	text-align:left;	
 }
 
-/*----- CTA BUTTTON -----*/
+/*----- CTA BUTTON -----*/
 .cta{
-/*--Layout--*/
-	border: solid 2px #fff;
-	bottom: 85px;
-	display: inline-block;
-	padding: 12px;
-	position: relative;
+	border:solid 2px #fff;
+	bottom:85px;
+	display:inline-block;
+	padding:12px;
+	position:relative;
 	right:332px;
-	width: 100px;	
-/*--Typography--*/
-	font-family: iosRegular;
-	font-size: 16px;
-	text-decoration: none;
-/*--Appearance--*/
-	color: #fff;
-	text-align: center;	
+	width:100px;	
+	font-family:iosRegular;
+	font-size:16px;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;	
 }
 
 /*----- HR PAGE DIVIDERS -----*/
 .hrHeader{
-/*--Layout--*/
-	border: 0.5px solid #fff;
-	bottom: 15px;
-	margin-bottom: 7px;
-	position: relative;
-/*--Appearance--*/
-	background-color: #fff;
+	border:0.5px solid #fff;
+	bottom:15px;
+	margin-bottom:7px;
+	position:relative;
+	background-color:#fff;
 }
 
 /*----- CLEARFIX HACK -----*/
 .clearfix:after{
 	content:"";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both;
+	visibility:hidden;
+	display:block;
+	height:0;
+	clear:both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

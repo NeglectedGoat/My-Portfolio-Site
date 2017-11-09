@@ -173,6 +173,9 @@ nav a:hover, nav a:active {
 .mySkillsGrid {
   margin: 0px 48px 0px 48px; }
 
+.columnContainer {
+  display: inline-block; }
+
 .ht {
   display: inline-block;
   margin: 0px 120px 15px 125px;
@@ -194,32 +197,29 @@ nav a:hover, nav a:active {
   font-size: 40px;
   color: #ffffff; }
 
-.html {
+.htmlTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
-  display: inline-block;
-  margin: 0px 69px 45px 69px;
+  margin: 0px 67px 45px 68px;
   width: 150px;
   font-family: iosRegular;
   font-size: 18px;
   text-align: center;
   color: #ffffff; }
 
-.scss {
+.scssTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
-  display: inline-block;
-  margin: 0px 69px 45px 69px;
+  margin: 0px 68px 45px 67px;
   width: 150px;
   font-family: iosRegular;
   font-size: 18px;
   text-align: center;
   color: #ffffff; }
 
-.javaScript {
+.javaScriptTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
-  display: inline-block;
   margin: 0px 0px 45px 69px;
   width: 150px;
   font-family: iosRegular;
@@ -248,7 +248,7 @@ nav a:hover, nav a:active {
   font-size: 40px;
   color: #ffffff; }
 
-.jquery {
+.jqueryTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   display: inline-block;
@@ -259,7 +259,7 @@ nav a:hover, nav a:active {
   text-align: center;
   color: #ffffff; }
 
-.adobeAnimate {
+.adobeAnimateTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   display: inline-block;
@@ -270,7 +270,7 @@ nav a:hover, nav a:active {
   text-align: center;
   color: #ffffff; }
 
-.photoshop {
+.photoshopTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   display: inline-block;

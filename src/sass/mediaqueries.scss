@@ -67,19 +67,19 @@
 		.ht{
 			margin:0px 105px 15px 105px;
 		}
+		.htmlTitle{
+			margin:0px 50px 45px 50px;
+		}
 		.sc{
 			margin:0px 105px 15px 105px;
 		}
+		.scssTitle{
+			margin:0px 50px 45px 50px;
+		}
 		.js{
 			margin:0px 105px 15px 105px;
-		}
-		.html{
-			margin:0px 50px 45px 50px;
-		}
-		.scss{
-			margin:0px 50px 45px 50px;
-		}
-		.javaScript{
+		}		
+		.javaScriptTitle{
 			margin:0px 50px 45px 50px;
 		}
 		.jq{
@@ -91,13 +91,13 @@
 		.ps{
 			margin:0px 105px 15px 105px;
 		}
-		.jquery{
+		.jqueryTitle{
 			margin:0px 50px 55px 50px;
 		}
-		.adobeAnimate{
+		.adobeAnimateTitle{
 			margin:0px 50px 55px 50px;
 		}
-		.photoshop{
+		.photoshopTitle{
 			margin:0px 50px 55px 50px;
 		}
 	/*****------- </ABOUT PAGE> -------*****/
@@ -159,41 +159,42 @@
 
 	/*****------- <ABOUT PAGE> -------*****/
 		.ht{
-			margin:0px 89px 15px 89px;
+			margin:0px 0px 15px 89px;
+		}
+		.htmlTitle{
+			margin:0px 34px 45px 34px;
 		}
 		.sc{
-			margin:0px 89px 15px 89px;
+			margin:0px 0px 15px 89px;
+		}
+		.scssTitle{
+			margin:0px 34px 45px 34px;
 		}
 		.js{
-			margin:0px 89px 15px 89px;
+			margin:0px 0px 15px 89px;
 		}
-		.html{
+		.javaScriptTitle{
 			margin:0px 35px 45px 35px;
-		}
-		.scss{
-			margin:0px 35px 45px 35px;
-		}
-		.javaScript{
-			margin:0px 0px 45px 35px;
 		}
 		.jq{
-			margin:0px 89px 15px 89px;
+			margin:0px 0px 15px 89px;
+		}
+		.jqueryTitle{
+			margin:0px 34px 55px 34px;
 		}
 		.aa{
-			margin:0px 89px 15px 89px;
+			margin:0px 0px 15px 89px;
+		}
+		.adobeAnimateTitle{
+			margin:0px 34px 55px 34px;
 		}
 		.ps{
-			margin:0px 89px 15px 89px;
+			margin:0px 0px 15px 89px;
 		}
-		.jquery{
+		.photoshopTitle{
 			margin:0px 35px 55px 35px;
 		}
-		.adobeAnimate{
-			margin:0px 35px 55px 35px;
-		}
-		.photoshop{
-			margin:0px 0px 55px 35px;
-		}
+	/*****------- </ABOUT PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/
 		.footerSig{
@@ -250,40 +251,40 @@
 
 	/*****------- <ABOUT PAGE> -------*****/
 	.ht{
-		margin:0px 74px 15px 74px;
+		margin:0px 78px 15px 70px;
+	}
+	.htmlTitle{
+		margin:0px 14px 45px 14px;
 	}
 	.sc{
-		margin:0px 74px 15px 74px;
+		margin:0px 78px 15px 70px;
+	}
+	.scssTitle{
+		margin:0px 14px 45px 14px;
 	}
 	.js{
-		margin:0px 0px 15px 74px;
+		margin:0px 18px 15px 70px;
 	}
-	.html{
-		margin:0px 20px 45px 20px;
-	}
-	.scss{
-		margin:0px 20px 45px 20px;
-	}
-	.javaScript{
-		margin:0px 0px 45px 20px;
+	.javaScriptTitle{
+		margin:0px 15px 45px 15px;
 	}
 	.jq{
-		margin:0px 74px 15px 74px;
+		margin:0px 78px 15px 70px;
+	}
+	.jqueryTitle{
+		margin:0px 14px 45px 14px;
 	}
 	.aa{
-		margin:0px 74px 15px 74px;
+		margin:0px 78px 15px 70px;
+	}
+	.adobeAnimateTitle{
+		margin:0px 14px 45px 14px;
 	}
 	.ps{
-		margin:0px 0px 15px 74px;
+		margin:0px 18px 15px 70px;
 	}
-	.jquery{
-		margin:0px 20px 45px 20px;
-	}
-	.adobeAnimate{
-		margin:0px 20px 45px 20px;
-	}
-	.photoshop{
-		margin:0px 0px 45px 20px;
+	.photoshopTitle{
+		margin:0px 15px 45px 15px;
 	}
 	/*****------- </ABOUT PAGE> -------*****/
 
@@ -299,7 +300,7 @@
 
 @media only screen and (max-width: 660px) {
 	.container{
-		width:540px;
+		width:520px;
 	}
 
 	/*****------- <HEADER> -------*****/
@@ -331,7 +332,7 @@
 				bottom:0px;
 				left:0px;
 				margin:0px 0px 20px 0px;
-				width:100%;
+				width:95%;
 				font-size:40px;
 				text-align:center;
 			}
@@ -367,6 +368,28 @@
 		}
 	/*****------- </INTRO PAGE> -------*****/
 
+	/*****------- <ABOUT PAGE> -------*****/
+	.quote{
+		margin:30px 0px 30px 0px;
+	}
+	.tsEliot{
+		display: block;
+		margin:20px 0px 0px 0px;
+	}
+	.aboutMe{
+		margin:0px 15px 10px 15px;
+	}
+	.mySkillsCopy{
+		margin:45px 0px 35px 15px;
+	}
+	.mySkillsGrid{
+		text-align: center;
+	}
+		.columnContainer > div {
+			margin:0px 20px 25px 20px;
+		}
+	/*****------- </ABOUT PAGE> -------*****/
+
 	/*****------- <FOOTER> -------*****/
 		.footerSig{
 			display:block;
@@ -385,14 +408,26 @@
 
 @media only screen and (max-width: 540px) {
 	.container{
-		width:420px;
+		width:410px;
 	}
 	/*****------- <HEADER> -------*****/
 		.blurb {
 			width:90%;
 			font-size:36px;
 		}
+		.quote{
+			margin:30px 5px 30px 5px;
+		}
 	/*****------- </HEADER> -------*****/
+
+	/*****------- <ABOUT PAGE> -------*****/
+		.aboutMe{
+			margin:0px 15px 10px 15px;
+		}
+		.columnContainer > div {
+			margin:0px 20px 20px 20px;
+			}
+	/*****------- </ABOUT PAGE> -------*****/
 }
 
 @media only screen and (max-width: 420px) {

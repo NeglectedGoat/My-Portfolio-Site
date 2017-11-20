@@ -5,33 +5,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Greg Callan</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/main.js"></script>
 </head>
 <body>
-<div id="main_container">
 	<header>
-		<div id="logo">
-			<img src="images/greg_callan.png" alt="Greg Callan">
+		<div class="container">
+			<div class="logoContainer">
+				<img class="logo" src="images/greg_callan.png" alt="Greg Callan">
+			</div>
+			<nav>
+				<ul class="clearfix">
+					<li><a href="index.html">Intro</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="headshotAndBlurbContainer">
+				<div class="headshotContainer">
+					<img class="headshot" src="images/headshot_gif_final_wine.gif" alt="headshot image of me">
+				</div>
+				<p class="blurb">
+					DU MMYTEXTD UMMYT-EXT DUMMYTEXT DUMMY TE XTDUMM.
+				</p>
+				<a class="cta" href="mailto:gregcallan@live.ie">Get in touch</a>
+			</div>
 		</div>
-		<nav>
-			<ul class="clearfix">
-				<li><a href="index.html">Intro</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="work.html">Work</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		<div id="headshot">
-			<img src="images/headshot_gif_final_wine.gif" alt="headshot image of me">
-		</div>
-		<p id="blurb">
-			DU MMYTEXTD DUMMY-TEX TDUMMYTEXT TDUMM YT TEXTDU
-		</p>
-		<a id="headerBtn" href="">Get in touch</a>
-		<hr>
-		<hr>
+
+		<hr class="hrHeader">
+		<hr class="hrHeader">
 	</header>
-</div>
+
+	<section class="selctionOfWork">
+		<div class="container">
+			<div class="workedOnCopy">
+						<p>What I've worked on...</p>
+			</div>
+			<div class="workExamplesGrid">
+				<div class="workImageContainer"><img class="workImage" src="images/heineken_music.jpg" alt="Heineken Music"></div>
+				<div class="workImageContainer"><img class="workImage" src="images/heineken_music.jpg" alt="Heineken Music"></div>
+				<div class="workImageContainer"><img class="workImage" src="images/heineken_music.jpg" alt="Heineken Music"></div>
+				<div class="workImageContainer"><img class="workImage" src="images/heineken_music.jpg" alt="Heineken Music"></div>
+			</div>
+		</div>
+	</div>
+
+	<hr class="hrFooter">
+	<div class="container">
+			<p class="footerSig">2017 &copy; Greg Callan</p>
+			<div class="socialIcons">
+					<img class="githubIcon" src="images/github.png" alt="">
+					<img class="twitterIcon" src="images/twitter_icon.png" alt="">
+					<img class="linkedinIcon" src="images/linkedin_icon.png" alt="">
+			</div>
+	</div>
+
 
 </body>
-<script src="js/main.js"></script>
 </html>

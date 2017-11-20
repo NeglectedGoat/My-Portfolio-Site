@@ -101,6 +101,12 @@
 			margin:0px 50px 55px 50px;
 		}
 	/*****------- </ABOUT PAGE> -------*****/
+
+	/*****------- <WORK PAGE> -------*****/
+	.workedOnCopy{
+	margin:20px 0px 15px 42px;
+	}
+	/*****------- </WORK PAGE> -------*****/
 }
 
 @media only screen and (max-width: 860px) {
@@ -196,6 +202,12 @@
 		}
 	/*****------- </ABOUT PAGE> -------*****/
 
+	/*****------- <WORK PAGE> -------*****/
+	.workedOnCopy{
+	margin:20px 0px 15px 34px;
+	}
+	/*****------- </WORK PAGE> -------*****/
+
 	/*****------- <FOOTER> -------*****/
 		.footerSig{
 			margin:0px 0px 0px 102px;
@@ -287,6 +299,12 @@
 		margin:0px 15px 45px 15px;
 	}
 	/*****------- </ABOUT PAGE> -------*****/
+
+	/*****------- <WORK PAGE> -------*****/
+	.workedOnCopy{
+	margin:20px 0px 15px 27px;
+	}
+	/*****------- </WORK PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/
 		.footerSig{
@@ -380,9 +398,10 @@
 		margin:0px 15px 10px 15px;
 	}
 	.mySkillsCopy{
-		margin:45px 0px 35px 15px;
+		margin:45px 0px 35px 20px;
 	}
 	.mySkillsGrid{
+		margin: 0px auto 0px auto;
 		text-align: center;
 	}
 		.columnContainer > div {
@@ -390,10 +409,21 @@
 		}
 	/*****------- </ABOUT PAGE> -------*****/
 
+	/*****------- <WORK PAGE> -------*****/
+		.workedOnCopy{
+		margin:20px 0px 15px 0px;
+		text-align: center;
+		font-size: 18px;
+		}
+		.workImageContainer{
+		width:auto;
+		}
+	/*****------- </WORK PAGE> -------*****/
+
 	/*****------- <FOOTER> -------*****/
 		.footerSig{
 			display:block;
-			margin:15px 0px 15px 0px;
+			margin:20px 0px 20px 0px;
 			position:static;
 			text-align:center;
 		}
@@ -416,13 +446,16 @@
 			font-size:36px;
 		}
 		.quote{
-			margin:30px 5px 30px 5px;
+			margin:30px 12px 30px 12px;
 		}
 	/*****------- </HEADER> -------*****/
 
 	/*****------- <ABOUT PAGE> -------*****/
 		.aboutMe{
-			margin:0px 15px 10px 15px;
+			margin:0px 20px 10px 20px;
+		}
+		.columnContainer{
+			margin:20px 0px 20px 0px;
 		}
 		.columnContainer > div {
 			margin:0px 20px 20px 20px;

@@ -128,7 +128,7 @@ nav a:hover, nav a:active {
   position: absolute;
   top: 20px;
   font-family: iosRegular;
-  font-size: 36px;
+  font-size: 34px;
   color: #ffffff; }
 
 .digitalDisplay {
@@ -136,7 +136,7 @@ nav a:hover, nav a:active {
   position: absolute;
   top: 20px;
   font-family: iosRegular;
-  font-size: 36px;
+  font-size: 35px;
   color: #ffffff; }
 
 .appDev {
@@ -144,7 +144,7 @@ nav a:hover, nav a:active {
   position: absolute;
   top: 20px;
   font-family: iosRegular;
-  font-size: 36px;
+  font-size: 35px;
   color: #ffffff; }
 
 .quote {
@@ -278,6 +278,27 @@ nav a:hover, nav a:active {
   text-align: center;
   color: #ffffff; }
 
+.workedOnCopy {
+  margin: 20px 0px 15px 50px;
+  font-family: iosRegular;
+  font-size: 16px;
+  text-align: left;
+  color: #ffffff; }
+
+.workExamplesGrid {
+  text-align: center; }
+
+.workImageContainer {
+  display: inline-block;
+  width: 42%;
+  height: auto;
+  margin: 20px;
+  border: 2px solid #fff; }
+
+.workImage {
+  display: block;
+  max-width: 100%; }
+
 .hrFooter {
   margin-bottom: 10px; }
 
@@ -391,7 +412,11 @@ body {
     margin: 0px 50px 55px 50px; }
   .photoshopTitle {
     margin: 0px 50px 55px 50px; }
-  /*****------- </ABOUT PAGE> -------*****/ }
+  /*****------- </ABOUT PAGE> -------*****/
+  /*****------- <WORK PAGE> -------*****/
+  .workedOnCopy {
+    margin: 20px 0px 15px 42px; }
+  /*****------- </WORK PAGE> -------*****/ }
 
 @media only screen and (max-width: 860px) {
   .container {
@@ -456,6 +481,10 @@ body {
   .photoshopTitle {
     margin: 0px 35px 55px 35px; }
   /*****------- </ABOUT PAGE> -------*****/
+  /*****------- <WORK PAGE> -------*****/
+  .workedOnCopy {
+    margin: 20px 0px 15px 34px; }
+  /*****------- </WORK PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerSig {
     margin: 0px 0px 0px 102px; }
@@ -519,6 +548,10 @@ body {
   .photoshopTitle {
     margin: 0px 15px 45px 15px; }
   /*****------- </ABOUT PAGE> -------*****/
+  /*****------- <WORK PAGE> -------*****/
+  .workedOnCopy {
+    margin: 20px 0px 15px 27px; }
+  /*****------- </WORK PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerSig {
     margin: 0px 0px 0px 48px; }
@@ -588,16 +621,25 @@ body {
   .aboutMe {
     margin: 0px 15px 10px 15px; }
   .mySkillsCopy {
-    margin: 45px 0px 35px 15px; }
+    margin: 45px 0px 35px 20px; }
   .mySkillsGrid {
+    margin: 0px auto 0px auto;
     text-align: center; }
   .columnContainer > div {
     margin: 0px 20px 25px 20px; }
   /*****------- </ABOUT PAGE> -------*****/
+  /*****------- <WORK PAGE> -------*****/
+  .workedOnCopy {
+    margin: 20px 0px 15px 0px;
+    text-align: center;
+    font-size: 18px; }
+  .workImageContainer {
+    width: auto; }
+  /*****------- </WORK PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerSig {
     display: block;
-    margin: 15px 0px 15px 0px;
+    margin: 20px 0px 20px 0px;
     position: static;
     text-align: center; }
   .socialIcons {
@@ -615,11 +657,13 @@ body {
     width: 90%;
     font-size: 36px; }
   .quote {
-    margin: 30px 5px 30px 5px; }
+    margin: 30px 12px 30px 12px; }
   /*****------- </HEADER> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .aboutMe {
-    margin: 0px 15px 10px 15px; }
+    margin: 0px 20px 10px 20px; }
+  .columnContainer {
+    margin: 20px 0px 20px 0px; }
   .columnContainer > div {
     margin: 0px 20px 20px 20px; }
   /*****------- </ABOUT PAGE> -------*****/ }

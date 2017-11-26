@@ -209,10 +209,13 @@
 	.workedOnCopy{
 	margin:20px 0px 15px 34px;
 	}
-	.overlayText{
-		right:78px;
-	}
 	/*****------- </WORK PAGE> -------*****/
+	.overlayTrigger:hover .overlay{
+				display: none;
+				}
+	.test{
+		display: block;
+	}
 
 	/*****------- <FOOTER> -------*****/
 		.footerSig{
@@ -310,6 +313,7 @@
 	.workedOnCopy{
 	margin:20px 0px 15px 27px;
 	}
+
 	/*****------- </WORK PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/

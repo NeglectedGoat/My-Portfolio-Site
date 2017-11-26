@@ -23,7 +23,6 @@
 				display:block;
 				width:100%;
 				height:auto;
-				background-color: red;
 				cursor: pointer;
 			}
 				.workImage{
@@ -41,7 +40,7 @@
 					width:100%;
 					height:auto;
 					background-color:white;
-					transition: opacity .3s, visibility .3s;
+					transition: opacity .3s;
 				}
 					.overlayText{
 						position:relative;
@@ -53,7 +52,16 @@
 					}
 
 				.overlayTrigger:hover .overlay{
-					visibility: visible;
 					opacity:.7;
+				}
+
+				.test{
+					font-family:iosRegular;
+					color:$coreBgColor;
+					font-size: 20px;
+					background-color: #fff;
+					padding:8px 0px 8px 15px;
+					text-align: left;
+					display: none;
 				}
 

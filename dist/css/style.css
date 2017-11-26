@@ -300,7 +300,6 @@ nav a:hover, nav a:active {
   display: block;
   width: 100%;
   height: auto;
-  background-color: red;
   cursor: pointer; }
 
 .workImage {
@@ -318,7 +317,7 @@ nav a:hover, nav a:active {
   width: 100%;
   height: auto;
   background-color: white;
-  transition: opacity .3s, visibility .3s; }
+  transition: opacity .3s; }
 
 .overlayText {
   position: relative;
@@ -329,8 +328,16 @@ nav a:hover, nav a:active {
   font-size: 20px; }
 
 .overlayTrigger:hover .overlay {
-  visibility: visible;
   opacity: .7; }
+
+.test {
+  font-family: iosRegular;
+  color: #981036;
+  font-size: 20px;
+  background-color: #fff;
+  padding: 8px 0px 8px 15px;
+  text-align: left;
+  display: none; }
 
 .hrFooter {
   margin-bottom: 10px; }
@@ -519,9 +526,11 @@ body {
   /*****------- <WORK PAGE> -------*****/
   .workedOnCopy {
     margin: 20px 0px 15px 34px; }
-  .overlayText {
-    right: 78px; }
   /*****------- </WORK PAGE> -------*****/
+  .overlayTrigger:hover .overlay {
+    display: none; }
+  .test {
+    display: block; }
   /*****------- <FOOTER> -------*****/
   .footerSig {
     margin: 0px 0px 0px 102px; }

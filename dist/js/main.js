@@ -1,0 +1,1 @@
+$(function(){var n=1,e=$(".slider").find(".slides"),l=e.find(".slide");setInterval(function(){e.animate({"margin-left":"-=845"},1e3,function(){n++,console.log(n),console.log(l.length),n==l.length&&(n=1,e.css("margin-left",0))})},4e3)});

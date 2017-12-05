@@ -1,0 +1,69 @@
+
+.slider{
+	overflow: hidden;
+	max-width:845px;
+	margin:0px auto 20px;
+	border:1px solid white;
+}
+	.slides{
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 2535px;
+	}
+		.slide{
+			float: left;
+			list-style-type: none;
+			max-width: 845px;
+		}
+			.galleryImg{
+				display: block;
+			}
+.theProject{
+	font-family:iosRegular;
+	font-size:26px;
+	text-align:left;
+	color:$primaryTextWhite;
+	border-bottom: 2px solid;
+	margin:0px 0px 20px 57px;
+	display: inline-block;
+}
+	.projectInfo{
+		font-family:iosRegular;
+		font-size:16px;
+		color:$primaryTextWhite;
+		margin:0px 57px 10px 57px;
+	}
+.technologiesUsed{
+	font-family:iosRegular;
+	font-size:26px;
+	text-align:left;
+	color:$primaryTextWhite;
+	border-bottom: 2px solid;
+	margin:0px 0px 20px 57px;
+	display: inline-block;
+}
+	.techInfo{
+		font-family:iosRegular;
+		font-size:16px;
+		color:$primaryTextWhite;
+		margin:0px 0px 10px 74px;
+	}
+		.techInfo > li{
+			margin:0px auto 5px 0px;
+		}
+.resources{
+	font-family:iosRegular;
+	font-size:26px;
+	text-align:left;
+	color:$primaryTextWhite;
+	border-bottom: 2px solid;
+	margin:0px 0px 20px 57px;
+	display: inline-block;
+}
+	.resourcesInfo{
+		font-family:iosRegular;
+		font-size:16px;
+		color:$primaryTextWhite;
+		margin:0px auto 10px 57px;
+	}

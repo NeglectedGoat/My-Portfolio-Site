@@ -1,0 +1,56 @@
+.formBlurb{
+	box-sizing: border-box;
+	display: inline-block;
+	width:42%;
+	margin:0px 17px 10px 48px;
+	font-family:iosRegular;
+	font-size:21px;
+	color:$primaryTextWhite;
+}
+
+form{
+	display: inline-block;
+	width:43%;
+	margin:0px 0px 30px 17px;
+	position: relative;
+	bottom: 6px;
+	opacity: .6;
+
+}
+	form > input{
+		display: block;
+		background-color: transparent;
+		padding:5px 5px 0px 10px;
+		width: 100%;
+		box-sizing: border-box;
+		line-height:32px;
+	}
+	form #fullname{
+		border:1px solid#fff;
+	}
+	form #email{
+		border-left:1px solid#fff;
+		border-right:1px solid#fff;
+		border-bottom:1px solid#fff;
+		border-top:none;
+	}
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #fff;
+	  font-family:iosRegular;
+	  font-size:15px;
+	}
+	form #message{
+		border-left:1px solid#fff;
+		border-right:1px solid#fff;
+		border-bottom:1px solid#fff;
+		border-top:none;
+	}
+	form > textarea{
+		background-color:transparent;
+		border:none;
+		resize: none;
+		padding: 5px 5px 0px 10px;
+		width: 100%;
+		box-sizing: border-box;
+		display: block;
+	}

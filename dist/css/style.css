@@ -34,7 +34,7 @@ nav {
   display: inline-block;
   margin: 48px 0px 0px 248px; }
 
-li {
+.clearfix > li {
   float: left;
   margin: 0;
   padding: 18px;
@@ -339,6 +339,129 @@ nav a:hover, nav a:active {
   text-align: left;
   display: none; }
 
+.slider {
+  overflow: hidden;
+  max-width: 845px;
+  margin: 0px auto 20px;
+  border: 1px solid white; }
+
+.slides {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 2535px; }
+
+.slide {
+  float: left;
+  list-style-type: none;
+  max-width: 845px; }
+
+.galleryImg {
+  display: block; }
+
+.theProject {
+  font-family: iosRegular;
+  font-size: 26px;
+  text-align: left;
+  color: #ffffff;
+  border-bottom: 2px solid;
+  margin: 0px 0px 20px 57px;
+  display: inline-block; }
+
+.projectInfo {
+  font-family: iosRegular;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0px 57px 10px 57px; }
+
+.technologiesUsed {
+  font-family: iosRegular;
+  font-size: 26px;
+  text-align: left;
+  color: #ffffff;
+  border-bottom: 2px solid;
+  margin: 0px 0px 20px 57px;
+  display: inline-block; }
+
+.techInfo {
+  font-family: iosRegular;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0px 0px 10px 74px; }
+
+.techInfo > li {
+  margin: 0px auto 5px 0px; }
+
+.resources {
+  font-family: iosRegular;
+  font-size: 26px;
+  text-align: left;
+  color: #ffffff;
+  border-bottom: 2px solid;
+  margin: 0px 0px 20px 57px;
+  display: inline-block; }
+
+.resourcesInfo {
+  font-family: iosRegular;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0px auto 10px 57px; }
+
+.formBlurb {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 42%;
+  margin: 0px 17px 10px 48px;
+  font-family: iosRegular;
+  font-size: 21px;
+  color: #ffffff; }
+
+form {
+  display: inline-block;
+  width: 43%;
+  margin: 0px 0px 30px 17px;
+  position: relative;
+  bottom: 6px;
+  opacity: .6; }
+
+form > input {
+  display: block;
+  background-color: transparent;
+  padding: 5px 5px 0px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 32px; }
+
+form #fullname {
+  border: 1px solid #fff; }
+
+form #email {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-top: none; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+  font-family: iosRegular;
+  font-size: 15px; }
+
+form #message {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-top: none; }
+
+form > textarea {
+  background-color: transparent;
+  border: none;
+  resize: none;
+  padding: 5px 5px 0px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  display: block; }
+
 .hrFooter {
   margin-bottom: 10px; }
 
@@ -618,7 +741,7 @@ body {
   nav {
     display: block;
     margin: 35px 0px 0px 0px; }
-  nav li {
+  .clearfix > li {
     float: none;
     padding: 5px;
     text-align: center; }

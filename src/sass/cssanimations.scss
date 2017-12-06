@@ -7,7 +7,7 @@ nav a {
 	transition: .5s;
 }
 nav a:hover, nav a:active {
-	color:#c2c2c6;
+	color:#aeaeb7;
 }
 
 .cta{
@@ -22,4 +22,36 @@ nav a:hover, nav a:active {
 	background-color:#ffffff;
 	color:$coreBgColor;
 }
+
+.githubIcon{
+	-o-transition: transform .3s;
+	-ms-transition: transform .3s;
+	-moz-transition: transform .3s;
+	-webkit-transition: transform .3s;
+	transition: transform .6s;
+}
+.githubIcon:hover, .githubIcon:active{
+	transform: scale(1.05);
+}
+.twitterIcon{
+	-o-transition: transform .6s;
+	-ms-transition: transform .6s;
+	-moz-transition: transform .6s;
+	-webkit-transition: transform .6s;
+	transition: transform .6s;
+}
+.twitterIcon:hover, .twitterIcon:active{
+	transform: scale(1.05);
+}
+.linkedinIcon{
+	-o-transition: transform .6s;
+	-ms-transition: transform .6s;
+	-moz-transition: transform .6s;
+	-webkit-transition: transform .6s;
+	transition: transform .6s;
+}
+.linkedinIcon:hover, .linkedinIcon:active{
+	transform: scale(1.05);
+}
+
 

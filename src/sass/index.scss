@@ -1,7 +1,7 @@
 @import "variables";
 
 .experienceInCopy{
-	margin:20px 0px 35px 50px;
+	margin:20px 0px 35px 48px;
 	font-family:iosRegular;
 	font-size:16px;
 	text-align:left;
@@ -12,12 +12,13 @@
 }
 	.Column{
 		display:inline-block;
-		width:252px;
+		width:26.25%;
 		height:267px;
 		margin:0px 0px 0px 48px;
 		position:relative;
 		background-image:url("../images/column_box.png");
 		background-repeat:no-repeat;
+		background-size: 100%;
 	}
 			.frontEnd{
 			left:25px;
@@ -26,6 +27,7 @@
 			font-family:iosRegular;
 			font-size:34px;
 			color:$primaryTextWhite;
+			text-align: left;
 			}
 
 			.digitalDisplay{
@@ -35,6 +37,7 @@
 			font-family:iosRegular;
 			font-size:35px;
 			color:$primaryTextWhite;
+			text-align: left;
 			}
 
 			.appDev{
@@ -44,5 +47,6 @@
 			font-family:iosRegular;
 			font-size:35px;
 			color:$primaryTextWhite;
+			text-align: left;
 			}
 	

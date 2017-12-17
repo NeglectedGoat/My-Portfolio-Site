@@ -22,6 +22,8 @@ form{
 		box-sizing: border-box;
 		line-height:32px;
 		opacity: .6;
+		font-family: iosRegular;
+		font-size:16px;
 	}
 	form #fullname{
 		border:1px solid#fff;
@@ -38,6 +40,10 @@ form{
 		border-bottom:1px solid #fff;
 		border-top:none;
 	}
+	input[type=text]{
+		color:$primaryTextWhite;
+		opacity:.6;
+	}
 	input[type=submit]{
 		opacity: 1;
 		margin-top:15px;
@@ -51,6 +57,7 @@ form{
 		font-size:18px;
 		text-align: center;
 		padding:5px 25px 5px 25px;
+		cursor: pointer;
 	}
 	form > textarea{
 		background-color:transparent;
@@ -61,6 +68,19 @@ form{
 		box-sizing: border-box;
 		display: block;
 		opacity: .6;
+		font-family: iosRegular;
+		font-size: 16px;
+		color:$primaryTextWhite;
+	}
+	input:focus{
+		outline:none;
+		font-family: iosRegular;
+		font-size: 16px;
+	}
+	textarea:focus{
+		outline:none;
+		font-family: iosRegular;
+		font-size: 16px;
 	}
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	  color: #fff;

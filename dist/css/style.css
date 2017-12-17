@@ -146,8 +146,57 @@ nav a:hover, nav a:active {
 .linkedinIcon:hover, .linkedinIcon:active {
   transform: scale(1.05); }
 
+input[type=submit] {
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+  color: #981036; }
+
+input[type=text] {
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: transform 0.3s; }
+
+input[type=text]:focus {
+  transform: scale(1.015);
+  color: #981036;
+  background-color: #fff;
+  opacity: 1; }
+
+textarea {
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: transform 0.3s; }
+
+textarea:focus {
+  transform: scale(1.015);
+  color: #981036;
+  background-color: #fff;
+  opacity: 1; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  transition: transform 0.2s; }
+
+::-webkit-input-placeholder:focus {
+  /* Chrome/Opera/Safari */
+  color: #981036; }
+
 .experienceInCopy {
-  margin: 20px 0px 35px 50px;
+  margin: 20px 0px 35px 48px;
   font-family: iosRegular;
   font-size: 16px;
   text-align: left;
@@ -158,12 +207,13 @@ nav a:hover, nav a:active {
 
 .Column {
   display: inline-block;
-  width: 252px;
+  width: 26.25%;
   height: 267px;
   margin: 0px 0px 0px 48px;
   position: relative;
   background-image: url("../images/column_box.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
 .frontEnd {
   left: 25px;
@@ -171,7 +221,8 @@ nav a:hover, nav a:active {
   top: 20px;
   font-family: iosRegular;
   font-size: 34px;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: left; }
 
 .digitalDisplay {
   left: 25px;
@@ -179,7 +230,8 @@ nav a:hover, nav a:active {
   top: 20px;
   font-family: iosRegular;
   font-size: 35px;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: left; }
 
 .appDev {
   left: 25px;
@@ -187,7 +239,8 @@ nav a:hover, nav a:active {
   top: 20px;
   font-family: iosRegular;
   font-size: 35px;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: left; }
 
 .quote {
   margin: 30px 58px 30px 40px;
@@ -471,7 +524,9 @@ form > input {
   width: 100%;
   box-sizing: border-box;
   line-height: 32px;
-  opacity: .6; }
+  opacity: .6;
+  font-family: iosRegular;
+  font-size: 16px; }
 
 form #fullname {
   border: 1px solid #fff; }
@@ -488,6 +543,10 @@ form #message {
   border-bottom: 1px solid #fff;
   border-top: none; }
 
+input[type=text] {
+  color: #ffffff;
+  opacity: .6; }
+
 input[type=submit] {
   opacity: 1;
   margin-top: 15px;
@@ -500,7 +559,8 @@ input[type=submit] {
   color: #ffffff;
   font-size: 18px;
   text-align: center;
-  padding: 5px 25px 5px 25px; }
+  padding: 5px 25px 5px 25px;
+  cursor: pointer; }
 
 form > textarea {
   background-color: transparent;
@@ -510,7 +570,20 @@ form > textarea {
   width: 100%;
   box-sizing: border-box;
   display: block;
-  opacity: .6; }
+  opacity: .6;
+  font-family: iosRegular;
+  font-size: 16px;
+  color: #ffffff; }
+
+input:focus {
+  outline: none;
+  font-family: iosRegular;
+  font-size: 16px; }
+
+textarea:focus {
+  outline: none;
+  font-family: iosRegular;
+  font-size: 16px; }
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -591,23 +664,25 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 20px 0px 35px 124px; }
+    margin: 20px 0px 35px 57px; }
   .threeColumnContainer {
-    text-align: center; }
-  #column1 {
-    margin: 0px 50px 35px 0px; }
-  .frontEnd {
-    left: 0px; }
-  #column2 {
-    margin: 0px 0px 35px 50px; }
-  .digitalDisplay {
-    left: 0px; }
-  #column3 {
+    text-align: center;
     margin: 0px 0px 0px 0px; }
+  #column1 {
+    margin: 0px 15px 0px 0px; }
+  .frontEnd {
+    font-size: 30px; }
+  #column2 {
+    margin: 0px 15px 0px 15px; }
+  .digitalDisplay {
+    font-size: 31px; }
+  #column3 {
+    margin: 0px 0px 0px 15px;
+    vertical-align: top; }
+  .appDev {
+    font-size: 31px; }
   .socialIcons {
     margin: 0px 70px 0px 0px; }
-  .appDev {
-    left: 0px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .ht {
@@ -667,17 +742,21 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 20px 0px 35px 100px; }
+    margin: 20px 0px 35px 46px; }
+  .Column {
+    height: 240px; }
   #column1 {
-    margin: 0px 25px 35px 0px; }
+    margin: 0px 15px 0px 0px; }
   .frontEnd {
-    left: 0px; }
+    font-size: 25px; }
   #column2 {
-    margin: 0px 0px 35px 25px; }
+    margin: 0px 15px 0px 15px; }
   .digitalDisplay {
-    left: 0px; }
+    font-size: 26px; }
   #column3 {
-    margin: 0px 0px 0px 0px; }
+    margin: 0px 0px 0px 15px; }
+  .appDev {
+    font-size: 26px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .ht {
@@ -748,7 +827,15 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 20px 0px 35px 50px; }
+    margin: 10px 0px 25px 36px; }
+  .Column {
+    height: 215px; }
+  .frontEnd {
+    font-size: 20px; }
+  .digitalDisplay {
+    font-size: 21px; }
+  .appDev {
+    font-size: 21px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .ht {
@@ -833,12 +920,31 @@ body {
   .experienceInCopy {
     margin: 20px 0px 35px 0px;
     text-align: center; }
+  .Column {
+    width: 232px;
+    height: 267px;
+    text-align: center;
+    left: 0; }
   #column1 {
     display: block;
-    margin: 0px auto 35px auto; }
+    margin: 0px auto 20px auto; }
+  .frontEnd {
+    font-size: 30px;
+    text-align: center;
+    left: 0; }
   #column2 {
     display: block;
-    margin: 0px auto 35px auto; }
+    margin: 0px auto 20px auto; }
+  .digitalDisplay {
+    font-size: 31px;
+    text-align: center;
+    left: 0; }
+  #column3 {
+    margin: 0px auto 20px 0px; }
+  .appDev {
+    font-size: 31px;
+    text-align: center;
+    left: 0; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .quote {

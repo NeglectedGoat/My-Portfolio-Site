@@ -73,7 +73,7 @@ input[type=text]{
 	transition: transform.3s;
 }
 input[type=text]:focus{
-	transform: scale(1.015);
+	transform: scale(1.03);
 	color:$coreBgColor;
 	background-color:#fff;
 	opacity:1;
@@ -86,7 +86,7 @@ textarea{
 	transition: transform.3s;
 }
 textarea:focus{
-	transform: scale(1.015);
+	transform: scale(1.03);
 	color:$coreBgColor;
 	background-color:#fff;
 	opacity:1;

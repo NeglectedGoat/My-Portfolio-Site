@@ -113,6 +113,16 @@
 		right:100px;
 	}
 	/*****------- </WORK PAGE> -------*****/
+
+	/*****------- <CONTACT PAGE> -------*****/
+	.formBlurb{
+		font-size: 20px;
+		margin:0px 25px 10px 35px;
+	}
+	form{
+		margin:0px 0px 30px 25px;
+	}
+	/*****------- </CONTACT PAGE> -------*****/
 }
 
 @media only screen and (max-width: 860px) {
@@ -218,13 +228,23 @@
 	.workedOnCopy{
 	margin:20px 0px 15px 34px;
 	}
-	/*****------- </WORK PAGE> -------*****/
 	.overlayTrigger:hover .overlay{
 				display: none;
 				}
-	.test{
+	.caseStudyText{
 		display: block;
 	}
+	/*****------- </WORK PAGE> -------*****/
+	
+	/*****------- <CONTACT PAGE> -------*****/
+	.formBlurb{
+		margin: 0px 19px 10px 33px;
+	}
+	form{
+		margin:0px 0px 30px 22px;
+	}
+
+	/*****------- </CONTACT PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/
 		.footerSig{
@@ -474,6 +494,23 @@
 		width:auto;
 		}
 	/*****------- </WORK PAGE> -------*****/
+
+	/*****------- <CONTACT PAGE> -------*****/
+	.formBlurb{
+		display: block;
+		width: 80%;
+		margin:0px auto 25px auto;
+		text-align: center;
+	}
+	form{
+		width:80%;
+		display: block;
+		margin:0px auto 35px auto;
+	}
+		input[type=submit]{
+			margin:25px auto 0px auto;
+		}
+	/*****------- </CONTACT PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/
 		.footerSig{

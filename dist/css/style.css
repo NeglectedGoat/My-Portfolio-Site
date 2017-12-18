@@ -165,7 +165,7 @@ input[type=text] {
   transition: transform 0.3s; }
 
 input[type=text]:focus {
-  transform: scale(1.015);
+  transform: scale(1.03);
   color: #981036;
   background-color: #fff;
   opacity: 1; }
@@ -178,7 +178,7 @@ textarea {
   transition: transform 0.3s; }
 
 textarea:focus {
-  transform: scale(1.015);
+  transform: scale(1.03);
   color: #981036;
   background-color: #fff;
   opacity: 1; }
@@ -425,7 +425,7 @@ textarea:focus {
 .overlayTrigger:hover .overlay {
   opacity: .7; }
 
-.test {
+.caseStudyText {
   font-family: iosRegular;
   color: #981036;
   font-size: 20px;
@@ -506,7 +506,7 @@ textarea:focus {
   box-sizing: border-box;
   display: inline-block;
   width: 42%;
-  margin: 0px 17px 10px 48px;
+  margin: 0px 15px 10px 48px;
   font-family: iosRegular;
   font-size: 21px;
   color: #ffffff;
@@ -515,7 +515,7 @@ textarea:focus {
 form {
   display: inline-block;
   width: 43%;
-  margin: 0px 0px 30px 17px; }
+  margin: 0px 0px 30px 15px; }
 
 form > input {
   display: block;
@@ -715,7 +715,14 @@ body {
     margin: 20px 0px 15px 42px; }
   .overlayText {
     right: 100px; }
-  /*****------- </WORK PAGE> -------*****/ }
+  /*****------- </WORK PAGE> -------*****/
+  /*****------- <CONTACT PAGE> -------*****/
+  .formBlurb {
+    font-size: 20px;
+    margin: 0px 25px 10px 35px; }
+  form {
+    margin: 0px 0px 30px 25px; }
+  /*****------- </CONTACT PAGE> -------*****/ }
 
 @media only screen and (max-width: 860px) {
   .container {
@@ -787,11 +794,17 @@ body {
   /*****------- <WORK PAGE> -------*****/
   .workedOnCopy {
     margin: 20px 0px 15px 34px; }
-  /*****------- </WORK PAGE> -------*****/
   .overlayTrigger:hover .overlay {
     display: none; }
-  .test {
+  .caseStudyText {
     display: block; }
+  /*****------- </WORK PAGE> -------*****/
+  /*****------- <CONTACT PAGE> -------*****/
+  .formBlurb {
+    margin: 0px 19px 10px 33px; }
+  form {
+    margin: 0px 0px 30px 22px; }
+  /*****------- </CONTACT PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerSig {
     margin: 0px 0px 0px 102px; }
@@ -970,6 +983,19 @@ body {
   .workImageContainer {
     width: auto; }
   /*****------- </WORK PAGE> -------*****/
+  /*****------- <CONTACT PAGE> -------*****/
+  .formBlurb {
+    display: block;
+    width: 80%;
+    margin: 0px auto 25px auto;
+    text-align: center; }
+  form {
+    width: 80%;
+    display: block;
+    margin: 0px auto 35px auto; }
+  input[type=submit] {
+    margin: 25px auto 0px auto; }
+  /*****------- </CONTACT PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerSig {
     display: block;

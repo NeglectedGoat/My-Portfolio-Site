@@ -1,7 +1,7 @@
 
 .slider{
 	overflow: hidden;
-	max-width:845px;
+	max-width:88%;
 	margin:0px auto 20px;
 	border:1px solid white;
 }
@@ -14,10 +14,12 @@
 		.slide{
 			float: left;
 			list-style-type: none;
-			max-width: 845px;
+			width: 845px
 		}
 			.galleryImg{
 				display: block;
+				width:100%;
+				height: auto;
 			}
 .theProject{
 	font-family:iosRegular;

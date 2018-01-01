@@ -1,9 +1,10 @@
 @import "variables";
 
 .quote{
-	margin:30px 58px 30px 40px;
-	font-family:iosRegular;
-	font-size:32px;
+	margin:20px 58px 30px 40px;
+	font-family: 'PT Sans', sans-serif;
+	font-size:41px;
+	line-height: 43px;
 	text-align:center;
 	color:$primaryTextWhite;
 }
@@ -20,7 +21,7 @@
 .mySkillsCopy{
 	margin:45px 0px 35px 48px;
 	font-family:iosRegular;
-	font-size:16px;
+	font-size:42px;
 	color:$primaryTextWhite;
 }
 .mySkillsGrid{

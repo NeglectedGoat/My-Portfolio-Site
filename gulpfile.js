@@ -32,7 +32,7 @@ gulp.task('imageMin', () =>
 // Scripts
 gulp.task('scripts', function(){
 	gulp.src('src/js/*.js')
-		.pipe(concat('main.js'))
+		.pipe(concat('*.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest('dist/js'));
 });

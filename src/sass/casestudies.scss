@@ -53,36 +53,44 @@
 				width:100%;
 				height: auto;
 			}
-.theClient{
-	font-family:iosRegular;
-	font-size:42px;
-	text-align:left;
-	color:$primaryTextWhite;
-	margin:20px 58px 5px 40px;;
-	display:block;
+
+.titleContainer{
+	padding:20px 0px 0px 39px;
 }
-.theCampaign{
-	font-family:iosRegular;
-	font-size:42px;
-	text-align:left;
-	color:$primaryTextWhite;
-	margin:0px 58px 30px 40px;
-	display:block;
-}
-.theProject{
-	font-family:iosRegular;
-	font-size:32px;
-	text-align:left;
-	color:$primaryTextWhite;
-	border-bottom: 2px solid;
-	margin:0px 0px 20px 57px;
-	display: inline-block;
-}
-	.projectInfo{
+	.theClient{
 		font-family:iosRegular;
-		font-size:16px;
+		font-size:42px;
+		text-align:left;
 		color:$primaryTextWhite;
-		margin:0px 57px 10px 57px;
+		margin:0px 0px 5px 0px;
+		display:block;
+	}
+	.theCampaign{
+		font-family:iosRegular;
+		font-size:42px;
+		text-align:left;
+		color:$primaryTextWhite;
+		margin:0px 0px 30px 0px;
+		display:block;
+	}
+
+.projectContainer{
+	padding:0px 0px 0px 43px;
+}
+	.theProject{
+		font-family:iosRegular;
+		font-size:32px;
+		text-align:left;
+		color:$primaryTextWhite;
+		border-bottom: 2px solid;
+		margin:0px 0px 20px 0px;
+		display: inline-block;
+	}
+		.projectInfo{
+			font-family:iosRegular;
+			font-size:16px;
+			color:$primaryTextWhite;
+			margin:0px 40px 10px 0px;
 	}
 .technologiesUsed{
 	font-family:iosRegular;
@@ -90,14 +98,14 @@
 	text-align:left;
 	color:$primaryTextWhite;
 	border-bottom: 2px solid;
-	margin:0px 0px 20px 57px;
+	margin:0px 0px 20px 0px;
 	display: inline-block;
 }
 	.techInfo{
 		font-family:iosRegular;
 		font-size:16px;
 		color:$primaryTextWhite;
-		margin:0px 0px 10px 74px;
+		margin:0px 0px 10px 17px;
 	}
 		.techInfo > li{
 			margin:0px auto 5px 0px;
@@ -108,12 +116,12 @@
 	text-align:left;
 	color:$primaryTextWhite;
 	border-bottom: 2px solid;
-	margin:0px 0px 20px 57px;
+	margin:0px 0px 20px 0px;
 	display: inline-block;
 }
 	.resourcesInfo{
 		font-family:iosRegular;
 		font-size:16px;
 		color:$primaryTextWhite;
-		margin:0px auto 10px 57px;
+		margin:0px auto 10px 0px;
 	}

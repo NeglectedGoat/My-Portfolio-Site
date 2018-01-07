@@ -41,22 +41,15 @@
 			text-align:center;
 			margin: 0px 0px 0px 0px;
 		}
-			#column1{
-				margin:0px 15px 0px 0px;
+			.Column{
+				margin:0px 13.5px 0px 13.5px;
 			}
 				.frontEnd{
 					font-size: 30px;
-				}
-			#column2{
-				margin:0px 15px 0px 15px;
-			}		
+				}	
 				.digitalDisplay{
 					font-size: 31px;
 				}
-			#column3{
-				margin:0px 0px 0px 15px;
-				vertical-align: top;
-			}
 				.appDev{
 					font-size: 31px;
 				}
@@ -67,6 +60,9 @@
 	/*****------- </INTRO PAGE> -------*****/
 
 	/*****------- <ABOUT PAGE> -------*****/
+		.headerOneAboutPage{
+			margin:45px 0px 35px 45px;
+		}
 		.ht{
 			margin:0px 105px 15px 105px;
 		}
@@ -114,11 +110,16 @@
 	}
 	/*****------- </WORK PAGE> -------*****/
 
+		/*****------- <CASE STUDY PAGE> -------*****/
+		.titleContainer{
+			padding:20px 0px 0px 34px;
+		}
+		.projectContainer{
+			padding: 0px 0px 0px 39px;
+		}
+		/*****------- </CASE STUDY PAGE> -------*****/
+
 	/*****------- <CONTACT PAGE> -------*****/
-	.formBlurb{
-		font-size: 20px;
-		margin:0px 25px 10px 35px;
-	}
 	form{
 		margin:0px 0px 30px 25px;
 	}
@@ -164,22 +165,14 @@
 		}
 		.Column{
 			height:240px;
+			margin:0px 13.5px 0px 13.5px;
 		}
-		#column1{
-				margin:0px 15px 0px 0px;
-			}
-				.frontEnd{
-					font-size:25px;
-				}
-		#column2{
-			margin:0px 15px 0px 15px;
-		}		
+			.frontEnd{
+				font-size:25px;
+			}		
 			.digitalDisplay{
 				font-size:26px;
 			}
-		#column3{
-			margin:0px 0px 0px 15px;
-		}
 			.appDev{
 				font-size:26px;
 			}
@@ -235,8 +228,20 @@
 		display: block;
 	}
 	/*****------- </WORK PAGE> -------*****/
+
+		/*****------- <CASE STUDY PAGE> -------*****/
+		.titleContainer{
+			padding:20px 0px 0px 30px;
+		}
+		.projectContainer{
+			padding: 0px 0px 0px 35px;
+		}
+		/*****------- </CASE STUDY PAGE> -------*****/
 	
 	/*****------- <CONTACT PAGE> -------*****/
+	.letsTalk{
+		margin:20px 0px 35px 31px;
+	}
 	.formBlurb{
 		margin: 0px 19px 10px 33px;
 	}
@@ -296,6 +301,7 @@
 	/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:10px 0px 25px 36px;
+			font-size:35px;
 		}
 		.Column{
 			height:215px;
@@ -356,6 +362,18 @@
 	}
 
 	/*****------- </WORK PAGE> -------*****/
+
+		/*****------- <CASE STUDY PAGE> -------*****/
+		.titleContainer{
+			padding:20px 0px 0px 25px;
+		}
+		.projectContainer{
+			padding: 0px 0px 0px 30px;
+		}
+			.projectInfo{
+				margin:0px 15px 10px 0px;
+			}
+		/*****------- </CASE STUDY PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/
 		.footerSig{
@@ -425,37 +443,27 @@
 	/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:20px 0px 35px 0px;
+			font-size:43px;
 			text-align:center;
 		}
 		.Column{
-			width:232px;
-			height:267px;
+			width:275px;
+			height:310px;
 			text-align: center;
 			left:0;
 		}
-			#column1{
-				display:block;
-				margin:0px auto 20px auto;
-			}
 				.frontEnd{
-					font-size:30px;
+					font-size:36px;
 					text-align: center;
 					left:0;
 				}
-			#column2{
-				display:block;
-				margin:0px auto 20px auto;
-			}
 				.digitalDisplay{
-					font-size:31px;
+					font-size:37px;
 					text-align: center;
 					left:0;
 				}
-			#column3{
-				margin:0px auto 20px 0px;
-			}
 				.appDev{
-					font-size: 31px;
+					font-size: 37px;
 					text-align: center;
 					left: 0;
 				}
@@ -472,8 +480,8 @@
 	.aboutMe{
 		margin:0px 15px 10px 15px;
 	}
-	.mySkillsCopy{
-		margin:45px 0px 35px 20px;
+	.headerOneAboutPage{
+		margin:45px 0px 35px 12px;
 	}
 	.mySkillsGrid{
 		margin: 0px auto 0px auto;
@@ -488,18 +496,37 @@
 		.workedOnCopy{
 		margin:20px 0px 15px 0px;
 		text-align: center;
-		font-size: 18px;
+		font-size: 43px;
 		}
 		.workImageContainer{
 		width:auto;
 		}
 	/*****------- </WORK PAGE> -------*****/
 
+		/*****------- <CASE STUDY PAGE> -------*****/
+		.titleContainer{
+			padding:20px 0px 0px 20px;
+		}
+			.theClient{
+				font-size:34px;
+			}
+			.theCampaign{
+				font-size:34px;
+			}
+		.projectContainer{
+			padding: 0px 0px 0px 24px;
+		}
+		/*****------- </CASE STUDY PAGE> -------*****/
+
 	/*****------- <CONTACT PAGE> -------*****/
+	.letsTalk{
+		margin:20px auto 20px auto;
+		text-align: center;
+	}
 	.formBlurb{
 		display: block;
 		width: 80%;
-		margin:0px auto 25px auto;
+		margin:0px auto 30px auto;
 		text-align: center;
 	}
 	form{
@@ -543,6 +570,10 @@
 	/*****------- </HEADER> -------*****/
 
 	/*****------- <ABOUT PAGE> -------*****/
+		.headerOneAboutPage{
+			margin:45px 0px 35px 19px;
+			font-size:35px;
+		}
 		.aboutMe{
 			margin:0px 20px 10px 20px;
 		}
@@ -553,6 +584,27 @@
 			margin:0px 20px 20px 20px;
 			}
 	/*****------- </ABOUT PAGE> -------*****/
+
+	/*****------- <ABOUT PAGE> -------*****/
+	.workedOnCopy{
+		font-size:35px;
+	}
+	/*****------- </ABOUT PAGE> -------*****/
+
+	/*****------- <CASE STUDY PAGE> -------*****/
+	.titleContainer{
+		padding:20px 0px 0px 16px;
+	}
+		.theClient{
+			font-size:31px;
+		}
+		.theCampaign{
+			font-size:31px;
+		}
+	.projectContainer{
+		padding: 0px 0px 0px 19px;
+	}
+	/*****------- </CASE STUDY PAGE> -------*****/
 }
 
 @media only screen and (max-width: 420px) {
@@ -564,6 +616,43 @@
 			font-size:32px;
 		}
 	/*****------- </HEADER> -------*****/
+
+	/*****------- <INTRO> -------*****/
+	.experienceInCopy{
+	font-size:30px;
+	}
+	.Column{
+		height:265px;
+		width:230px;
+	}
+		.frontEnd{
+			font-size:30px;
+		}
+		.digitalDisplay{
+			font-size:31px;
+		}
+		.appDev{
+			font-size:31px;
+		}
+	/*****------- </INTRO> -------*****/
+
+	/*****------- <ABOUT PAGE> -------*****/
+	.workedOnCopy{
+		font-size:31px;
+	}
+	/*****------- </ABOUT PAGE> -------*****/
+
+	/*****------- <CASE STUDY PAGE> -------*****/
+	.projectContainer{
+		padding: 0px 0px 0px 18px;
+	}
+	/*****------- </CASE STUDY PAGE> -------*****/
+
+	/*****------- <CONTACT PAGE> -------*****/
+	.letsTalk{
+		font-size:31px;
+	}
+	/*****------- </CONTACT PAGE> -------*****/
 }
 
 @media only screen and (max-width: 380px) {
@@ -579,4 +668,10 @@
 			width:80%;
 		}
 	/*****------- </HEADER> -------*****/
+
+	/*****------- <CASE STUDY PAGE> -------*****/
+	.projectContainer{
+		padding: 0px 0px 0px 14px;
+	}
+	/*****------- </CASE STUDY PAGE> -------*****/
 }

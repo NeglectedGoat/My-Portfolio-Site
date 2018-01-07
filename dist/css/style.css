@@ -203,14 +203,15 @@ textarea:focus {
   color: #ffffff; }
 
 .threeColumnContainer {
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  text-align: center; }
 
 .Column {
   display: inline-block;
-  width: 26.25%;
+  margin: 0px 22px 0px 22px;
   height: 267px;
-  margin: 0px 0px 0px 48px;
   position: relative;
+  width: 26.25%;
   background-image: url("../images/column_box.png");
   background-repeat: no-repeat;
   background-size: 100%; }
@@ -260,7 +261,7 @@ textarea:focus {
   text-align: left;
   color: #ffffff; }
 
-.mySkillsCopy {
+.headerOneAboutPage {
   margin: 45px 0px 35px 48px;
   font-family: iosRegular;
   font-size: 42px;
@@ -490,12 +491,15 @@ textarea:focus {
   width: 100%;
   height: auto; }
 
+.titleContainer {
+  padding: 20px 0px 0px 39px; }
+
 .theClient {
   font-family: iosRegular;
   font-size: 42px;
   text-align: left;
   color: #ffffff;
-  margin: 20px 58px 5px 40px;
+  margin: 0px 0px 5px 0px;
   display: block; }
 
 .theCampaign {
@@ -503,8 +507,11 @@ textarea:focus {
   font-size: 42px;
   text-align: left;
   color: #ffffff;
-  margin: 0px 58px 30px 40px;
+  margin: 0px 0px 30px 0px;
   display: block; }
+
+.projectContainer {
+  padding: 0px 0px 0px 43px; }
 
 .theProject {
   font-family: iosRegular;
@@ -512,14 +519,14 @@ textarea:focus {
   text-align: left;
   color: #ffffff;
   border-bottom: 2px solid;
-  margin: 0px 0px 20px 57px;
+  margin: 0px 0px 20px 0px;
   display: inline-block; }
 
 .projectInfo {
   font-family: iosRegular;
   font-size: 16px;
   color: #ffffff;
-  margin: 0px 57px 10px 57px; }
+  margin: 0px 40px 10px 0px; }
 
 .technologiesUsed {
   font-family: iosRegular;
@@ -527,14 +534,14 @@ textarea:focus {
   text-align: left;
   color: #ffffff;
   border-bottom: 2px solid;
-  margin: 0px 0px 20px 57px;
+  margin: 0px 0px 20px 0px;
   display: inline-block; }
 
 .techInfo {
   font-family: iosRegular;
   font-size: 16px;
   color: #ffffff;
-  margin: 0px 0px 10px 74px; }
+  margin: 0px 0px 10px 17px; }
 
 .techInfo > li {
   margin: 0px auto 5px 0px; }
@@ -545,14 +552,14 @@ textarea:focus {
   text-align: left;
   color: #ffffff;
   border-bottom: 2px solid;
-  margin: 0px 0px 20px 57px;
+  margin: 0px 0px 20px 0px;
   display: inline-block; }
 
 .resourcesInfo {
   font-family: iosRegular;
   font-size: 16px;
   color: #ffffff;
-  margin: 0px auto 10px 57px; }
+  margin: 0px auto 10px 0px; }
 
 .letsTalk {
   box-sizing: border-box;
@@ -567,7 +574,7 @@ textarea:focus {
   box-sizing: border-box;
   display: inline-block;
   width: 42%;
-  margin: 0px 15px 10px 48px;
+  margin: 0px 12px 10px 49px;
   font-family: iosRegular;
   font-size: 16px;
   color: #ffffff;
@@ -576,7 +583,7 @@ textarea:focus {
 form {
   display: inline-block;
   width: 43%;
-  margin: 0px 0px 30px 15px; }
+  margin: 0px 0px 30px 12px; }
 
 form > input {
   display: block;
@@ -729,23 +736,20 @@ body {
   .threeColumnContainer {
     text-align: center;
     margin: 0px 0px 0px 0px; }
-  #column1 {
-    margin: 0px 15px 0px 0px; }
+  .Column {
+    margin: 0px 13.5px 0px 13.5px; }
   .frontEnd {
     font-size: 30px; }
-  #column2 {
-    margin: 0px 15px 0px 15px; }
   .digitalDisplay {
     font-size: 31px; }
-  #column3 {
-    margin: 0px 0px 0px 15px;
-    vertical-align: top; }
   .appDev {
     font-size: 31px; }
   .socialIcons {
     margin: 0px 70px 0px 0px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
+  .headerOneAboutPage {
+    margin: 45px 0px 35px 45px; }
   .ht {
     margin: 0px 105px 15px 105px; }
   .htmlTitle {
@@ -777,10 +781,13 @@ body {
   .overlayText {
     right: 95px; }
   /*****------- </WORK PAGE> -------*****/
+  /*****------- <CASE STUDY PAGE> -------*****/
+  .titleContainer {
+    padding: 20px 0px 0px 34px; }
+  .projectContainer {
+    padding: 0px 0px 0px 39px; }
+  /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <CONTACT PAGE> -------*****/
-  .formBlurb {
-    font-size: 20px;
-    margin: 0px 25px 10px 35px; }
   form {
     margin: 0px 0px 30px 25px; }
   /*****------- </CONTACT PAGE> -------*****/ }
@@ -812,17 +819,12 @@ body {
   .experienceInCopy {
     margin: 20px 0px 35px 46px; }
   .Column {
-    height: 240px; }
-  #column1 {
-    margin: 0px 15px 0px 0px; }
+    height: 240px;
+    margin: 0px 13.5px 0px 13.5px; }
   .frontEnd {
     font-size: 25px; }
-  #column2 {
-    margin: 0px 15px 0px 15px; }
   .digitalDisplay {
     font-size: 26px; }
-  #column3 {
-    margin: 0px 0px 0px 15px; }
   .appDev {
     font-size: 26px; }
   /*****------- </INTRO PAGE> -------*****/
@@ -860,7 +862,15 @@ body {
   .caseStudyText {
     display: block; }
   /*****------- </WORK PAGE> -------*****/
+  /*****------- <CASE STUDY PAGE> -------*****/
+  .titleContainer {
+    padding: 20px 0px 0px 30px; }
+  .projectContainer {
+    padding: 0px 0px 0px 35px; }
+  /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <CONTACT PAGE> -------*****/
+  .letsTalk {
+    margin: 20px 0px 35px 31px; }
   .formBlurb {
     margin: 0px 19px 10px 33px; }
   form {
@@ -901,7 +911,8 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 10px 0px 25px 36px; }
+    margin: 10px 0px 25px 36px;
+    font-size: 35px; }
   .Column {
     height: 215px; }
   .frontEnd {
@@ -941,6 +952,14 @@ body {
   .workedOnCopy {
     margin: 20px 0px 15px 27px; }
   /*****------- </WORK PAGE> -------*****/
+  /*****------- <CASE STUDY PAGE> -------*****/
+  .titleContainer {
+    padding: 20px 0px 0px 25px; }
+  .projectContainer {
+    padding: 0px 0px 0px 30px; }
+  .projectInfo {
+    margin: 0px 15px 10px 0px; }
+  /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerSig {
     margin: 0px 0px 0px 48px; }
@@ -993,30 +1012,23 @@ body {
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
     margin: 20px 0px 35px 0px;
+    font-size: 43px;
     text-align: center; }
   .Column {
-    width: 232px;
-    height: 267px;
+    width: 275px;
+    height: 310px;
     text-align: center;
     left: 0; }
-  #column1 {
-    display: block;
-    margin: 0px auto 20px auto; }
   .frontEnd {
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
     left: 0; }
-  #column2 {
-    display: block;
-    margin: 0px auto 20px auto; }
   .digitalDisplay {
-    font-size: 31px;
+    font-size: 37px;
     text-align: center;
     left: 0; }
-  #column3 {
-    margin: 0px auto 20px 0px; }
   .appDev {
-    font-size: 31px;
+    font-size: 37px;
     text-align: center;
     left: 0; }
   /*****------- </INTRO PAGE> -------*****/
@@ -1028,8 +1040,8 @@ body {
     margin: 20px 0px 0px 0px; }
   .aboutMe {
     margin: 0px 15px 10px 15px; }
-  .mySkillsCopy {
-    margin: 45px 0px 35px 20px; }
+  .headerOneAboutPage {
+    margin: 45px 0px 35px 12px; }
   .mySkillsGrid {
     margin: 0px auto 0px auto;
     text-align: center; }
@@ -1040,15 +1052,28 @@ body {
   .workedOnCopy {
     margin: 20px 0px 15px 0px;
     text-align: center;
-    font-size: 18px; }
+    font-size: 43px; }
   .workImageContainer {
     width: auto; }
   /*****------- </WORK PAGE> -------*****/
+  /*****------- <CASE STUDY PAGE> -------*****/
+  .titleContainer {
+    padding: 20px 0px 0px 20px; }
+  .theClient {
+    font-size: 34px; }
+  .theCampaign {
+    font-size: 34px; }
+  .projectContainer {
+    padding: 0px 0px 0px 24px; }
+  /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <CONTACT PAGE> -------*****/
+  .letsTalk {
+    margin: 20px auto 20px auto;
+    text-align: center; }
   .formBlurb {
     display: block;
     width: 80%;
-    margin: 0px auto 25px auto;
+    margin: 0px auto 30px auto;
     text-align: center; }
   form {
     width: 80%;
@@ -1081,13 +1106,30 @@ body {
     margin: 30px 12px 30px 12px; }
   /*****------- </HEADER> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
+  .headerOneAboutPage {
+    margin: 45px 0px 35px 19px;
+    font-size: 35px; }
   .aboutMe {
     margin: 0px 20px 10px 20px; }
   .columnContainer {
     margin: 20px 0px 20px 0px; }
   .columnContainer > div {
     margin: 0px 20px 20px 20px; }
-  /*****------- </ABOUT PAGE> -------*****/ }
+  /*****------- </ABOUT PAGE> -------*****/
+  /*****------- <ABOUT PAGE> -------*****/
+  .workedOnCopy {
+    font-size: 35px; }
+  /*****------- </ABOUT PAGE> -------*****/
+  /*****------- <CASE STUDY PAGE> -------*****/
+  .titleContainer {
+    padding: 20px 0px 0px 16px; }
+  .theClient {
+    font-size: 31px; }
+  .theCampaign {
+    font-size: 31px; }
+  .projectContainer {
+    padding: 0px 0px 0px 19px; }
+  /*****------- </CASE STUDY PAGE> -------*****/ }
 
 @media only screen and (max-width: 420px) {
   .container {
@@ -1095,7 +1137,32 @@ body {
   /*****------- <HEADER> -------*****/
   .blurb {
     font-size: 32px; }
-  /*****------- </HEADER> -------*****/ }
+  /*****------- </HEADER> -------*****/
+  /*****------- <INTRO> -------*****/
+  .experienceInCopy {
+    font-size: 30px; }
+  .Column {
+    height: 265px;
+    width: 230px; }
+  .frontEnd {
+    font-size: 30px; }
+  .digitalDisplay {
+    font-size: 31px; }
+  .appDev {
+    font-size: 31px; }
+  /*****------- </INTRO> -------*****/
+  /*****------- <ABOUT PAGE> -------*****/
+  .workedOnCopy {
+    font-size: 31px; }
+  /*****------- </ABOUT PAGE> -------*****/
+  /*****------- <CASE STUDY PAGE> -------*****/
+  .projectContainer {
+    padding: 0px 0px 0px 18px; }
+  /*****------- </CASE STUDY PAGE> -------*****/
+  /*****------- <CONTACT PAGE> -------*****/
+  .letsTalk {
+    font-size: 31px; }
+  /*****------- </CONTACT PAGE> -------*****/ }
 
 @media only screen and (max-width: 380px) {
   .container {
@@ -1105,4 +1172,8 @@ body {
     width: 320px; }
   .blurb {
     width: 80%; }
-  /*****------- </HEADER> -------*****/ }
+  /*****------- </HEADER> -------*****/
+  /*****------- <CASE STUDY PAGE> -------*****/
+  .projectContainer {
+    padding: 0px 0px 0px 14px; }
+  /*****------- </CASE STUDY PAGE> -------*****/ }

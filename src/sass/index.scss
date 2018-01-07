@@ -9,13 +9,14 @@
 }
 .threeColumnContainer{
 	margin-bottom:35px;
+	text-align:center;
 }
 	.Column{
 		display:inline-block;
-		width:26.25%;
+		margin:0px 22px 0px 22px;
 		height:267px;
-		margin:0px 0px 0px 48px;
 		position:relative;
+		width:26.25%;
 		background-image:url("../images/column_box.png");
 		background-repeat:no-repeat;
 		background-size: 100%;

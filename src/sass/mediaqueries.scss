@@ -53,9 +53,6 @@
 				.appDev{
 					font-size: 31px;
 				}
-		.socialIcons{
-			margin:0px 70px 0px 0px;
-		}
 
 	/*****------- </INTRO PAGE> -------*****/
 
@@ -112,10 +109,10 @@
 
 		/*****------- <CASE STUDY PAGE> -------*****/
 		.titleContainer{
-			padding:20px 0px 0px 34px;
+			margin:20px 0px 0px 34px;
 		}
 		.projectContainer{
-			padding: 0px 0px 0px 39px;
+			margin: 0px 0px 0px 39px;
 		}
 		/*****------- </CASE STUDY PAGE> -------*****/
 
@@ -231,10 +228,10 @@
 
 		/*****------- <CASE STUDY PAGE> -------*****/
 		.titleContainer{
-			padding:20px 0px 0px 30px;
+			margin:20px 0px 0px 30px;
 		}
 		.projectContainer{
-			padding: 0px 0px 0px 35px;
+			margin: 0px 0px 0px 35px;
 		}
 		/*****------- </CASE STUDY PAGE> -------*****/
 	
@@ -252,11 +249,8 @@
 	/*****------- </CONTACT PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/
-		.footerSig{
-			margin:0px 0px 0px 102px;
-		}
-		.socialIcons{
-			margin:0px 98px 0px 0px;
+		.footerContainer{
+			margin:0px 50px 0px 35px;
 		}
 	/*****------- </FOOTER> -------*****/
 }
@@ -365,10 +359,10 @@
 
 		/*****------- <CASE STUDY PAGE> -------*****/
 		.titleContainer{
-			padding:20px 0px 0px 25px;
+			margin:20px 0px 0px 25px;
 		}
 		.projectContainer{
-			padding: 0px 0px 0px 30px;
+			margin:0px 0px 0px 30px;
 		}
 			.projectInfo{
 				margin:0px 15px 10px 0px;
@@ -376,11 +370,8 @@
 		/*****------- </CASE STUDY PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/
-		.footerSig{
-			margin:0px 0px 0px 48px;
-		}
-		.socialIcons{
-			margin:0px 70px 0px 0px;
+		.footerContainer{
+			margin:0px 20px 0px 30px;
 		}
 	/*****------- </FOOTER> -------*****/
 }
@@ -505,7 +496,7 @@
 
 		/*****------- <CASE STUDY PAGE> -------*****/
 		.titleContainer{
-			padding:20px 0px 0px 20px;
+			margin:20px 0px 0px 20px;
 		}
 			.theClient{
 				font-size:34px;
@@ -514,7 +505,7 @@
 				font-size:34px;
 			}
 		.projectContainer{
-			padding: 0px 0px 0px 24px;
+			margin: 0px 0px 0px 24px;
 		}
 		/*****------- </CASE STUDY PAGE> -------*****/
 
@@ -540,6 +531,9 @@
 	/*****------- </CONTACT PAGE> -------*****/
 
 	/*****------- <FOOTER> -------*****/
+		.footerContainer{
+			margin:0px 0px 0px 0px;
+		}
 		.footerSig{
 			display:block;
 			margin:20px 0px 20px 0px;
@@ -593,7 +587,7 @@
 
 	/*****------- <CASE STUDY PAGE> -------*****/
 	.titleContainer{
-		padding:20px 0px 0px 16px;
+		margin:20px 0px 0px 16px;
 	}
 		.theClient{
 			font-size:31px;
@@ -602,7 +596,7 @@
 			font-size:31px;
 		}
 	.projectContainer{
-		padding: 0px 0px 0px 19px;
+		margin:0px 0px 0px 19px;
 	}
 	/*****------- </CASE STUDY PAGE> -------*****/
 }
@@ -644,7 +638,7 @@
 
 	/*****------- <CASE STUDY PAGE> -------*****/
 	.projectContainer{
-		padding: 0px 0px 0px 18px;
+		margin:0px 0px 0px 18px;
 	}
 	/*****------- </CASE STUDY PAGE> -------*****/
 
@@ -671,7 +665,7 @@
 
 	/*****------- <CASE STUDY PAGE> -------*****/
 	.projectContainer{
-		padding: 0px 0px 0px 14px;
+		margin:0px 0px 0px 14px;
 	}
 	/*****------- </CASE STUDY PAGE> -------*****/
 }

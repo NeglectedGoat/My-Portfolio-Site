@@ -34,6 +34,10 @@ nav {
   display: inline-block;
   margin: 48px 0px 0px 248px; }
 
+.active {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 4px; }
+
 .clearfix > li {
   float: left;
   margin: 0;
@@ -101,8 +105,11 @@ nav a {
   -webkit-transition: .5s;
   transition: .5s; }
 
-nav a:hover, nav a:active {
+nav a:hover {
   color: #aeaeb7; }
+
+a:active, a:focus {
+  color: #fff; }
 
 .cta {
   color: #fff;
@@ -492,7 +499,7 @@ textarea:focus {
   height: auto; }
 
 .titleContainer {
-  padding: 20px 0px 0px 39px; }
+  margin: 20px 0px 0px 39px; }
 
 .theClient {
   font-family: iosRegular;
@@ -511,7 +518,7 @@ textarea:focus {
   display: block; }
 
 .projectContainer {
-  padding: 0px 0px 0px 43px; }
+  margin: 0px 0px 0px 43px; }
 
 .theProject {
   font-family: iosRegular;
@@ -662,14 +669,20 @@ textarea:focus {
 .hrFooter {
   margin-bottom: 10px; }
 
+.footerContainer {
+  margin: 0px 55px 0px 40px; }
+
 .footerSig {
   display: inline-block;
-  margin: 0px 0px 0px 48px;
   position: relative;
   top: 30px;
   font-family: iosRegular;
   font-size: 12px;
   color: #fff; }
+
+.socialIcons {
+  display: inline-block;
+  float: right; }
 
 .githubIcon {
   padding: 2px;
@@ -682,11 +695,6 @@ textarea:focus {
 .linkedinIcon {
   padding: 2px;
   cursor: pointer; }
-
-.socialIcons {
-  display: inline-block;
-  float: right;
-  margin-right: 50px; }
 
 body {
   background: #981036; }
@@ -744,8 +752,6 @@ body {
     font-size: 31px; }
   .appDev {
     font-size: 31px; }
-  .socialIcons {
-    margin: 0px 70px 0px 0px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .headerOneAboutPage {
@@ -783,9 +789,9 @@ body {
   /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .titleContainer {
-    padding: 20px 0px 0px 34px; }
+    margin: 20px 0px 0px 34px; }
   .projectContainer {
-    padding: 0px 0px 0px 39px; }
+    margin: 0px 0px 0px 39px; }
   /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <CONTACT PAGE> -------*****/
   form {
@@ -864,9 +870,9 @@ body {
   /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .titleContainer {
-    padding: 20px 0px 0px 30px; }
+    margin: 20px 0px 0px 30px; }
   .projectContainer {
-    padding: 0px 0px 0px 35px; }
+    margin: 0px 0px 0px 35px; }
   /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <CONTACT PAGE> -------*****/
   .letsTalk {
@@ -877,10 +883,8 @@ body {
     margin: 0px 0px 30px 22px; }
   /*****------- </CONTACT PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
-  .footerSig {
-    margin: 0px 0px 0px 102px; }
-  .socialIcons {
-    margin: 0px 98px 0px 0px; }
+  .footerContainer {
+    margin: 0px 50px 0px 35px; }
   /*****------- </FOOTER> -------*****/ }
 
 @media only screen and (max-width: 760px) {
@@ -954,17 +958,15 @@ body {
   /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .titleContainer {
-    padding: 20px 0px 0px 25px; }
+    margin: 20px 0px 0px 25px; }
   .projectContainer {
-    padding: 0px 0px 0px 30px; }
+    margin: 0px 0px 0px 30px; }
   .projectInfo {
     margin: 0px 15px 10px 0px; }
   /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
-  .footerSig {
-    margin: 0px 0px 0px 48px; }
-  .socialIcons {
-    margin: 0px 70px 0px 0px; }
+  .footerContainer {
+    margin: 0px 20px 0px 30px; }
   /*****------- </FOOTER> -------*****/ }
 
 @media only screen and (max-width: 660px) {
@@ -1058,13 +1060,13 @@ body {
   /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .titleContainer {
-    padding: 20px 0px 0px 20px; }
+    margin: 20px 0px 0px 20px; }
   .theClient {
     font-size: 34px; }
   .theCampaign {
     font-size: 34px; }
   .projectContainer {
-    padding: 0px 0px 0px 24px; }
+    margin: 0px 0px 0px 24px; }
   /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <CONTACT PAGE> -------*****/
   .letsTalk {
@@ -1083,6 +1085,8 @@ body {
     margin: 25px auto 0px auto; }
   /*****------- </CONTACT PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
+  .footerContainer {
+    margin: 0px 0px 0px 0px; }
   .footerSig {
     display: block;
     margin: 20px 0px 20px 0px;
@@ -1122,13 +1126,13 @@ body {
   /*****------- </ABOUT PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .titleContainer {
-    padding: 20px 0px 0px 16px; }
+    margin: 20px 0px 0px 16px; }
   .theClient {
     font-size: 31px; }
   .theCampaign {
     font-size: 31px; }
   .projectContainer {
-    padding: 0px 0px 0px 19px; }
+    margin: 0px 0px 0px 19px; }
   /*****------- </CASE STUDY PAGE> -------*****/ }
 
 @media only screen and (max-width: 420px) {
@@ -1157,7 +1161,7 @@ body {
   /*****------- </ABOUT PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .projectContainer {
-    padding: 0px 0px 0px 18px; }
+    margin: 0px 0px 0px 18px; }
   /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <CONTACT PAGE> -------*****/
   .letsTalk {
@@ -1175,5 +1179,5 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .projectContainer {
-    padding: 0px 0px 0px 14px; }
+    margin: 0px 0px 0px 14px; }
   /*****------- </CASE STUDY PAGE> -------*****/ }

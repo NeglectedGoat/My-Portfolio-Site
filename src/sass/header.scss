@@ -37,6 +37,10 @@ nav{
 	display:inline-block;
 	margin:48px 0px 0px 248px;
 }
+	.active{
+		border-bottom:1px solid #fff;
+		padding-bottom:4px;
+	}
 	.clearfix > li{ 
 		float:left;
 		margin:0;

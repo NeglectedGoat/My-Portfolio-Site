@@ -2,33 +2,34 @@
 	margin-bottom:10px;
 }
 
-.footerSig{
-	display:inline-block;
-	margin:0px 0px 0px 48px;
-	position:relative;
-	top:30px;
-	font-family:iosRegular;
-	font-size:12px;
-	color:#fff;
+.footerContainer{
+	margin:0px 55px 0px 40px;
 }
+	.footerSig{
+		display:inline-block;
+		position:relative;
+		top:30px;
+		font-family:iosRegular;
+		font-size:12px;
+		color:#fff;
+	}
 
-.githubIcon{
-	padding:2px;
-	cursor: pointer;
-}
+	.socialIcons{
+		display:inline-block;
+		float:right;
+	}
 
-.twitterIcon{
-	padding:2px;
-	cursor: pointer;
-}
+		.githubIcon{
+			padding:2px;
+			cursor: pointer;
+		}
 
-.linkedinIcon{
-	padding:2px;
-	cursor: pointer;
-}
+		.twitterIcon{
+			padding:2px;
+			cursor: pointer;
+		}
 
-.socialIcons{
-	display:inline-block;
-	float:right;
-	margin-right:50px;
-}
+		.linkedinIcon{
+			padding:2px;
+			cursor: pointer;
+		}

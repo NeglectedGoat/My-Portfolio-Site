@@ -6,8 +6,12 @@ nav a {
 	-webkit-transition:.5s;
 	transition: .5s;
 }
-nav a:hover, nav a:active {
+nav a:hover{
 	color:#aeaeb7;
+}
+
+a:active, a:focus{
+	color:#fff;
 }
 
 .cta{

@@ -17,7 +17,9 @@ body{
 .container{
 	width:960px;
 	margin:auto;
-	background-color: $coreBgColor;
+	background-color:$coreBgColor;
+	font-family:iosRegular;
+	color:$primaryTextWhite;
 }
 
 @font-face{

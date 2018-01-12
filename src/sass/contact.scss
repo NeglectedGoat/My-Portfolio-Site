@@ -1,37 +1,32 @@
 .letsTalk{
-	box-sizing: border-box;
-	display: block;
+	box-sizing:border-box;
+	display:block;
 	margin:20px 0px 35px 48px;
-	font-family:iosRegular;
 	font-size:42px;
-	color:$primaryTextWhite;
-	vertical-align: top;
+	vertical-align:top;
 }
 .formBlurb{
-	box-sizing: border-box;
-	display: inline-block;
+	box-sizing:border-box;
+	display:inline-block;
 	width:42%;
 	margin:0px 12px 10px 49px;
-	font-family:iosRegular;
 	font-size:16px;
-	color:$primaryTextWhite;
-	vertical-align: top;
+	vertical-align:top;
 }
 
 form{
-	display: inline-block;
+	display:inline-block;
 	width:43%;
 	margin:0px 0px 30px 12px;
 }
 	form > input{
-		display: block;
-		background-color: transparent;
+		display:block;
+		background-color:transparent;
 		padding:5px 5px 0px 10px;
-		width: 100%;
-		box-sizing: border-box;
+		width:100%;
+		box-sizing:border-box;
 		line-height:32px;
-		opacity: .6;
-		font-family: iosRegular;
+		opacity:.6;
 		font-size:16px;
 	}
 	form #fullname{
@@ -54,7 +49,7 @@ form{
 		opacity:.6;
 	}
 	input[type=submit]{
-		opacity: 1;
+		opacity:1;
 		margin-top:15px;
 		width:auto;
 		border-left:2px solid #fff;
@@ -64,35 +59,35 @@ form{
 		font-family:iosRegular;
 		color:$primaryTextWhite;
 		font-size:18px;
-		text-align: center;
+		text-align:center;
 		padding:5px 25px 5px 25px;
-		cursor: pointer;
+		cursor:pointer;
 	}
 	form > textarea{
 		background-color:transparent;
 		border:none;
 		resize: none;
-		padding: 5px 5px 0px 10px;
-		width: 100%;
-		box-sizing: border-box;
-		display: block;
-		opacity: .6;
-		font-family: iosRegular;
-		font-size: 16px;
+		padding:5px 5px 0px 10px;
+		width:100%;
+		box-sizing:border-box;
+		display:block;
+		opacity:.6;
+		font-family:iosRegular;
+		font-size:16px;
 		color:$primaryTextWhite;
 	}
 	input:focus{
 		outline:none;
-		font-family: iosRegular;
-		font-size: 16px;
+		font-family:iosRegular;
+		font-size:16px;
 	}
 	textarea:focus{
 		outline:none;
-		font-family: iosRegular;
-		font-size: 16px;
+		font-family:iosRegular;
+		font-size:16px;
 	}
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	  color: #fff;
+	  color:#fff;
 	  font-family:iosRegular;
 	  font-size:15px;
 	}

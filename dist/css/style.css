@@ -36,18 +36,18 @@ nav {
 
 .active {
   border-bottom: 1px solid #fff;
-  padding-bottom: 4px; }
+  padding-bottom: 3px; }
+
+a:link, a:visited {
+  /* display: block; */
+  text-decoration: none;
+  color: #fff; }
 
 .clearfix > li {
   float: left;
   margin: 0;
   padding: 18px;
   list-style-type: none; }
-
-a:link, a:visited {
-  /* display: block; */
-  font-family: iosRegular;
-  text-decoration: none; }
 
 /*----- HEADSHOT IMAGE CONTAINER -----*/
 .headshotContainer {
@@ -61,9 +61,7 @@ a:link, a:visited {
   left: 55px;
   position: relative;
   width: 40%;
-  font-family: iosBold;
   font-size: 51px;
-  color: #ffffff;
   text-align: left; }
 
 /*----- CTA BUTTON -----*/
@@ -75,7 +73,6 @@ a:link, a:visited {
   position: relative;
   right: 332px;
   width: 100px;
-  font-family: iosRegular;
   font-size: 16px;
   text-decoration: none;
   color: #fff;
@@ -97,19 +94,13 @@ a:link, a:visited {
   height: 0;
   clear: both; }
 
-nav a {
-  color: #fff;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s; }
-
-nav a:hover {
-  color: #aeaeb7; }
-
-a:active, a:focus {
-  color: #fff; }
+.nav_links:hover {
+  color: #aeaeb7;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s; }
 
 .cta {
   color: #fff;
@@ -204,10 +195,8 @@ textarea:focus {
 
 .experienceInCopy {
   margin: 20px 0px 35px 48px;
-  font-family: iosRegular;
   font-size: 42px;
-  text-align: left;
-  color: #ffffff; }
+  text-align: left; }
 
 .threeColumnContainer {
   margin-bottom: 35px;
@@ -215,8 +204,8 @@ textarea:focus {
 
 .Column {
   display: inline-block;
-  margin: 0px 22px 0px 22px;
   height: 267px;
+  margin: 0px 22px 0px 22px;
   position: relative;
   width: 26.25%;
   background-image: url("../images/column_box.png");
@@ -227,52 +216,66 @@ textarea:focus {
   left: 25px;
   position: absolute;
   top: 20px;
-  font-family: iosRegular;
   font-size: 34px;
-  color: #ffffff;
   text-align: left; }
 
 .digitalDisplay {
   left: 25px;
   position: absolute;
   top: 20px;
-  font-family: iosRegular;
   font-size: 35px;
-  color: #ffffff;
   text-align: left; }
 
 .appDev {
   left: 25px;
   position: absolute;
   top: 20px;
-  font-family: iosRegular;
   font-size: 35px;
-  color: #ffffff;
   text-align: left; }
+
+.work_showcase_container {
+  margin: 20px 0px 0px 49px; }
+
+.selected_work_copy {
+  margin: 20px 0px 20px 0px;
+  font-size: 42px; }
+
+.work_selects_title {
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 2px 0px;
+  font-size: 22px; }
+
+.work_selects {
+  margin: 10px 0px 20px 0px;
+  font-size: 16px; }
+
+#view_all_work {
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  margin: 30px 0px 30px 0px;
+  padding: 0px 0px 3px 0px;
+  font-size: 16px; }
 
 .quote {
   margin: 20px 58px 30px 40px;
   font-family: 'PT Sans', sans-serif;
   font-size: 41px;
   line-height: 43px;
-  text-align: center;
-  color: #ffffff; }
+  text-align: center; }
 
 .tsEliot {
   font-size: 20px; }
 
 .aboutMe {
   margin: 0px 48px 10px 48px;
-  font-family: iosRegular;
   font-size: 16px;
-  text-align: left;
-  color: #ffffff; }
+  text-align: left; }
 
 .headerOneAboutPage {
   margin: 45px 0px 35px 48px;
-  font-family: iosRegular;
-  font-size: 42px;
-  color: #ffffff; }
+  font-size: 42px; }
 
 .mySkillsGrid {
   margin: 0px 48px 0px 48px; }
@@ -283,111 +286,85 @@ textarea:focus {
 .ht {
   display: inline-block;
   margin: 0px 120px 15px 125px;
-  font-family: iosRegular;
-  font-size: 40px;
-  color: #ffffff; }
+  font-size: 40px; }
 
 .sc {
   display: inline-block;
   margin: 0px 120px 15px 125px;
-  font-family: iosRegular;
-  font-size: 40px;
-  color: #ffffff; }
+  font-size: 40px; }
 
 .js {
   display: inline-block;
   margin: 0px 120px 15px 125px;
-  font-family: iosRegular;
-  font-size: 40px;
-  color: #ffffff; }
+  font-size: 40px; }
 
 .htmlTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   margin: 0px 67px 45px 68px;
   width: 150px;
-  font-family: iosRegular;
   font-size: 18px;
-  text-align: center;
-  color: #ffffff; }
+  text-align: center; }
 
 .scssTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   margin: 0px 68px 45px 67px;
   width: 150px;
-  font-family: iosRegular;
   font-size: 18px;
-  text-align: center;
-  color: #ffffff; }
+  text-align: center; }
 
 .javaScriptTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   margin: 0px 0px 45px 69px;
   width: 150px;
-  font-family: iosRegular;
   font-size: 18px;
-  text-align: center;
-  color: #ffffff; }
+  text-align: center; }
 
 .jq {
   display: inline-block;
   margin: 0px 120px 15px 125px;
-  font-family: iosRegular;
-  font-size: 40px;
-  color: #ffffff; }
+  font-size: 40px; }
 
 .aa {
   display: inline-block;
   margin: 0px 120px 15px 125px;
-  font-family: iosRegular;
-  font-size: 40px;
-  color: #ffffff; }
+  font-size: 40px; }
 
 .ps {
   display: inline-block;
   margin: 0px 120px 15px 125px;
-  font-family: iosRegular;
-  font-size: 40px;
-  color: #ffffff; }
+  font-size: 40px; }
 
 .jqueryTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   margin: 0px 67px 55px 68px;
   width: 150px;
-  font-family: iosRegular;
   font-size: 18px;
-  text-align: center;
-  color: #ffffff; }
+  text-align: center; }
 
 .adobeAnimateTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   margin: 0px 68px 55px 67px;
   width: 150px;
-  font-family: iosRegular;
   font-size: 18px;
-  text-align: center;
-  color: #ffffff; }
+  text-align: center; }
 
 .photoshopTitle {
   border: 1px solid #fff;
   box-sizing: border-box;
   margin: 0px 0px 55px 69px;
   width: 150px;
-  font-family: iosRegular;
   font-size: 18px;
-  text-align: center;
-  color: #ffffff; }
+  text-align: center; }
 
 .workedOnCopy {
   margin: 20px 0px 15px 48px;
-  font-family: iosRegular;
   font-size: 42px;
-  text-align: left;
-  color: #ffffff; }
+  text-align: left; }
 
 .workExamplesGrid {
   text-align: center; }
@@ -430,7 +407,6 @@ textarea:focus {
   padding: 10px 0px 0px 10px; }
 
 .overlayText {
-  font-family: iosRegular;
   color: #981036;
   font-size: 22px;
   float: left; }
@@ -439,7 +415,6 @@ textarea:focus {
   opacity: .7; }
 
 .caseStudyText {
-  font-family: iosRegular;
   color: #981036;
   font-size: 20px;
   background-color: #fff;
@@ -502,18 +477,14 @@ textarea:focus {
   margin: 20px 0px 0px 39px; }
 
 .theClient {
-  font-family: iosRegular;
   font-size: 42px;
   text-align: left;
-  color: #ffffff;
   margin: 0px 0px 5px 0px;
   display: block; }
 
 .theCampaign {
-  font-family: iosRegular;
   font-size: 42px;
   text-align: left;
-  color: #ffffff;
   margin: 0px 0px 30px 0px;
   display: block; }
 
@@ -521,60 +492,46 @@ textarea:focus {
   margin: 0px 0px 0px 43px; }
 
 .theProject {
-  font-family: iosRegular;
   font-size: 32px;
   text-align: left;
-  color: #ffffff;
   border-bottom: 2px solid;
   margin: 0px 0px 20px 0px;
   display: inline-block; }
 
 .projectInfo {
-  font-family: iosRegular;
   font-size: 16px;
-  color: #ffffff;
   margin: 0px 40px 10px 0px; }
 
 .technologiesUsed {
-  font-family: iosRegular;
   font-size: 32px;
   text-align: left;
-  color: #ffffff;
   border-bottom: 2px solid;
   margin: 0px 0px 20px 0px;
   display: inline-block; }
 
 .techInfo {
-  font-family: iosRegular;
   font-size: 16px;
-  color: #ffffff;
   margin: 0px 0px 10px 17px; }
 
 .techInfo > li {
   margin: 0px auto 5px 0px; }
 
 .resources {
-  font-family: iosRegular;
   font-size: 32px;
   text-align: left;
-  color: #ffffff;
   border-bottom: 2px solid;
   margin: 0px 0px 20px 0px;
   display: inline-block; }
 
 .resourcesInfo {
-  font-family: iosRegular;
   font-size: 16px;
-  color: #ffffff;
   margin: 0px auto 10px 0px; }
 
 .letsTalk {
   box-sizing: border-box;
   display: block;
   margin: 20px 0px 35px 48px;
-  font-family: iosRegular;
   font-size: 42px;
-  color: #ffffff;
   vertical-align: top; }
 
 .formBlurb {
@@ -582,9 +539,7 @@ textarea:focus {
   display: inline-block;
   width: 42%;
   margin: 0px 12px 10px 49px;
-  font-family: iosRegular;
   font-size: 16px;
-  color: #ffffff;
   vertical-align: top; }
 
 form {
@@ -600,7 +555,6 @@ form > input {
   box-sizing: border-box;
   line-height: 32px;
   opacity: .6;
-  font-family: iosRegular;
   font-size: 16px; }
 
 form #fullname {
@@ -676,9 +630,7 @@ textarea:focus {
   display: inline-block;
   position: relative;
   top: 30px;
-  font-family: iosRegular;
-  font-size: 12px;
-  color: #fff; }
+  font-size: 12px; }
 
 .socialIcons {
   display: inline-block;
@@ -702,7 +654,9 @@ body {
 .container {
   width: 960px;
   margin: auto;
-  background-color: #981036; }
+  background-color: #981036;
+  font-family: iosRegular;
+  color: #ffffff; }
 
 @font-face {
   font-family: iosRegular;
@@ -814,9 +768,6 @@ body {
     bottom: 120px;
     left: 45px;
     font-size: 40px; }
-  .cta {
-    bottom: 105px;
-    left: 395px; }
   .cta {
     bottom: 105px;
     left: 395px; }

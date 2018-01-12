@@ -1,75 +1,71 @@
 .rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 91%;
-  padding: 0;
-  margin: 0px auto 25px;
+  position:relative;
+  list-style:none;
+  overflow:hidden;
+  width:91%;
+  padding:0;
+  margin:0px auto 25px;
   border:1px solid #fff;
   }
 
 .rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
+  -webkit-backface-visibility:hidden;
+  position:absolute;
+  display:none;
+  width:100%;
+  left:0;
+  top:0;
   }
 
 .rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
+  position:relative;
+  display:block;
+  float:left;
   }
 
 .rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
+  display:block;
+  height:auto;
+  float:left;
+  width:100%;
+  border:0;
   }
 
 .slider{
-	overflow: hidden;
+	overflow:hidden;
 	max-width:88%;
 	margin:0px auto 20px;
 	border:1px solid white;
 }
 	.slides{
-		display: block;
-		margin: 0;
-		padding: 0;
-		width: 2535px;
+		display:block;
+		margin:0;
+		padding:0;
+		width:2535px;
 	}
 		.slide{
-			float: left;
-			list-style-type: none;
-			width: 845px
+			float:left;
+			list-style-type:none;
+			width:845px
 		}
 			.galleryImg{
-				display: block;
+				display:block;
 				width:100%;
-				height: auto;
+				height:auto;
 			}
 
 .titleContainer{
 	margin:20px 0px 0px 39px;
 }
 	.theClient{
-		font-family:iosRegular;
 		font-size:42px;
 		text-align:left;
-		color:$primaryTextWhite;
 		margin:0px 0px 5px 0px;
 		display:block;
 	}
 	.theCampaign{
-		font-family:iosRegular;
 		font-size:42px;
 		text-align:left;
-		color:$primaryTextWhite;
 		margin:0px 0px 30px 0px;
 		display:block;
 	}
@@ -78,50 +74,38 @@
 	margin:0px 0px 0px 43px;
 }
 	.theProject{
-		font-family:iosRegular;
 		font-size:32px;
 		text-align:left;
-		color:$primaryTextWhite;
-		border-bottom: 2px solid;
+		border-bottom:2px solid;
 		margin:0px 0px 20px 0px;
-		display: inline-block;
+		display:inline-block;
 	}
 		.projectInfo{
-			font-family:iosRegular;
 			font-size:16px;
-			color:$primaryTextWhite;
 			margin:0px 40px 10px 0px;
 	}
 .technologiesUsed{
-	font-family:iosRegular;
 	font-size:32px;
 	text-align:left;
-	color:$primaryTextWhite;
-	border-bottom: 2px solid;
+	border-bottom:2px solid;
 	margin:0px 0px 20px 0px;
-	display: inline-block;
+	display:inline-block;
 }
 	.techInfo{
-		font-family:iosRegular;
 		font-size:16px;
-		color:$primaryTextWhite;
 		margin:0px 0px 10px 17px;
 	}
 		.techInfo > li{
 			margin:0px auto 5px 0px;
 		}
 .resources{
-	font-family:iosRegular;
 	font-size:32px;
 	text-align:left;
-	color:$primaryTextWhite;
 	border-bottom: 2px solid;
 	margin:0px 0px 20px 0px;
 	display: inline-block;
 }
 	.resourcesInfo{
-		font-family:iosRegular;
 		font-size:16px;
-		color:$primaryTextWhite;
 		margin:0px auto 10px 0px;
 	}

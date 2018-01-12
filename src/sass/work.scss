@@ -2,14 +2,12 @@
 
 .workedOnCopy{
 	margin:20px 0px 15px 48px;
-	font-family:iosRegular;
 	font-size:42px;
 	text-align:left;
-	color:$primaryTextWhite;
 }
 
 .workExamplesGrid{
-	text-align: center;
+	text-align:center;
 }
 		.workImageContainer{
 			display:inline-block;
@@ -36,11 +34,11 @@
 					left:0;
 					right:0;
 					display:block;
-					opacity: 0;
+					opacity:0;
 					width:100%;
 					height:auto;
 					background-color:white;
-					transition: opacity .3s;
+					transition:opacity .3s;
 				}
 					.overlayTextContainer{
 						width:100%;
@@ -49,9 +47,8 @@
 						padding:10px 0px 0px 10px;
 					}
 						.overlayText{
-							font-family:iosRegular;
 							color:$coreBgColor;
-							font-size: 22px;
+							font-size:22px;
 							float:left;
 						}
 
@@ -60,12 +57,11 @@
 				}
 
 				.caseStudyText{
-					font-family:iosRegular;
 					color:$coreBgColor;
-					font-size: 20px;
-					background-color: #fff;
+					font-size:20px;
+					background-color:#fff;
 					padding:8px 0px 8px 15px;
-					text-align: left;
-					display: none;
+					text-align:left;
+					display:none;
 				}
 

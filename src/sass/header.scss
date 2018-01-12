@@ -39,19 +39,19 @@ nav{
 }
 	.active{
 		border-bottom:1px solid #fff;
-		padding-bottom:4px;
+		padding-bottom:3px;
 	}
+	a:link, a:visited{
+			/* display: block; */
+			text-decoration:none;
+			color:#fff;
+		}
 	.clearfix > li{ 
 		float:left;
 		margin:0;
 		padding:18px;
 		list-style-type:none;
 	}
-		a:link, a:visited{
-			/* display: block; */
-			font-family:iosRegular;
-			text-decoration:none;
-		}
 
 /*----- HEADSHOT IMAGE CONTAINER -----*/
 .headshotContainer{
@@ -66,9 +66,7 @@ nav{
 	left:55px;
 	position:relative;
 	width:40%;
-	font-family:iosBold;
 	font-size:51px;
-	color:$primaryTextWhite;
 	text-align:left;	
 }
 
@@ -81,7 +79,6 @@ nav{
 	position:relative;
 	right:332px;
 	width:100px;	
-	font-family:iosRegular;
 	font-size:16px;
 	text-decoration:none;
 	color:#fff;

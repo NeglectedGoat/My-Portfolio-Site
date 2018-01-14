@@ -114,6 +114,16 @@ a:link, a:visited {
   background-color: #ffffff;
   color: #981036; }
 
+.quick_link_work {
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+.quick_link_work:hover {
+  color: #aeaeb7; }
+
 .githubIcon {
   -o-transition: transform .3s;
   -ms-transition: transform .3s;
@@ -194,7 +204,7 @@ textarea:focus {
   color: #981036; }
 
 .experienceInCopy {
-  margin: 20px 0px 35px 48px;
+  margin: 20px 0px 35px 46px;
   font-size: 42px;
   text-align: left; }
 
@@ -234,10 +244,10 @@ textarea:focus {
   text-align: left; }
 
 .work_showcase_container {
-  margin: 20px 0px 0px 49px; }
+  margin: 40px 49px 0px 49px; }
 
 .selected_work_copy {
-  margin: 20px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   font-size: 42px; }
 
 .work_selects_title {
@@ -278,7 +288,7 @@ textarea:focus {
   font-size: 42px; }
 
 .mySkillsGrid {
-  margin: 0px 48px 0px 48px; }
+  margin: 0px 44px 0px 44px; }
 
 .columnContainer {
   display: inline-block; }
@@ -362,7 +372,7 @@ textarea:focus {
   text-align: center; }
 
 .workedOnCopy {
-  margin: 20px 0px 15px 48px;
+  margin: 20px 0px 15px 46px;
   font-size: 42px;
   text-align: left; }
 
@@ -530,7 +540,7 @@ textarea:focus {
 .letsTalk {
   box-sizing: border-box;
   display: block;
-  margin: 20px 0px 35px 48px;
+  margin: 20px 0px 35px 46px;
   font-size: 42px;
   vertical-align: top; }
 
@@ -694,7 +704,7 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 20px 0px 35px 57px; }
+    margin: 20px 0px 35px 53px; }
   .threeColumnContainer {
     text-align: center;
     margin: 0px 0px 0px 0px; }
@@ -706,6 +716,8 @@ body {
     font-size: 31px; }
   .appDev {
     font-size: 31px; }
+  .work_showcase_container {
+    margin: 40px 49px 0px 55px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .headerOneAboutPage {
@@ -774,7 +786,7 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 20px 0px 35px 46px; }
+    margin: 20px 0px 35px 43px; }
   .Column {
     height: 240px;
     margin: 0px 13.5px 0px 13.5px; }
@@ -784,6 +796,8 @@ body {
     font-size: 26px; }
   .appDev {
     font-size: 26px; }
+  .work_showcase_container {
+    margin: 40px 49px 0px 47px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .ht {
@@ -866,7 +880,7 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 10px 0px 25px 36px;
+    margin: 10px 0px 25px 32px;
     font-size: 35px; }
   .Column {
     height: 215px; }
@@ -876,6 +890,10 @@ body {
     font-size: 21px; }
   .appDev {
     font-size: 21px; }
+  .work_showcase_container {
+    margin: 40px 49px 0px 35px; }
+  .selected_work_copy {
+    font-size: 35px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .ht {
@@ -984,6 +1002,11 @@ body {
     font-size: 37px;
     text-align: center;
     left: 0; }
+  .work_showcase_container {
+    margin: 40px 25px 0px 25px; }
+  .selected_work_copy {
+    font-size: 43px;
+    text-align: center; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .quote {
@@ -1105,6 +1128,8 @@ body {
     font-size: 31px; }
   .appDev {
     font-size: 31px; }
+  .selected_work_copy {
+    font-size: 30px; }
   /*****------- </INTRO> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .workedOnCopy {

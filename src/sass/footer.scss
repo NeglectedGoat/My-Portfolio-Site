@@ -1,7 +1,29 @@
+/* Contents of this file:
+	* |HORIZONTAL LINE DIVDIER|
+	* |SIGNATURE AND SOCIAL ICONS|
+*/
+
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+
+/** NESTING WHERE APPROPRIATE **/
+
+/*----- HORIZONTAL LINE DIVIDER -----*/
 .hrFooter{
-	margin-bottom:10px;
+	margin:0px 0px 10px 0px;
 }
 
+/*----- SIGNATURE AND SOCIAL ICONS -----*/
 .footerContainer{
 	margin:0px 55px 0px 40px;
 }

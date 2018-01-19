@@ -1,33 +1,55 @@
+/* Contents of this file:
+	* |INTRO TEXT/FORM BLURB|
+	* |FORM|
+*/
+
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+
+/** NESTING WHERE APPROPRIATE **/
+
+/*----- INTRO TEXT/FORM BLURB -----*/
 .letsTalk{
 	box-sizing:border-box;
 	display:block;
-	margin:20px 0px 35px 48px;
+	margin:20px 0px 35px 46px;
 	font-size:42px;
 	vertical-align:top;
 }
 .formBlurb{
 	box-sizing:border-box;
 	display:inline-block;
-	width:42%;
 	margin:0px 12px 10px 49px;
+	width:42%;
 	font-size:16px;
 	vertical-align:top;
 }
 
+/*----- FORM -----*/
 form{
 	display:inline-block;
-	width:43%;
 	margin:0px 0px 30px 12px;
+	width:43%;
 }
 	form > input{
+		box-sizing:border-box;
 		display:block;
-		background-color:transparent;
 		padding:5px 5px 0px 10px;
 		width:100%;
-		box-sizing:border-box;
-		line-height:32px;
-		opacity:.6;
 		font-size:16px;
+		line-height:32px;
+		background-color:transparent;
+		opacity:.6;
 	}
 	form #fullname{
 		border:1px solid#fff;
@@ -49,45 +71,45 @@ form{
 		opacity:.6;
 	}
 	input[type=submit]{
-		opacity:1;
-		margin-top:15px;
-		width:auto;
+		border-bottom:2px solid #fff;
 		border-left:2px solid #fff;
 		border-right:2px solid #fff;
-		border-bottom:2px solid #fff;
 		border-top:2px solid #fff;
-		font-family:iosRegular;
-		color:$primaryTextWhite;
-		font-size:18px;
-		text-align:center;
+		margin-top:15px;
 		padding:5px 25px 5px 25px;
+		width:auto;
+		font-family:iosRegular;
+		font-size:18px;
+		color:$primaryTextWhite;
 		cursor:pointer;
+		opacity:1;
+		text-align:center;
 	}
 	form > textarea{
-		background-color:transparent;
 		border:none;
-		resize: none;
-		padding:5px 5px 0px 10px;
-		width:100%;
 		box-sizing:border-box;
 		display:block;
-		opacity:.6;
+		padding:5px 5px 0px 10px;
+		width:100%;
 		font-family:iosRegular;
 		font-size:16px;
+		background-color:transparent;
 		color:$primaryTextWhite;
+		opacity:.6;
+		resize: none;
 	}
 	input:focus{
-		outline:none;
 		font-family:iosRegular;
 		font-size:16px;
+		outline:none;
 	}
 	textarea:focus{
-		outline:none;
 		font-family:iosRegular;
 		font-size:16px;
+		outline:none;
 	}
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-	  color:#fff;
-	  font-family:iosRegular;
-	  font-size:15px;
+	  	font-family:iosRegular;
+	  	font-size:15px;
+	  	color:#fff;
 	}

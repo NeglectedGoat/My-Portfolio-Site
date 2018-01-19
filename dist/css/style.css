@@ -40,8 +40,8 @@ nav {
 
 a:link, a:visited {
   /* display: block; */
-  text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  text-decoration: none; }
 
 .clearfix > li {
   float: left;
@@ -74,15 +74,15 @@ a:link, a:visited {
   right: 332px;
   width: 100px;
   font-size: 16px;
-  text-decoration: none;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  text-decoration: none; }
 
 /*----- HR PAGE DIVIDERS -----*/
 .hrHeader {
   border: 0.5px solid #fff;
   bottom: 15px;
-  margin-bottom: 7px;
+  margin: 0px 0px 7px 0px;
   position: relative;
   background-color: #fff; }
 
@@ -94,7 +94,17 @@ a:link, a:visited {
   height: 0;
   clear: both; }
 
-.nav_links:hover {
+/* Contents of this file:
+	* |NAVIGATION ON HOVER ANIMATION|
+	* |CTA ON HOVER ANIMATION|
+	* |SOCIAL ICONS ON HOVER ANIMATION|
+	* |WORK PAGE CASE STUDY IMAGES ON HOVER|
+	* |CONTACT FORM ANIMATION|
+*/
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+/** NESTING WHERE APPROPRIATE **/
+/*----- NAVIGATION ON HOVER ANIMATION -----*/
+body.hasHover .nav_links:hover {
   color: #aeaeb7;
   -o-transition: .3s;
   -ms-transition: .3s;
@@ -102,7 +112,8 @@ a:link, a:visited {
   -webkit-transition: .3s;
   transition: .3s; }
 
-.cta {
+/*----- CTA ON HOVER ANIMATION -----*/
+body.hasHover .cta {
   color: #fff;
   -o-transition: .3s;
   -ms-transition: .3s;
@@ -110,40 +121,67 @@ a:link, a:visited {
   -webkit-transition: .3s;
   transition: .3s; }
 
-.cta:hover, .cta:active {
+body.hasHover .cta:hover, .cta:active {
   background-color: #ffffff;
   color: #981036; }
 
+<<<<<<< HEAD
+/*----- SOCIAL ICONS ON HOVER ANIMATION -----*/
+body.hasHover .githubIcon {
+=======
+.quick_link_work {
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+.quick_link_work:hover {
+  color: #aeaeb7; }
+
 .githubIcon {
+>>>>>>> 8f1387b9649b906d23cde5389cdd06b43ebac113
   -o-transition: transform .3s;
   -ms-transition: transform .3s;
   -moz-transition: transform .3s;
   -webkit-transition: transform .3s;
   transition: transform .6s; }
 
-.githubIcon:hover, .githubIcon:active {
+body.hasHover .githubIcon:hover, .githubIcon:active {
   transform: scale(1.05); }
 
-.twitterIcon {
+body.hasHover .twitterIcon {
   -o-transition: transform .6s;
   -ms-transition: transform .6s;
   -moz-transition: transform .6s;
   -webkit-transition: transform .6s;
   transition: transform .6s; }
 
-.twitterIcon:hover, .twitterIcon:active {
+body.hasHover .twitterIcon:hover, .twitterIcon:active {
   transform: scale(1.05); }
 
-.linkedinIcon {
+body.hasHover .linkedinIcon {
   -o-transition: transform .6s;
   -ms-transition: transform .6s;
   -moz-transition: transform .6s;
   -webkit-transition: transform .6s;
   transition: transform .6s; }
 
-.linkedinIcon:hover, .linkedinIcon:active {
+body.hasHover .linkedinIcon:hover, .linkedinIcon:active {
   transform: scale(1.05); }
 
+/*----- WORK PAGE CASE STUDY IMAGES ON HOVER -----*/
+body.hasHover .overlay {
+  -o-transition: opacity .3s;
+  -ms-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s; }
+
+body.hasHover .overlayTrigger:hover .overlay {
+  opacity: .7; }
+
+/*----- CONTACT FORM ANIMATION -----*/
 input[type=submit] {
   -o-transition: .3s;
   -ms-transition: .3s;
@@ -193,13 +231,30 @@ textarea:focus {
   /* Chrome/Opera/Safari */
   color: #981036; }
 
+/* Contents of this file:
+	* |EXPERIENCE IN & COLUMNS|
+	* |QUICK LINKS WORK SHOWCASE|
+*/
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+/** NESTING WHERE APPROPRIATE **/
+/*----- EXPERIENCE IN & COLUMNS -----*/
 .experienceInCopy {
-  margin: 20px 0px 35px 48px;
+  margin: 20px 0px 35px 46px;
   font-size: 42px;
   text-align: left; }
 
 .threeColumnContainer {
-  margin-bottom: 35px;
+  margin: 0px 0px 35px 0px;
   text-align: center; }
 
 .Column {
@@ -233,11 +288,12 @@ textarea:focus {
   font-size: 35px;
   text-align: left; }
 
+/*----- QUICK LINKS WORK SHOWCASE -----*/
 .work_showcase_container {
-  margin: 20px 0px 0px 49px; }
+  margin: 40px 49px 0px 49px; }
 
 .selected_work_copy {
-  margin: 20px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   font-size: 42px; }
 
 .work_selects_title {
@@ -258,6 +314,24 @@ textarea:focus {
   padding: 0px 0px 3px 0px;
   font-size: 16px; }
 
+/* Contents of this file:
+	* |QUOTE|
+	* |ABOUT ME|
+	* |SKILLS|
+*/
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+/** NESTING WHERE APPROPRIATE **/
+/*----- QUOTE -----*/
 .quote {
   margin: 20px 58px 30px 40px;
   font-family: 'PT Sans', sans-serif;
@@ -268,17 +342,19 @@ textarea:focus {
 .tsEliot {
   font-size: 20px; }
 
+/*----- ABOUT ME -----*/
+.headerOneAboutPage {
+  margin: 45px 0px 35px 48px;
+  font-size: 42px; }
+
 .aboutMe {
   margin: 0px 48px 10px 48px;
   font-size: 16px;
   text-align: left; }
 
-.headerOneAboutPage {
-  margin: 45px 0px 35px 48px;
-  font-size: 42px; }
-
+/*----- SKILLS -----*/
 .mySkillsGrid {
-  margin: 0px 48px 0px 48px; }
+  margin: 0px 44px 0px 44px; }
 
 .columnContainer {
   display: inline-block; }
@@ -361,8 +437,24 @@ textarea:focus {
   font-size: 18px;
   text-align: center; }
 
+/* Contents of this file:
+	* |WORKED ON GRID|
+*/
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+/** NESTING WHERE APPROPRIATE **/
+/*----- WORKED ON GRID -----*/
 .workedOnCopy {
-  margin: 20px 0px 15px 48px;
+  margin: 20px 0px 15px 46px;
   font-size: 42px;
   text-align: left; }
 
@@ -370,17 +462,17 @@ textarea:focus {
   text-align: center; }
 
 .workImageContainer {
-  display: inline-block;
-  width: 42%;
-  height: auto;
   border: 2px solid #fff;
-  margin: 20px; }
+  display: inline-block;
+  height: auto;
+  margin: 20px;
+  width: 42%; }
 
 .overlayTrigger {
-  position: relative;
   display: block;
-  width: 100%;
   height: auto;
+  position: relative;
+  width: 100%;
   cursor: pointer; }
 
 .workImage {
@@ -388,74 +480,107 @@ textarea:focus {
   max-width: 100%; }
 
 .overlay {
-  position: absolute;
-  top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
   display: block;
-  opacity: 0;
-  width: 100%;
   height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
   background-color: white;
-  transition: opacity .3s; }
+  opacity: 0; }
 
 .overlayTextContainer {
-  width: 100%;
-  height: 100%;
   box-sizing: border-box;
-  padding: 10px 0px 0px 10px; }
+  height: 100%;
+  padding: 10px 0px 0px 10px;
+  width: 100%; }
 
 .overlayText {
-  color: #981036;
+  float: left;
   font-size: 22px;
-  float: left; }
-
-.overlayTrigger:hover .overlay {
-  opacity: .7; }
+  color: #981036; }
 
 .caseStudyText {
-  color: #981036;
+  display: none;
+  padding: 8px 0px 8px 15px;
   font-size: 20px;
   background-color: #fff;
-  padding: 8px 0px 8px 15px;
-  text-align: left;
-  display: none; }
+  color: #981036;
+  text-align: left; }
 
+/* Contents of this file:
+	* |CASE STUDY INTRO TEXT|
+	* |JQUERY IMAGE SLIDER PLUGIN|
+	* |CASE STUDY MAIN TEXT|
+*/
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+/** NESTING WHERE APPROPRIATE **/
+/*----- CASE STUDY INTRO TEXT -----*/
+.titleContainer {
+  margin: 20px 0px 0px 39px; }
+
+.theClient {
+  display: block;
+  margin: 0px 0px 5px 0px;
+  font-size: 42px;
+  text-align: left; }
+
+.theCampaign {
+  display: block;
+  margin: 0px 0px 30px 0px;
+  font-size: 42px;
+  text-align: left; }
+
+/*----- JQUERY IMAGE SLIDER PLUGIN -----*/
 .rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 91%;
-  padding: 0;
+  border: 1px solid #fff;
   margin: 0px auto 25px;
-  border: 1px solid #fff; }
+  padding: 0;
+  position: relative;
+  width: 91%;
+  list-style: none;
+  overflow: hidden; }
 
 .rslides li {
   -webkit-backface-visibility: hidden;
-  position: absolute;
   display: none;
-  width: 100%;
   left: 0;
-  top: 0; }
+  position: absolute;
+  top: 0;
+  width: 100%; }
 
 .rslides li:first-child {
-  position: relative;
   display: block;
-  float: left; }
+  float: left;
+  position: relative; }
 
 .rslides img {
+  border: 0;
   display: block;
-  height: auto;
   float: left;
-  width: 100%;
-  border: 0; }
+  height: auto;
+  width: 100%; }
+
+.larger {
+  display: none; }
 
 .slider {
-  overflow: hidden;
-  max-width: 88%;
+  border: 1px solid white;
   margin: 0px auto 20px;
-  border: 1px solid white; }
+  max-width: 88%;
+  overflow: hidden; }
 
 .slides {
   display: block;
@@ -465,97 +590,101 @@ textarea:focus {
 
 .slide {
   float: left;
-  list-style-type: none;
-  width: 845px; }
+  width: 845px;
+  list-style-type: none; }
 
 .galleryImg {
   display: block;
-  width: 100%;
-  height: auto; }
+  height: auto;
+  width: 100%; }
 
-.titleContainer {
-  margin: 20px 0px 0px 39px; }
-
-.theClient {
-  font-size: 42px;
-  text-align: left;
-  margin: 0px 0px 5px 0px;
-  display: block; }
-
-.theCampaign {
-  font-size: 42px;
-  text-align: left;
-  margin: 0px 0px 30px 0px;
-  display: block; }
-
+/*----- CASE STUDY MAIN TEXT -----*/
 .projectContainer {
   margin: 0px 0px 0px 43px; }
 
 .theProject {
-  font-size: 32px;
-  text-align: left;
   border-bottom: 2px solid;
+  display: inline-block;
   margin: 0px 0px 20px 0px;
-  display: inline-block; }
+  font-size: 32px;
+  text-align: left; }
 
 .projectInfo {
-  font-size: 16px;
-  margin: 0px 40px 10px 0px; }
+  margin: 0px 40px 10px 0px;
+  font-size: 16px; }
 
 .technologiesUsed {
-  font-size: 32px;
-  text-align: left;
   border-bottom: 2px solid;
+  display: inline-block;
   margin: 0px 0px 20px 0px;
-  display: inline-block; }
+  font-size: 32px;
+  text-align: left; }
 
 .techInfo {
-  font-size: 16px;
-  margin: 0px 0px 10px 17px; }
+  margin: 0px 0px 10px 17px;
+  font-size: 16px; }
 
 .techInfo > li {
   margin: 0px auto 5px 0px; }
 
 .resources {
-  font-size: 32px;
-  text-align: left;
   border-bottom: 2px solid;
+  display: inline-block;
   margin: 0px 0px 20px 0px;
-  display: inline-block; }
+  font-size: 32px;
+  text-align: left; }
 
 .resourcesInfo {
-  font-size: 16px;
-  margin: 0px auto 10px 0px; }
+  margin: 0px auto 10px 0px;
+  font-size: 16px; }
 
+/* Contents of this file:
+	* |INTRO TEXT/FORM BLURB|
+	* |FORM|
+*/
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+/** NESTING WHERE APPROPRIATE **/
+/*----- INTRO TEXT/FORM BLURB -----*/
 .letsTalk {
   box-sizing: border-box;
   display: block;
-  margin: 20px 0px 35px 48px;
+  margin: 20px 0px 35px 46px;
   font-size: 42px;
   vertical-align: top; }
 
 .formBlurb {
   box-sizing: border-box;
   display: inline-block;
-  width: 42%;
   margin: 0px 12px 10px 49px;
+  width: 42%;
   font-size: 16px;
   vertical-align: top; }
 
+/*----- FORM -----*/
 form {
   display: inline-block;
-  width: 43%;
-  margin: 0px 0px 30px 12px; }
+  margin: 0px 0px 30px 12px;
+  width: 43%; }
 
 form > input {
+  box-sizing: border-box;
   display: block;
-  background-color: transparent;
   padding: 5px 5px 0px 10px;
   width: 100%;
-  box-sizing: border-box;
+  font-size: 16px;
   line-height: 32px;
-  opacity: .6;
-  font-size: 16px; }
+  background-color: transparent;
+  opacity: .6; }
 
 form #fullname {
   border: 1px solid #fff; }
@@ -577,52 +706,70 @@ input[type=text] {
   opacity: .6; }
 
 input[type=submit] {
-  opacity: 1;
-  margin-top: 15px;
-  width: auto;
+  border-bottom: 2px solid #fff;
   border-left: 2px solid #fff;
   border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
-  font-family: iosRegular;
-  color: #ffffff;
-  font-size: 18px;
-  text-align: center;
+  margin-top: 15px;
   padding: 5px 25px 5px 25px;
-  cursor: pointer; }
+  width: auto;
+  font-family: iosRegular;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  opacity: 1;
+  text-align: center; }
 
 form > textarea {
-  background-color: transparent;
   border: none;
-  resize: none;
-  padding: 5px 5px 0px 10px;
-  width: 100%;
   box-sizing: border-box;
   display: block;
-  opacity: .6;
+  padding: 5px 5px 0px 10px;
+  width: 100%;
   font-family: iosRegular;
   font-size: 16px;
-  color: #ffffff; }
+  background-color: transparent;
+  color: #ffffff;
+  opacity: .6;
+  resize: none; }
 
 input:focus {
-  outline: none;
   font-family: iosRegular;
-  font-size: 16px; }
+  font-size: 16px;
+  outline: none; }
 
 textarea:focus {
-  outline: none;
   font-family: iosRegular;
-  font-size: 16px; }
+  font-size: 16px;
+  outline: none; }
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #fff;
   font-family: iosRegular;
-  font-size: 15px; }
+  font-size: 15px;
+  color: #fff; }
 
+/* Contents of this file:
+	* |HORIZONTAL LINE DIVDIER|
+	* |SIGNATURE AND SOCIAL ICONS|
+*/
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+/** NESTING WHERE APPROPRIATE **/
+/*----- HORIZONTAL LINE DIVIDER -----*/
 .hrFooter {
-  margin-bottom: 10px; }
+  margin: 0px 0px 10px 0px; }
 
+/*----- SIGNATURE AND SOCIAL ICONS -----*/
 .footerContainer {
   margin: 0px 55px 0px 40px; }
 
@@ -667,14 +814,28 @@ body {
   src: url("../font/iosevka-bold.woff2") format("woff2"), url("../font/iosevka-bold.woff") format("woff"), url("../font/iosevka-bold.ttf") format("ttf"); }
 
 /* BREAKPOINTS in this file:
-	* |BLURB|
-	* |CLEARFIX HACK|
-	* |CTA BUTTON|
-	* |HEADSHOT IMAGE CONTAINER|
-	* |HR PAGE DIVIDERS|
-	* |LOGO - MY NAME CONTAINER|
-	* |NAVIGATION|
+	* |max-width: 960px|
+	* |max-width: 860px|
+	* |max-width: 760px|
+
+ *-------|LINEAR LAYOUT BREAKPOINTS BELOW|-------*
+	* |max-width: 660px|
+	* |max-width: 540px|
+	* |max-width: 420px|
+	* |max-width: 380px|
 */
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+/** NESTING WHERE APPROPRIATE **/
 @media only screen and (max-width: 960px) {
   .container {
     width: 860px; }
@@ -694,10 +855,10 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 20px 0px 35px 57px; }
+    margin: 20px 0px 35px 53px; }
   .threeColumnContainer {
-    text-align: center;
-    margin: 0px 0px 0px 0px; }
+    margin: 0px 0px 0px 0px;
+    text-align: center; }
   .Column {
     margin: 0px 13.5px 0px 13.5px; }
   .frontEnd {
@@ -706,6 +867,8 @@ body {
     font-size: 31px; }
   .appDev {
     font-size: 31px; }
+  .work_showcase_container {
+    margin: 40px 49px 0px 55px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .headerOneAboutPage {
@@ -774,7 +937,7 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 20px 0px 35px 46px; }
+    margin: 20px 0px 35px 43px; }
   .Column {
     height: 240px;
     margin: 0px 13.5px 0px 13.5px; }
@@ -784,6 +947,8 @@ body {
     font-size: 26px; }
   .appDev {
     font-size: 26px; }
+  .work_showcase_container {
+    margin: 40px 49px 0px 47px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .ht {
@@ -866,7 +1031,7 @@ body {
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
-    margin: 10px 0px 25px 36px;
+    margin: 10px 0px 25px 32px;
     font-size: 35px; }
   .Column {
     height: 215px; }
@@ -876,6 +1041,10 @@ body {
     font-size: 21px; }
   .appDev {
     font-size: 21px; }
+  .work_showcase_container {
+    margin: 40px 49px 0px 35px; }
+  .selected_work_copy {
+    font-size: 35px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .ht {
@@ -960,7 +1129,13 @@ body {
     margin: 0px 0px 60px 0px;
     position: static;
     width: 100px;
-    font-size: 16px; }
+    font-size: 16px;
+    background-color: #fff;
+    color: #981036; }
+  a.cta:link, a.cta:visited {
+    /* display: block; */
+    color: #981036;
+    text-decoration: none; }
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
@@ -968,22 +1143,32 @@ body {
     font-size: 43px;
     text-align: center; }
   .Column {
-    width: 275px;
     height: 310px;
-    text-align: center;
-    left: 0; }
+    left: 0;
+    width: 275px;
+    text-align: center; }
   .frontEnd {
+    left: 0;
     font-size: 36px;
-    text-align: center;
-    left: 0; }
+    text-align: center; }
   .digitalDisplay {
+    left: 0;
     font-size: 37px;
-    text-align: center;
-    left: 0; }
+    text-align: center; }
   .appDev {
+    left: 0;
     font-size: 37px;
+<<<<<<< HEAD
+    text-align: center; }
+=======
     text-align: center;
     left: 0; }
+>>>>>>> 8f1387b9649b906d23cde5389cdd06b43ebac113
+  .work_showcase_container {
+    margin: 40px 25px 0px 25px; }
+  .selected_work_copy {
+    font-size: 43px;
+    text-align: center; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .quote {
@@ -1004,8 +1189,8 @@ body {
   /*****------- <WORK PAGE> -------*****/
   .workedOnCopy {
     margin: 20px 0px 15px 0px;
-    text-align: center;
-    font-size: 43px; }
+    font-size: 43px;
+    text-align: center; }
   .workImageContainer {
     width: auto; }
   /*****------- </WORK PAGE> -------*****/
@@ -1025,15 +1210,17 @@ body {
     text-align: center; }
   .formBlurb {
     display: block;
-    width: 80%;
     margin: 0px auto 30px auto;
+    width: 80%;
     text-align: center; }
   form {
-    width: 80%;
     display: block;
-    margin: 0px auto 35px auto; }
+    margin: 0px auto 35px auto;
+    width: 80%; }
   input[type=submit] {
-    margin: 25px auto 0px auto; }
+    margin: 25px auto 0px auto;
+    background-color: #ffffff;
+    color: #981036; }
   /*****------- </CONTACT PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerContainer {
@@ -1105,6 +1292,8 @@ body {
     font-size: 31px; }
   .appDev {
     font-size: 31px; }
+  .selected_work_copy {
+    font-size: 30px; }
   /*****------- </INTRO> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
   .workedOnCopy {

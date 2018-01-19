@@ -1,7 +1,27 @@
+/* Contents of this file:
+	* |WORKED ON GRID|
+*/
+
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+
+/** NESTING WHERE APPROPRIATE **/
+
 @import "variables";
 
+/*----- WORKED ON GRID -----*/
 .workedOnCopy{
-	margin:20px 0px 15px 48px;
+	margin:20px 0px 15px 46px;
 	font-size:42px;
 	text-align:left;
 }
@@ -10,58 +30,53 @@
 	text-align:center;
 }
 		.workImageContainer{
-			display:inline-block;
-			width:42%;
-			height:auto;
 			border:2px solid #fff;
+			display:inline-block;
+			height:auto;
 			margin:20px;
+			width:42%;
 		}
 			.overlayTrigger{
-				position:relative;
 				display:block;
-				width:100%;
 				height:auto;
-				cursor: pointer;
+				position:relative;
+				width:100%;
+				cursor:pointer;
 			}
 				.workImage{
 					display:block;
 					max-width:100%;
 				}
 				.overlay{
-					position:absolute;
-					top:0;
 					bottom:0;
-					left:0;
-					right:0;
 					display:block;
-					opacity:0;
-					width:100%;
 					height:auto;
+					left:0;
+					position:absolute;
+					right:0;
+					top:0;
+					width:100%;
 					background-color:white;
-					transition:opacity .3s;
+					opacity:0;
 				}
 					.overlayTextContainer{
-						width:100%;
-						height:100%;
 						box-sizing:border-box;
+						height:100%;
 						padding:10px 0px 0px 10px;
+						width:100%;
 					}
 						.overlayText{
-							color:$coreBgColor;
-							font-size:22px;
 							float:left;
+							font-size:22px;
+							color:$coreBgColor;
 						}
 
-				.overlayTrigger:hover .overlay{
-					opacity:.7;
-				}
-
 				.caseStudyText{
-					color:$coreBgColor;
+					display:none;
+					padding:8px 0px 8px 15px;
 					font-size:20px;
 					background-color:#fff;
-					padding:8px 0px 8px 15px;
+					color:$coreBgColor;
 					text-align:left;
-					display:none;
 				}
 

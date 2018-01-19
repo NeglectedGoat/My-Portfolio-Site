@@ -25,7 +25,6 @@
 
 @import "variables";
 
-
 /*----- LOGO - MY NAME CONTAINER -----*/
 .logoContainer{
 	display:inline-block;
@@ -43,8 +42,8 @@ nav{
 	}
 	a:link, a:visited{
 			/* display: block; */
-			text-decoration:none;
 			color:#fff;
+			text-decoration:none;
 		}
 	.clearfix > li{ 
 		float:left;
@@ -80,16 +79,16 @@ nav{
 	right:332px;
 	width:100px;	
 	font-size:16px;
-	text-decoration:none;
 	color:#fff;
 	text-align:center;	
+	text-decoration:none;
 }
 
 /*----- HR PAGE DIVIDERS -----*/
 .hrHeader{
 	border:0.5px solid #fff;
 	bottom:15px;
-	margin-bottom:7px;
+	margin:0px 0px 7px 0px;
 	position:relative;
 	background-color:#fff;
 }

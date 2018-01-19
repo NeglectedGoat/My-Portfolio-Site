@@ -1,41 +1,80 @@
+/* Contents of this file:
+	* |CASE STUDY INTRO TEXT|
+	* |JQUERY IMAGE SLIDER PLUGIN|
+	* |CASE STUDY MAIN TEXT|
+*/
+
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+
+/** NESTING WHERE APPROPRIATE **/
+
+/*----- CASE STUDY INTRO TEXT -----*/
+.titleContainer{
+	margin:20px 0px 0px 39px;
+}
+	.theClient{
+		display:block;
+		margin:0px 0px 5px 0px;
+		font-size:42px;
+		text-align:left;
+	}
+	.theCampaign{
+		display:block;
+		margin:0px 0px 30px 0px;
+		font-size:42px;
+		text-align:left;
+	}
+
+/*----- JQUERY IMAGE SLIDER PLUGIN -----*/
 .rslides {
+  border:1px solid #fff;
+  margin:0px auto 25px;
+  padding:0;
   position:relative;
+  width:91%;
   list-style:none;
   overflow:hidden;
-  width:91%;
-  padding:0;
-  margin:0px auto 25px;
-  border:1px solid #fff;
   }
 
 .rslides li {
   -webkit-backface-visibility:hidden;
-  position:absolute;
   display:none;
-  width:100%;
   left:0;
+  position:absolute;
   top:0;
+  width:100%;
   }
 
 .rslides li:first-child {
-  position:relative;
   display:block;
   float:left;
+  position:relative;
   }
 
-.rslides img {
-  display:block;
-  height:auto;
-  float:left;
-  width:100%;
-  border:0;
+.rslides img{
+	border:0;
+	display:block;
+	float:left;
+	height:auto;
+	width:100%;
   }
 
 .slider{
-	overflow:hidden;
-	max-width:88%;
-	margin:0px auto 20px;
 	border:1px solid white;
+	margin:0px auto 20px;
+	max-width:88%;
+	overflow:hidden;
 }
 	.slides{
 		display:block;
@@ -45,67 +84,52 @@
 	}
 		.slide{
 			float:left;
+			width:845px;
 			list-style-type:none;
-			width:845px
 		}
 			.galleryImg{
 				display:block;
-				width:100%;
 				height:auto;
+				width:100%;
 			}
 
-.titleContainer{
-	margin:20px 0px 0px 39px;
-}
-	.theClient{
-		font-size:42px;
-		text-align:left;
-		margin:0px 0px 5px 0px;
-		display:block;
-	}
-	.theCampaign{
-		font-size:42px;
-		text-align:left;
-		margin:0px 0px 30px 0px;
-		display:block;
-	}
-
+/*----- CASE STUDY MAIN TEXT -----*/
 .projectContainer{
 	margin:0px 0px 0px 43px;
 }
 	.theProject{
+		border-bottom:2px solid;
+		display:inline-block;
+		margin:0px 0px 20px 0px;
 		font-size:32px;
 		text-align:left;
-		border-bottom:2px solid;
-		margin:0px 0px 20px 0px;
-		display:inline-block;
 	}
 		.projectInfo{
-			font-size:16px;
 			margin:0px 40px 10px 0px;
+			font-size:16px;
 	}
 .technologiesUsed{
+	border-bottom:2px solid;
+	display:inline-block;
+	margin:0px 0px 20px 0px;
 	font-size:32px;
 	text-align:left;
-	border-bottom:2px solid;
-	margin:0px 0px 20px 0px;
-	display:inline-block;
 }
 	.techInfo{
-		font-size:16px;
 		margin:0px 0px 10px 17px;
+		font-size:16px;
 	}
 		.techInfo > li{
 			margin:0px auto 5px 0px;
 		}
 .resources{
+	border-bottom: 2px solid;
+	display: inline-block;
+	margin:0px 0px 20px 0px;
 	font-size:32px;
 	text-align:left;
-	border-bottom: 2px solid;
-	margin:0px 0px 20px 0px;
-	display: inline-block;
 }
 	.resourcesInfo{
-		font-size:16px;
 		margin:0px auto 10px 0px;
+		font-size:16px;
 	}

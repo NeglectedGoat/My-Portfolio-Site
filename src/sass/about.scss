@@ -1,5 +1,27 @@
+/* Contents of this file:
+	* |QUOTE|
+	* |ABOUT ME|
+	* |SKILLS|
+*/
+
+/** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
+
+/** 
+
+	ELEMENT PROPERTIES ARE ORGANIZED IN ORDER INTO: 
+		- Layout (Box Model/Positioning Stuff etc.)
+		- Typography (Font-Family, Font-Size etc.)
+		- Appearance (Color etc.)
+
+	UNDER EACH CATEGORY PROPERTIES ARE LAID OUT ALPHABETICALLY 
+
+**/
+
+/** NESTING WHERE APPROPRIATE **/
+
 @import "variables";
 
+/*----- QUOTE -----*/
 .quote{
 	margin:20px 58px 30px 40px;
 	font-family:'PT Sans', sans-serif;
@@ -10,17 +32,21 @@
 	.tsEliot{
 		font-size:20px;
 	}
+
+/*----- ABOUT ME -----*/	
+.headerOneAboutPage{
+	margin:45px 0px 35px 48px;
+	font-size:42px;
+}
 .aboutMe{
 	margin:0px 48px 10px 48px;
 	font-size:16px;
 	text-align:left;
 }
-.headerOneAboutPage{
-	margin:45px 0px 35px 48px;
-	font-size:42px;
-}
+
+/*----- SKILLS -----*/
 .mySkillsGrid{
-	margin:0px 48px 0px 48px;
+	margin:0px 44px 0px 44px;
 }
 	.columnContainer{
 		display:inline-block;

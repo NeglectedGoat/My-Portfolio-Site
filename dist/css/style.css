@@ -125,13 +125,7 @@ body.hasHover .cta:hover, .cta:active {
   background-color: #ffffff;
   color: #981036; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*----- SOCIAL ICONS ON HOVER ANIMATION -----*/
-body.hasHover .githubIcon {
-=======
-=======
->>>>>>> 8f1387b9649b906d23cde5389cdd06b43ebac113
 .quick_link_work {
   -o-transition: .3s;
   -ms-transition: .3s;
@@ -142,8 +136,7 @@ body.hasHover .githubIcon {
 .quick_link_work:hover {
   color: #aeaeb7; }
 
-.githubIcon {
->>>>>>> 8f1387b9649b906d23cde5389cdd06b43ebac113
+body.hasHover .githubIcon {
   -o-transition: transform .3s;
   -ms-transition: transform .3s;
   -moz-transition: transform .3s;
@@ -575,9 +568,6 @@ textarea:focus {
   float: left;
   height: auto;
   width: 100%; }
-
-.larger {
-  display: none; }
 
 .slider {
   border: 1px solid white;
@@ -1161,15 +1151,7 @@ body {
   .appDev {
     left: 0;
     font-size: 37px;
-<<<<<<< HEAD
     text-align: center; }
-=======
-    text-align: center;
-    left: 0; }
-<<<<<<< HEAD
->>>>>>> 8f1387b9649b906d23cde5389cdd06b43ebac113
-=======
->>>>>>> 8f1387b9649b906d23cde5389cdd06b43ebac113
   .work_showcase_container {
     margin: 40px 25px 0px 25px; }
   .selected_work_copy {

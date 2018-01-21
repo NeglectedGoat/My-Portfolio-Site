@@ -34,13 +34,8 @@ body.hasHover .cta:hover, .cta:active {
 	color:$coreBgColor;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /*----- SOCIAL ICONS ON HOVER ANIMATION -----*/
-body.hasHover .githubIcon{
-=======
-=======
->>>>>>> 8f1387b9649b906d23cde5389cdd06b43ebac113
 .quick_link_work{
 	-o-transition:.3s;
 	-ms-transition:.3s;
@@ -48,13 +43,11 @@ body.hasHover .githubIcon{
 	-webkit-transition:.3s;
 	transition: .3s;
 }
-
 .quick_link_work:hover{
 	color:#aeaeb7;
 }
 
-.githubIcon{
->>>>>>> 8f1387b9649b906d23cde5389cdd06b43ebac113
+body.hasHover .githubIcon{
 	-o-transition: transform .3s;
 	-ms-transition: transform .3s;
 	-moz-transition: transform .3s;

@@ -30,7 +30,7 @@
 		width:860px;
 	}
 
-	/*****------- <HEADER> -------*****/
+		/*****------- <HEADER> -------*****/
 		.logoContainer{
 			margin:50px 0px 0px 105px;
 		}
@@ -46,11 +46,11 @@
 		}
 		.cta{
 			bottom:120px;
-			left:450px;
+			left:457px;
 		}
-	/*****------- </HEADER> -------*****/
+		/*****------- </HEADER> -------*****/
 
-	/*****------- <INTRO PAGE> -------*****/
+		/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:20px 0px 35px 53px;
 		}
@@ -73,12 +73,14 @@
 		.work_showcase_container{
 			margin:40px 49px 0px 55px;
 		}
+		/*****------- </INTRO PAGE> -------*****/
 
-	/*****------- </INTRO PAGE> -------*****/
-
-	/*****------- <ABOUT PAGE> -------*****/
-		.headerOneAboutPage{
-			margin:45px 0px 35px 45px;
+		/*****------- <ABOUT PAGE> -------*****/
+		.worked_on_copy{
+			margin:20px 0px 15px 47px;
+		}
+		.about_me_container{
+			margin:0px 50px 0px 53px;
 		}
 		.ht{
 			margin:0px 105px 15px 105px;
@@ -116,31 +118,40 @@
 		.photoshopTitle{
 			margin:0px 50px 55px 50px;
 		}
-	/*****------- </ABOUT PAGE> -------*****/
+		/*****------- </ABOUT PAGE> -------*****/
 
-	/*****------- <WORK PAGE> -------*****/
-	.workedOnCopy{
-	margin:20px 0px 15px 42px;
-	}
-	.overlayText{
-		right:95px;
-	}
-	/*****------- </WORK PAGE> -------*****/
-
-		/*****------- <CASE STUDY PAGE> -------*****/
-		.titleContainer{
-			margin:20px 0px 0px 34px;
+		/*****------- <WORK PAGE> -------*****/
+		.workedOnCopy{
+		margin:20px 0px 15px 42px;
 		}
-		.projectContainer{
-			margin: 0px 0px 0px 39px;
+		.workImageContainer{
+			margin:10px;
 		}
-		/*****------- </CASE STUDY PAGE> -------*****/
+			.overlayText{
+				right:95px;
+			}
+		/*****------- </WORK PAGE> -------*****/
 
-	/*****------- <CONTACT PAGE> -------*****/
-	form{
-		margin:0px 0px 30px 25px;
-	}
-	/*****------- </CONTACT PAGE> -------*****/
+			/*****------- <CASE STUDY PAGE> -------*****/
+			.titleContainer{
+				margin:20px 0px 0px 34px;
+			}
+			.projectContainer{
+				margin: 0px 0px 0px 39px;
+			}
+			/*****------- </CASE STUDY PAGE> -------*****/
+
+		/*****------- <CONTACT PAGE> -------*****/
+		form{
+			margin:0px 0px 30px 25px;
+		}
+		/*****------- </CONTACT PAGE> -------*****/
+	
+		/*****------- <FOOTER> -------*****/
+		.footerContainer{
+			margin:0px 52px 0px 53px;
+		}
+		/*****------- </FOOTER> -------*****/
 }
 
 @media only screen and (max-width: 860px) {
@@ -148,7 +159,7 @@
 		width:760px;
 	}
 
-	/*****------- <HEADER> -------*****/
+		/*****------- <HEADER> -------*****/
 		.logoContainer{
 			margin:45px 0px 0px 85px;
 		}
@@ -168,11 +179,11 @@
 		}
 		.cta{
 			bottom:105px;
-			left:395px;
+			left:402px;
 		}
-	/*****------- </HEADER> -------*****/
+		/*****------- </HEADER> -------*****/
 
-	/*****------- <INTRO PAGE> -------*****/
+		/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:20px 0px 35px 43px;
 		}
@@ -192,9 +203,12 @@
 		.work_showcase_container{
 			margin:40px 49px 0px 47px;
 		}
-	/*****------- </INTRO PAGE> -------*****/
+		/*****------- </INTRO PAGE> -------*****/
 
-	/*****------- <ABOUT PAGE> -------*****/
+		/*****------- <ABOUT PAGE> -------*****/
+		.about_me_container{
+			margin:0px 47px 0px 47px;
+		}
 		.ht{
 			margin:0px 0px 15px 89px;
 		}
@@ -231,47 +245,47 @@
 		.photoshopTitle{
 			margin:0px 35px 55px 35px;
 		}
-	/*****------- </ABOUT PAGE> -------*****/
+		/*****------- </ABOUT PAGE> -------*****/
 
-	/*****------- <WORK PAGE> -------*****/
-	.workedOnCopy{
-	margin:20px 0px 15px 34px;
-	}
-	.overlayTrigger:hover .overlay{
-				display: none;
-				}
-	.caseStudyText{
-		display: block;
-	}
-	/*****------- </WORK PAGE> -------*****/
+		/*****------- <WORK PAGE> -------*****/
+		.worked_on_copy{
+			margin:20px 0px 15px 39px;
+		}
+		.overlayTrigger:hover .overlay{
+					display: none;
+					}
+		.caseStudyText{
+			display: block;
+		}
+		/*****------- </WORK PAGE> -------*****/
 
-		/*****------- <CASE STUDY PAGE> -------*****/
-		.titleContainer{
-			margin:20px 0px 0px 30px;
-		}
-		.projectContainer{
-			margin: 0px 0px 0px 35px;
-		}
-		/*****------- </CASE STUDY PAGE> -------*****/
+			/*****------- <CASE STUDY PAGE> -------*****/
+			.titleContainer{
+				margin:20px 0px 0px 30px;
+			}
+			.projectContainer{
+				margin: 0px 0px 0px 35px;
+			}
+			/*****------- </CASE STUDY PAGE> -------*****/
 	
-	/*****------- <CONTACT PAGE> -------*****/
-	.letsTalk{
-		margin:20px 0px 35px 31px;
-	}
-	.formBlurb{
-		margin: 0px 19px 10px 33px;
-	}
-	form{
-		margin:0px 0px 30px 22px;
-	}
-
-	/*****------- </CONTACT PAGE> -------*****/
-
-	/*****------- <FOOTER> -------*****/
-		.footerContainer{
-			margin:0px 50px 0px 35px;
+		/*****------- <CONTACT PAGE> -------*****/
+		.letsTalk{
+			margin:20px 0px 35px 31px;
 		}
-	/*****------- </FOOTER> -------*****/
+		.formBlurb{
+			margin: 0px 19px 10px 33px;
+		}
+		form{
+			margin:0px 0px 30px 22px;
+		}
+
+		/*****------- </CONTACT PAGE> -------*****/
+
+		/*****------- <FOOTER> -------*****/
+		.footerContainer{
+			margin:0px 42px 0px 46px;
+		}
+		/*****------- </FOOTER> -------*****/
 }
 
 @media only screen and (max-width: 760px) {
@@ -279,7 +293,7 @@
 		width:660px;
 	}
 
-	/*****------- <HEADER> -------*****/
+		/*****------- <HEADER> -------*****/
 		.logoContainer{
 			margin:35px 0px 0px 65px;
 		}
@@ -305,13 +319,13 @@
 		}
 		.cta{
 			bottom:100px;
-			left:355px;
+			left:362px;
 			width:80px;
 			font-size:13px;
 		}
-	/*****------- </HEADER> -------*****/
+		/*****------- </HEADER> -------*****/
 
-	/*****------- <INTRO PAGE> -------*****/
+		/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:10px 0px 25px 32px;
 			font-size:35px;
@@ -334,71 +348,76 @@
 			.selected_work_copy{
 				font-size:35px;
 			}
-	/*****------- </INTRO PAGE> -------*****/
+		/*****------- </INTRO PAGE> -------*****/
 
-	/*****------- <ABOUT PAGE> -------*****/
-	.ht{
-		margin:0px 78px 15px 70px;
-	}
-	.htmlTitle{
-		margin:0px 14px 45px 14px;
-	}
-	.sc{
-		margin:0px 78px 15px 70px;
-	}
-	.scssTitle{
-		margin:0px 14px 45px 14px;
-	}
-	.js{
-		margin:0px 18px 15px 70px;
-	}
-	.javaScriptTitle{
-		margin:0px 15px 45px 15px;
-	}
-	.jq{
-		margin:0px 78px 15px 70px;
-	}
-	.jqueryTitle{
-		margin:0px 14px 45px 14px;
-	}
-	.aa{
-		margin:0px 78px 15px 70px;
-	}
-	.adobeAnimateTitle{
-		margin:0px 14px 45px 14px;
-	}
-	.ps{
-		margin:0px 18px 15px 70px;
-	}
-	.photoshopTitle{
-		margin:0px 15px 45px 15px;
-	}
-	/*****------- </ABOUT PAGE> -------*****/
-
-	/*****------- <WORK PAGE> -------*****/
-	.workedOnCopy{
-	margin:20px 0px 15px 27px;
-	}
-
-	/*****------- </WORK PAGE> -------*****/
-
-		/*****------- <CASE STUDY PAGE> -------*****/
-		.titleContainer{
-			margin:20px 0px 0px 25px;
+		/*****------- <ABOUT PAGE> -------*****/
+		.about_me_container{
+			margin:0px 36px 0px 34px;
 		}
-		.projectContainer{
-			margin:0px 0px 0px 30px;
+		.quote{
+			margin:20px 25px 30px 25px;
 		}
-			.projectInfo{
-				margin:0px 15px 10px 0px;
+		.ht{
+			margin:0px 78px 15px 70px;
+		}
+		.htmlTitle{
+			margin:0px 14px 45px 14px;
+		}
+		.sc{
+			margin:0px 78px 15px 70px;
+		}
+		.scssTitle{
+			margin:0px 14px 45px 14px;
+		}
+		.js{
+			margin:0px 18px 15px 70px;
+		}
+		.javaScriptTitle{
+			margin:0px 15px 45px 15px;
+		}
+		.jq{
+			margin:0px 78px 15px 70px;
+		}
+		.jqueryTitle{
+			margin:0px 14px 45px 14px;
+		}
+		.aa{
+			margin:0px 78px 15px 70px;
+		}
+		.adobeAnimateTitle{
+			margin:0px 14px 45px 14px;
+		}
+		.ps{
+			margin:0px 18px 15px 70px;
+		}
+		.photoshopTitle{
+			margin:0px 15px 45px 15px;
+		}
+		/*****------- </ABOUT PAGE> -------*****/
+
+		/*****------- <WORK PAGE> -------*****/
+		.worked_on_copy{
+			margin:20px 0px 15px 33px;
+		}
+		/*****------- </WORK PAGE> -------*****/
+
+			/*****------- <CASE STUDY PAGE> -------*****/
+			.titleContainer{
+				margin:20px 0px 0px 25px;
 			}
-		/*****------- </CASE STUDY PAGE> -------*****/
+			.projectContainer{
+				margin:0px 0px 0px 30px;
+			}
+				.projectInfo{
+					margin:0px 15px 10px 0px;
+				}
+			/*****------- </CASE STUDY PAGE> -------*****/
 
-	/*****------- <FOOTER> -------*****/
+		/*****------- <FOOTER> -------*****/
 		.footerContainer{
-			margin:0px 20px 0px 30px;
+			margin:0px 32px 0px 34px;
 		}
-	/*****------- </FOOTER> -------*****/
+		/*****------- </FOOTER> -------*****/
 }
 
 @media only screen and (max-width: 660px) {
@@ -406,7 +425,7 @@
 		width:520px;
 	}
 
-	/*****------- <HEADER> -------*****/
+		/*****------- <HEADER> -------*****/
 		.logoContainer{
 			display:block;
 			margin:35px 0px 0px 0px;
@@ -427,7 +446,7 @@
 				li > a{
 					font-size:16px;
 				}
-	/*** --Centers headshot, blurb and CTA on smaller screens-- ***/
+		/*** --Centers headshot, blurb and CTA on smaller screens-- ***/
 		.headshotAndBlurbContainer{
 			text-align:center;
 		}
@@ -461,9 +480,9 @@
 					color:$coreBgColor;
 					text-decoration:none;
 				}
-	/*****------- </HEADER> -------*****/
+		/*****------- </HEADER> -------*****/
 
-	/*****------- <INTRO PAGE> -------*****/
+		/*****------- <INTRO PAGE> -------*****/
 		.experienceInCopy{
 			margin:20px 0px 35px 0px;
 			font-size:43px;
@@ -497,81 +516,85 @@
 				font-size:43px;
 				text-align:center;
 			}
-	/*****------- </INTRO PAGE> -------*****/
+		/*****------- </INTRO PAGE> -------*****/
 
-	/*****------- <ABOUT PAGE> -------*****/
-	.quote{
-		margin:30px 0px 30px 0px;
-	}
-	.tsEliot{
-		display: block;
-		margin:20px 0px 0px 0px;
-	}
-	.aboutMe{
-		margin:0px 15px 10px 15px;
-	}
-	.headerOneAboutPage{
-		margin:45px 0px 35px 12px;
-	}
-	.mySkillsGrid{
-		margin: 0px auto 0px auto;
-		text-align: center;
-	}
-		.columnContainer > div {
-			margin:0px 20px 25px 20px;
+		/*****------- <ABOUT PAGE> -------*****/
+		.about_me_container{
+			margin:0px 0px 0px 0px;
 		}
-	/*****------- </ABOUT PAGE> -------*****/
+		.quote{
+			margin:30px 0px 30px 0px;
+		}
+		.tsEliot{
+			display: block;
+			margin:20px 0px 0px 0px;
+		}
+		.aboutMe{
+			margin:0px 15px 10px 15px;
+		}
+		.headerOneAboutPage{
+			margin:45px 0px 35px 12px;
+		}
+		.mySkillsGrid{
+			margin: 0px auto 0px auto;
+			text-align: center;
+		}
+			.columnContainer > div {
+				margin:0px 20px 25px 20px;
+			}
+		/*****------- </ABOUT PAGE> -------*****/
 
-	/*****------- <WORK PAGE> -------*****/
+		/*****------- <WORK PAGE> -------*****/
 		.workedOnCopy{
 			margin:20px 0px 15px 0px;
 			font-size: 43px;
 			text-align: center;
 		}
 		.workImageContainer{
+			margin:20px;
 			width:auto;
 		}
-	/*****------- </WORK PAGE> -------*****/
+		/*****------- </WORK PAGE> -------*****/
 
-		/*****------- <CASE STUDY PAGE> -------*****/
-		.titleContainer{
-			margin:20px 0px 0px 20px;
-		}
-			.theClient{
-				font-size:34px;
+			/*****------- <CASE STUDY PAGE> -------*****/
+			.titleContainer{
+				margin:20px 0px 0px 20px;
 			}
-			.theCampaign{
-				font-size:34px;
+				.theClient{
+					font-size:34px;
+				}
+				.theCampaign{
+					font-size:34px;
+				}
+			.projectContainer{
+				margin: 0px 0px 0px 24px;
 			}
-		.projectContainer{
-			margin: 0px 0px 0px 24px;
-		}
-		/*****------- </CASE STUDY PAGE> -------*****/
+			/*****------- </CASE STUDY PAGE> -------*****/
 
-	/*****------- <CONTACT PAGE> -------*****/
-	.letsTalk{
-		margin:20px auto 20px auto;
-		text-align: center;
-	}
-	.formBlurb{
-		display: block;
-		margin:0px auto 30px auto;
-		width: 80%;
-		text-align: center;
-	}
-	form{
-		display: block;
-		margin:0px auto 35px auto;
-		width:80%;
-	}
-		input[type=submit]{
-			margin:25px auto 0px auto;
-			background-color::$primaryTextWhite; 
-			color:$coreBgColor;
+		/*****------- <CONTACT PAGE> -------*****/
+		.letsTalk{
+			margin:20px auto 20px auto;
+			text-align: center;
 		}
-	/*****------- </CONTACT PAGE> -------*****/
+		.formBlurb{
+			display: block;
+			margin:0px auto 30px auto;
+			width: 80%;
+			text-align: center;
+		}
+		form{
+			display: block;
+			margin:0px auto 35px auto;
+			width:80%;
+		}
+			input[type=submit]{
+				margin:25px auto 0px auto;
+				background-color::$primaryTextWhite; 
+				color:$coreBgColor;
+			}
+		/*****------- </CONTACT PAGE> -------*****/
 
-	/*****------- <FOOTER> -------*****/
+		/*****------- <FOOTER> -------*****/
 		.footerContainer{
 			margin:0px 0px 0px 0px;
 		}
@@ -587,14 +610,14 @@
 			margin:0px 0px 0px 0px;
 			text-align:center;
 		}
-	/*****------- </FOOTER> -------*****/
+		/*****------- </FOOTER> -------*****/
 }
 
 @media only screen and (max-width: 540px) {
 	.container{
 		width:410px;
 	}
-	/*****------- <HEADER> -------*****/
+		/*****------- <HEADER> -------*****/
 		.blurb {
 			width:90%;
 			font-size:36px;
@@ -602,9 +625,9 @@
 		.quote{
 			margin:30px 12px 30px 12px;
 		}
-	/*****------- </HEADER> -------*****/
+		/*****------- </HEADER> -------*****/
 
-	/*****------- <ABOUT PAGE> -------*****/
+		/*****------- <ABOUT PAGE> -------*****/
 		.headerOneAboutPage{
 			margin:45px 0px 35px 19px;
 			font-size:35px;
@@ -618,86 +641,89 @@
 		.columnContainer > div {
 			margin:0px 20px 20px 20px;
 			}
-	/*****------- </ABOUT PAGE> -------*****/
+		/*****------- </ABOUT PAGE> -------*****/
 
-	/*****------- <ABOUT PAGE> -------*****/
-	.workedOnCopy{
-		font-size:35px;
-	}
-	/*****------- </ABOUT PAGE> -------*****/
+		/*****------- <ABOUT PAGE> -------*****/
+		.workedOnCopy{
+			font-size:35px;
+		}
+		/*****------- </ABOUT PAGE> -------*****/
 
-	/*****------- <CASE STUDY PAGE> -------*****/
-	.titleContainer{
-		margin:20px 0px 0px 16px;
-	}
-		.theClient{
-			font-size:31px;
-		}
-		.theCampaign{
-			font-size:31px;
-		}
-	.projectContainer{
-		margin:0px 0px 0px 19px;
-	}
-	/*****------- </CASE STUDY PAGE> -------*****/
+			/*****------- <CASE STUDY PAGE> -------*****/
+			.titleContainer{
+				margin:20px 0px 0px 16px;
+			}
+				.theClient{
+					font-size:31px;
+				}
+				.theCampaign{
+					font-size:31px;
+				}
+			.projectContainer{
+				margin:0px 0px 0px 19px;
+			}
+			/*****------- </CASE STUDY PAGE> -------*****/
 }
 
 @media only screen and (max-width: 420px) {
 	.container{
 		width:380px;
 	}
-	/*****------- <HEADER> -------*****/
+		/*****------- <HEADER> -------*****/
 		.blurb{
 			font-size:32px;
 		}
-	/*****------- </HEADER> -------*****/
+		/*****------- </HEADER> -------*****/
 
-	/*****------- <INTRO> -------*****/
-	.experienceInCopy{
-	font-size:30px;
-	}
-	.Column{
-		height:265px;
-		width:230px;
-	}
-		.frontEnd{
+		/*****------- <INTRO> -------*****/
+		.experienceInCopy{
+		font-size:30px;
+		}
+		.Column{
+			height:265px;
+			width:230px;
+		}
+			.frontEnd{
+				font-size:30px;
+			}
+			.digitalDisplay{
+				font-size:31px;
+			}
+			.appDev{
+				font-size:31px;
+			}
+		.selected_work_copy{
 			font-size:30px;
 		}
-		.digitalDisplay{
+		/*****------- </INTRO> -------*****/
+
+		/*****------- <ABOUT PAGE> -------*****/
+		.workedOnCopy{
 			font-size:31px;
 		}
-		.appDev{
+		/*****------- </ABOUT PAGE> -------*****/
+
+			/*****------- <CASE STUDY PAGE> -------*****/
+			.titleContainer{
+				margin:20px 0px 0px 14px;
+			}
+			.projectContainer{
+				margin:0px 0px 0px 18px;
+			}
+			/*****------- </CASE STUDY PAGE> -------*****/
+
+		/*****------- <CONTACT PAGE> -------*****/
+		.letsTalk{
 			font-size:31px;
 		}
-	.selected_work_copy{
-		font-size:30px;
-	}
-	/*****------- </INTRO> -------*****/
-
-	/*****------- <ABOUT PAGE> -------*****/
-	.workedOnCopy{
-		font-size:31px;
-	}
-	/*****------- </ABOUT PAGE> -------*****/
-
-	/*****------- <CASE STUDY PAGE> -------*****/
-	.projectContainer{
-		margin:0px 0px 0px 18px;
-	}
-	/*****------- </CASE STUDY PAGE> -------*****/
-
-	/*****------- <CONTACT PAGE> -------*****/
-	.letsTalk{
-		font-size:31px;
-	}
-	/*****------- </CONTACT PAGE> -------*****/
+		/*****------- </CONTACT PAGE> -------*****/
 }
 
 @media only screen and (max-width: 380px) {
 	.container{
 		width:320px;
 	}
-	/*****------- <HEADER> -------*****/
+		/*****------- <HEADER> -------*****/
 		.headshot{
 			width:320px;
 
@@ -705,11 +731,14 @@
 		.blurb{
 			width:80%;
 		}
-	/*****------- </HEADER> -------*****/
+		/*****------- </HEADER> -------*****/
 
-	/*****------- <CASE STUDY PAGE> -------*****/
-	.projectContainer{
-		margin:0px 0px 0px 14px;
-	}
-	/*****------- </CASE STUDY PAGE> -------*****/
+			/*****------- <CASE STUDY PAGE> -------*****/
+			.titleContainer{
+				margin:20px 0px 0px 11px;
+			}
+			.projectContainer{
+				margin:0px 0px 0px 14px;
+			}
+			/*****------- </CASE STUDY PAGE> -------*****/
 }

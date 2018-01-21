@@ -104,13 +104,16 @@ a:link, a:visited {
 /** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
 /** NESTING WHERE APPROPRIATE **/
 /*----- NAVIGATION ON HOVER ANIMATION -----*/
-body.hasHover .nav_links:hover {
-  color: #aeaeb7;
+body.hasHover .nav_links {
+  color: #fff;
   -o-transition: .3s;
   -ms-transition: .3s;
   -moz-transition: .3s;
   -webkit-transition: .3s;
   transition: .3s; }
+
+body.hasHover .nav_links:hover {
+  color: #aeaeb7; }
 
 /*----- CTA ON HOVER ANIMATION -----*/
 body.hasHover .cta {
@@ -125,23 +128,25 @@ body.hasHover .cta:hover, .cta:active {
   background-color: #ffffff;
   color: #981036; }
 
-/*----- SOCIAL ICONS ON HOVER ANIMATION -----*/
-.quick_link_work {
+/*----- QUICK LINKS WORK ON HOVER ANIMATION -----*/
+body.hasHover .quick_link_work {
+  color: #fff;
   -o-transition: .3s;
   -ms-transition: .3s;
   -moz-transition: .3s;
   -webkit-transition: .3s;
   transition: .3s; }
 
-.quick_link_work:hover {
+body.hasHover .quick_link_work:hover {
   color: #aeaeb7; }
 
+/*----- SOCIAL ICONS ON HOVER ANIMATION -----*/
 body.hasHover .githubIcon {
-  -o-transition: transform .3s;
-  -ms-transition: transform .3s;
-  -moz-transition: transform .3s;
-  -webkit-transition: transform .3s;
-  transition: transform .6s; }
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .6s; }
 
 body.hasHover .githubIcon:hover, .githubIcon:active {
   transform: scale(1.05); }
@@ -339,12 +344,15 @@ textarea:focus {
   font-size: 20px; }
 
 /*----- ABOUT ME -----*/
+.about_me_container {
+  margin: 0px 50px 0px 50px; }
+
 .headerOneAboutPage {
-  margin: 45px 0px 35px 48px;
+  margin: 45px 0px 35px 0px;
   font-size: 42px; }
 
 .aboutMe {
-  margin: 0px 48px 10px 48px;
+  margin: 0px 0px 10px 0px;
   font-size: 16px;
   text-align: left; }
 
@@ -449,12 +457,13 @@ textarea:focus {
 **/
 /** NESTING WHERE APPROPRIATE **/
 /*----- WORKED ON GRID -----*/
-.workedOnCopy {
+.worked_on_copy {
   margin: 20px 0px 15px 46px;
   font-size: 42px;
   text-align: left; }
 
 .workExamplesGrid {
+  margin: 0px 0px 15px 0px;
   text-align: center; }
 
 .workImageContainer {
@@ -535,7 +544,7 @@ textarea:focus {
 
 .theCampaign {
   display: block;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 25px 0px;
   font-size: 42px;
   text-align: left; }
 
@@ -593,7 +602,7 @@ textarea:focus {
 
 /*----- CASE STUDY MAIN TEXT -----*/
 .projectContainer {
-  margin: 0px 0px 0px 43px; }
+  margin: 0px 0px 0px 42px; }
 
 .theProject {
   border-bottom: 2px solid;
@@ -764,7 +773,7 @@ textarea:focus {
 
 /*----- SIGNATURE AND SOCIAL ICONS -----*/
 .footerContainer {
-  margin: 0px 55px 0px 40px; }
+  margin: 0px 47px 0px 49px; }
 
 .footerSig {
   display: inline-block;
@@ -844,7 +853,7 @@ body {
     font-size: 45px; }
   .cta {
     bottom: 120px;
-    left: 450px; }
+    left: 457px; }
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
@@ -864,8 +873,10 @@ body {
     margin: 40px 49px 0px 55px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
-  .headerOneAboutPage {
-    margin: 45px 0px 35px 45px; }
+  .worked_on_copy {
+    margin: 20px 0px 15px 47px; }
+  .about_me_container {
+    margin: 0px 50px 0px 53px; }
   .ht {
     margin: 0px 105px 15px 105px; }
   .htmlTitle {
@@ -894,6 +905,8 @@ body {
   /*****------- <WORK PAGE> -------*****/
   .workedOnCopy {
     margin: 20px 0px 15px 42px; }
+  .workImageContainer {
+    margin: 10px; }
   .overlayText {
     right: 95px; }
   /*****------- </WORK PAGE> -------*****/
@@ -906,7 +919,11 @@ body {
   /*****------- <CONTACT PAGE> -------*****/
   form {
     margin: 0px 0px 30px 25px; }
-  /*****------- </CONTACT PAGE> -------*****/ }
+  /*****------- </CONTACT PAGE> -------*****/
+  /*****------- <FOOTER> -------*****/
+  .footerContainer {
+    margin: 0px 52px 0px 53px; }
+  /*****------- </FOOTER> -------*****/ }
 
 @media only screen and (max-width: 860px) {
   .container {
@@ -926,7 +943,7 @@ body {
     font-size: 40px; }
   .cta {
     bottom: 105px;
-    left: 395px; }
+    left: 402px; }
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
@@ -944,6 +961,8 @@ body {
     margin: 40px 49px 0px 47px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
+  .about_me_container {
+    margin: 0px 47px 0px 47px; }
   .ht {
     margin: 0px 0px 15px 89px; }
   .htmlTitle {
@@ -970,8 +989,8 @@ body {
     margin: 0px 35px 55px 35px; }
   /*****------- </ABOUT PAGE> -------*****/
   /*****------- <WORK PAGE> -------*****/
-  .workedOnCopy {
-    margin: 20px 0px 15px 34px; }
+  .worked_on_copy {
+    margin: 20px 0px 15px 39px; }
   .overlayTrigger:hover .overlay {
     display: none; }
   .caseStudyText {
@@ -993,7 +1012,7 @@ body {
   /*****------- </CONTACT PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerContainer {
-    margin: 0px 50px 0px 35px; }
+    margin: 0px 42px 0px 46px; }
   /*****------- </FOOTER> -------*****/ }
 
 @media only screen and (max-width: 760px) {
@@ -1018,7 +1037,7 @@ body {
     font-size: 35px; }
   .cta {
     bottom: 100px;
-    left: 355px;
+    left: 362px;
     width: 80px;
     font-size: 13px; }
   /*****------- </HEADER> -------*****/
@@ -1040,6 +1059,10 @@ body {
     font-size: 35px; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
+  .about_me_container {
+    margin: 0px 36px 0px 34px; }
+  .quote {
+    margin: 20px 25px 30px 25px; }
   .ht {
     margin: 0px 78px 15px 70px; }
   .htmlTitle {
@@ -1066,8 +1089,8 @@ body {
     margin: 0px 15px 45px 15px; }
   /*****------- </ABOUT PAGE> -------*****/
   /*****------- <WORK PAGE> -------*****/
-  .workedOnCopy {
-    margin: 20px 0px 15px 27px; }
+  .worked_on_copy {
+    margin: 20px 0px 15px 33px; }
   /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .titleContainer {
@@ -1079,7 +1102,7 @@ body {
   /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerContainer {
-    margin: 0px 20px 0px 30px; }
+    margin: 0px 32px 0px 34px; }
   /*****------- </FOOTER> -------*****/ }
 
 @media only screen and (max-width: 660px) {
@@ -1159,6 +1182,8 @@ body {
     text-align: center; }
   /*****------- </INTRO PAGE> -------*****/
   /*****------- <ABOUT PAGE> -------*****/
+  .about_me_container {
+    margin: 0px 0px 0px 0px; }
   .quote {
     margin: 30px 0px 30px 0px; }
   .tsEliot {
@@ -1180,6 +1205,7 @@ body {
     font-size: 43px;
     text-align: center; }
   .workImageContainer {
+    margin: 20px;
     width: auto; }
   /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
@@ -1288,6 +1314,8 @@ body {
     font-size: 31px; }
   /*****------- </ABOUT PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
+  .titleContainer {
+    margin: 20px 0px 0px 14px; }
   .projectContainer {
     margin: 0px 0px 0px 18px; }
   /*****------- </CASE STUDY PAGE> -------*****/
@@ -1306,6 +1334,8 @@ body {
     width: 80%; }
   /*****------- </HEADER> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
+  .titleContainer {
+    margin: 20px 0px 0px 11px; }
   .projectContainer {
     margin: 0px 0px 0px 14px; }
   /*****------- </CASE STUDY PAGE> -------*****/ }

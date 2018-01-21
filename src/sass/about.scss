@@ -34,15 +34,18 @@
 	}
 
 /*----- ABOUT ME -----*/	
-.headerOneAboutPage{
-	margin:45px 0px 35px 48px;
-	font-size:42px;
+.about_me_container{
+	margin:0px 50px 0px 50px;
 }
-.aboutMe{
-	margin:0px 48px 10px 48px;
-	font-size:16px;
-	text-align:left;
-}
+	.headerOneAboutPage{
+		margin:45px 0px 35px 0px;
+		font-size:42px;
+	}
+	.aboutMe{
+		margin:0px 0px 10px 0px;
+		font-size:16px;
+		text-align:left;
+	}
 
 /*----- SKILLS -----*/
 .mySkillsGrid{

@@ -37,7 +37,7 @@
 		nav{
 			margin:50px 0px 0px 180px;
 		}
-		.headshot{
+		#headshot{
 			width:365px;
 		}
 		.blurb{
@@ -169,7 +169,7 @@
 			li > a{
 				font-size:14px;
 			}
-		.headshot{
+		#headshot{
 			width:320px;
 		}
 		.blurb{
@@ -309,7 +309,7 @@
 		.headshotContainer{
 			margin:70px 0px 0px 5px;
 		}
-			.headshot{
+			#headshot{
 				width:285px;
 			}
 		.blurb{
@@ -446,7 +446,7 @@
 				li > a{
 					font-size:16px;
 				}
-		/*** --Centers headshot, blurb and CTA on smaller screens-- ***/
+		/*** --Centers#headshot, blurb and CTA on smaller screens-- ***/
 		.headshotAndBlurbContainer{
 			text-align:center;
 		}
@@ -462,7 +462,7 @@
 				display:block;
 				margin:40px 0px 0px 0px;
 			}
-				.headshot{
+				#headshot{
 					width:401px;
 				}
 		.cta{
@@ -724,7 +724,7 @@
 		width:320px;
 	}
 		/*****------- <HEADER> -------*****/
-		.headshot{
+		#headshot{
 			width:320px;
 
 		}

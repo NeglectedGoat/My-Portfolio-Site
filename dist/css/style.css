@@ -74,6 +74,7 @@ a:link, a:visited {
   right: 332px;
   width: 100px;
   font-size: 16px;
+  background-color: transparent;
   color: #fff;
   text-align: center;
   text-decoration: none; }
@@ -126,7 +127,7 @@ body.hasHover .cta {
 
 body.hasHover .cta:hover, .cta:active {
   background-color: #ffffff;
-  color: #981036; }
+  color: #0f0aca; }
 
 /*----- QUICK LINKS WORK ON HOVER ANIMATION -----*/
 body.hasHover .quick_link_work {
@@ -192,7 +193,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #ffffff;
-  color: #981036; }
+  color: #0f0aca; }
 
 input[type=text] {
   -o-transition: .3s;
@@ -203,7 +204,7 @@ input[type=text] {
 
 input[type=text]:focus {
   transform: scale(1.03);
-  color: #981036;
+  color: #0f0aca;
   background-color: #fff;
   opacity: 1; }
 
@@ -216,7 +217,7 @@ textarea {
 
 textarea:focus {
   transform: scale(1.03);
-  color: #981036;
+  color: #0f0aca;
   background-color: #fff;
   opacity: 1; }
 
@@ -230,7 +231,7 @@ textarea:focus {
 
 ::-webkit-input-placeholder:focus {
   /* Chrome/Opera/Safari */
-  color: #981036; }
+  color: #0f0aca; }
 
 /* Contents of this file:
 	* |EXPERIENCE IN & COLUMNS|
@@ -505,14 +506,14 @@ textarea:focus {
 .overlayText {
   float: left;
   font-size: 22px;
-  color: #981036; }
+  color: #0f0aca; }
 
 .caseStudyText {
   display: none;
   padding: 8px 0px 8px 15px;
   font-size: 20px;
   background-color: #fff;
-  color: #981036;
+  color: #0f0aca;
   text-align: left; }
 
 /* Contents of this file:
@@ -798,12 +799,12 @@ textarea:focus {
   cursor: pointer; }
 
 body {
-  background: #981036; }
+  background: #0f0aca; }
 
 .container {
   width: 960px;
   margin: auto;
-  background-color: #981036;
+  background-color: #0f0aca;
   font-family: iosRegular;
   color: #ffffff; }
 
@@ -846,7 +847,7 @@ body {
     margin: 50px 0px 0px 105px; }
   nav {
     margin: 50px 0px 0px 180px; }
-  .headshot {
+  #headshot {
     width: 365px; }
   .blurb {
     bottom: 135px;
@@ -935,7 +936,7 @@ body {
     margin: 45px 0px 0px 130px; }
   li > a {
     font-size: 14px; }
-  .headshot {
+  #headshot {
     width: 320px; }
   .blurb {
     bottom: 120px;
@@ -1029,7 +1030,7 @@ body {
     font-size: 12px; }
   .headshotContainer {
     margin: 70px 0px 0px 5px; }
-  .headshot {
+  #headshot {
     width: 285px; }
   .blurb {
     bottom: 110px;
@@ -1124,7 +1125,7 @@ body {
     text-align: center; }
   li > a {
     font-size: 16px; }
-  /*** --Centers headshot, blurb and CTA on smaller screens-- ***/
+  /*** --Centers#headshot, blurb and CTA on smaller screens-- ***/
   .headshotAndBlurbContainer {
     text-align: center; }
   .blurb {
@@ -1137,7 +1138,7 @@ body {
   .headshotContainer {
     display: block;
     margin: 40px 0px 0px 0px; }
-  .headshot {
+  #headshot {
     width: 401px; }
   .cta {
     bottom: 0px;
@@ -1147,10 +1148,10 @@ body {
     width: 100px;
     font-size: 16px;
     background-color: #fff;
-    color: #981036; }
+    color: #0f0aca; }
   a.cta:link, a.cta:visited {
     /* display: block; */
-    color: #981036;
+    color: #0f0aca;
     text-decoration: none; }
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
@@ -1234,7 +1235,7 @@ body {
   input[type=submit] {
     margin: 25px auto 0px auto;
     background-color: #ffffff;
-    color: #981036; }
+    color: #0f0aca; }
   /*****------- </CONTACT PAGE> -------*****/
   /*****------- <FOOTER> -------*****/
   .footerContainer {
@@ -1328,7 +1329,7 @@ body {
   .container {
     width: 320px; }
   /*****------- <HEADER> -------*****/
-  .headshot {
+  #headshot {
     width: 320px; }
   .blurb {
     width: 80%; }

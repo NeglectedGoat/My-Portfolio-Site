@@ -37,15 +37,19 @@
 		nav{
 			margin:50px 0px 0px 180px;
 		}
-		#headshot{
-			width:365px;
+		.headshotContainer{
+			margin:75px 75px 60px 85px;
 		}
+			#headshot{
+				width:245px;
+			}
 		.blurb{
-			bottom:135px;
+			bottom:85px;
+			left:40px;
 			font-size:45px;
 		}
 		.cta{
-			bottom:120px;
+			bottom:123px;
 			left:457px;
 		}
 		/*****------- </HEADER> -------*****/
@@ -169,16 +173,19 @@
 			li > a{
 				font-size:14px;
 			}
-		#headshot{
-			width:320px;
+		.headshotContainer{
+			margin:70px 75px 60px 80px;
 		}
+			#headshot{
+				width:220px;
+			}
 		.blurb{
-			bottom:120px;
-			left:45px;
+			bottom:75px;
+			left:15px;
 			font-size:40px;
 		}
 		.cta{
-			bottom:105px;
+			bottom:115px;
 			left:402px;
 		}
 		/*****------- </HEADER> -------*****/
@@ -307,18 +314,18 @@
 				font-size:12px;
 			}
 		.headshotContainer{
-			margin:70px 0px 0px 5px;
+			margin:70px 40px 0px 55px;
 		}
 			#headshot{
-				width:285px;
+				width:195px;
 			}
 		.blurb{
-			bottom:110px;
+			bottom:70px;
 			left:60px;
 			font-size:35px;
 		}
 		.cta{
-			bottom:100px;
+			bottom:60px;
 			left:362px;
 			width:80px;
 			font-size:13px;
@@ -459,11 +466,10 @@
 				text-align:center;
 			}
 			.headshotContainer{
-				display:block;
-				margin:40px 0px 0px 0px;
+				margin:40px 0px 60px 0px;
 			}
 				#headshot{
-					width:401px;
+					width:270px;
 				}
 		.cta{
 			bottom:0px;
@@ -724,10 +730,13 @@
 		width:320px;
 	}
 		/*****------- <HEADER> -------*****/
-		#headshot{
-			width:320px;
-
+		.headshotContainer{
+			margin:40px 0px 45px 0px;
 		}
+			#headshot{
+				width:215px;
+
+			}
 		.blurb{
 			width:80%;
 		}

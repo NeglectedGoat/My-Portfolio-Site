@@ -52,11 +52,11 @@ a:link, a:visited {
 /*----- HEADSHOT IMAGE CONTAINER -----*/
 .headshotContainer {
   display: inline-block;
-  margin: 70px 0px 0px 25px; }
+  margin: 75px 70px 60px 90px; }
 
 /*----- BLURB -----*/
 .blurb {
-  bottom: 140px;
+  bottom: 80px;
   display: inline-block;
   left: 55px;
   position: relative;
@@ -67,7 +67,7 @@ a:link, a:visited {
 /*----- CTA BUTTON -----*/
 .cta {
   border: solid 2px #fff;
-  bottom: 85px;
+  bottom: 25px;
   display: inline-block;
   padding: 12px;
   position: relative;
@@ -847,13 +847,16 @@ body {
     margin: 50px 0px 0px 105px; }
   nav {
     margin: 50px 0px 0px 180px; }
+  .headshotContainer {
+    margin: 75px 75px 60px 85px; }
   #headshot {
-    width: 365px; }
+    width: 245px; }
   .blurb {
-    bottom: 135px;
+    bottom: 85px;
+    left: 40px;
     font-size: 45px; }
   .cta {
-    bottom: 120px;
+    bottom: 123px;
     left: 457px; }
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
@@ -936,14 +939,16 @@ body {
     margin: 45px 0px 0px 130px; }
   li > a {
     font-size: 14px; }
+  .headshotContainer {
+    margin: 70px 75px 60px 80px; }
   #headshot {
-    width: 320px; }
+    width: 220px; }
   .blurb {
-    bottom: 120px;
-    left: 45px;
+    bottom: 75px;
+    left: 15px;
     font-size: 40px; }
   .cta {
-    bottom: 105px;
+    bottom: 115px;
     left: 402px; }
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
@@ -1029,15 +1034,15 @@ body {
   li > a {
     font-size: 12px; }
   .headshotContainer {
-    margin: 70px 0px 0px 5px; }
+    margin: 70px 40px 0px 55px; }
   #headshot {
-    width: 285px; }
+    width: 195px; }
   .blurb {
-    bottom: 110px;
+    bottom: 70px;
     left: 60px;
     font-size: 35px; }
   .cta {
-    bottom: 100px;
+    bottom: 60px;
     left: 362px;
     width: 80px;
     font-size: 13px; }
@@ -1136,10 +1141,9 @@ body {
     font-size: 40px;
     text-align: center; }
   .headshotContainer {
-    display: block;
-    margin: 40px 0px 0px 0px; }
+    margin: 40px 0px 60px 0px; }
   #headshot {
-    width: 401px; }
+    width: 270px; }
   .cta {
     bottom: 0px;
     left: 300px;
@@ -1329,8 +1333,10 @@ body {
   .container {
     width: 320px; }
   /*****------- <HEADER> -------*****/
+  .headshotContainer {
+    margin: 40px 0px 45px 0px; }
   #headshot {
-    width: 320px; }
+    width: 215px; }
   .blurb {
     width: 80%; }
   /*****------- </HEADER> -------*****/

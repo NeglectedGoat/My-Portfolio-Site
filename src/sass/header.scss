@@ -55,8 +55,46 @@ nav{
 /*----- HEADSHOT IMAGE CONTAINER -----*/
 .headshotContainer{
 	display:inline-block;
-	margin:75px 70px 60px 90px;
+	margin:75px 40px 60px 120px;
 }
+	#background_animation{
+		width:268px;
+		height:314px;
+		position:relative;
+	}
+		#headshot{
+			position:relative;
+			width:73.5%;
+			z-index:1;
+		}
+		#white_circle_bg{
+			position:absolute;
+			width:93%;
+			left:-30px;
+			top:48px;
+		}
+		#white_circle_stroke_bg{
+			height:251px;
+			left:-4px;
+			position:absolute;
+			top:68px;
+			width:90.2%;
+		}
+		#code_animation_container{
+			height:251px;
+			left:-5px;
+			position:absolute;
+			top:68px;
+			width:90.2%;
+			border-radius:50%;
+			overflow:hidden;
+		}
+			#code_animation{
+			height:251px;
+			position:absolute;
+			width:100%;
+			background-image:url('../images/headshot_gif_background_code.png');
+		}
 
 /*----- BLURB -----*/
 .blurb{

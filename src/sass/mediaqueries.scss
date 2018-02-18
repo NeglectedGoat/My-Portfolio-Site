@@ -32,22 +32,31 @@
 
 		/*****------- <HEADER> -------*****/
 		.logoContainer{
-			margin:50px 0px 0px 105px;
+			margin:50px 20px 0px 95px;
 		}
 		nav{
 			margin:50px 0px 0px 180px;
 		}
 		.headshotContainer{
-			margin:75px 52px 60px 85px;
+			margin:75px 52px 20px 95px;
 		}
+			#background_animation{
+				width:245px;
+			}
+			#incriment{
+				width:40px;
+			}
+			#white_circle_bg{
+				top:52px;
+				left:-37px;
+			}
 		.blurb{
-			bottom:85px;
-			left:40px;
+			left:64px;
 			font-size:45px;
 		}
 		.cta{
-			bottom:123px;
-			left:457px;
+			bottom:70px;
+			left:468px;
 		}
 		/*****------- </HEADER> -------*****/
 
@@ -171,18 +180,33 @@
 				font-size:14px;
 			}
 		.headshotContainer{
-			margin:70px 75px 60px 80px;
+			margin:70px 60px 20px 100px;
 		}
-			#headshot{
-				width:220px;
+			#background_animation{
+				width:215px;
+			}
+			#incriment{
+				width:37px;
+				right:12px;
+			}
+			#white_circle_bg{
+				top:41px;
+			}
+			#white_circle_stroke_bg{
+				top:58px;
+				left:-7px;
+			}
+			#code_animation_container{
+				top:58px;
+				left:-7px;
 			}
 		.blurb{
-			bottom:75px;
+			bottom:65px;
 			left:15px;
 			font-size:40px;
 		}
 		.cta{
-			bottom:115px;
+			bottom:65px;
 			left:402px;
 		}
 		/*****------- </HEADER> -------*****/
@@ -299,31 +323,45 @@
 
 		/*****------- <HEADER> -------*****/
 		.logoContainer{
-			margin:35px 0px 0px 65px;
+			margin:35px 0px 0px 55px;
 		}
 			.logo{
 				width:150px;
+				height:auto;
 			}
 		nav{
-			margin:35px 0px 0px 145px;
+			margin:35px 0px 0px 140px;
 		}
 			li > a{
 				font-size:12px;
 			}
 		.headshotContainer{
-			margin:70px 40px 0px 55px;
+			margin:70px 30px 20px 75px;
 		}
-			#headshot{
-				width:195px;
+			#background_animation{
+				width:190px;
 			}
+				#incriment{
+					width:33px;
+					right:10px;
+				}
+				#white_circle_bg{
+					top:33px;
+				}
+				#white_circle_stroke_bg{
+					top:52px;
+				}
+				#code_animation_container{
+					top:52px;
+				}
 		.blurb{
-			bottom:70px;
-			left:60px;
+			bottom:60px;
+			left:45px;
 			font-size:35px;
 		}
 		.cta{
-			bottom:60px;
-			left:362px;
+			bottom:63px;
+			left:352px;
 			width:80px;
 			font-size:13px;
 		}
@@ -463,11 +501,28 @@
 				text-align:center;
 			}
 			.headshotContainer{
-				margin:40px 0px 60px 0px;
+				margin:45px 15px 45px 0px;
 			}
-				#headshot{
-					width:270px;
+				#background_animation{
+					width:245px;
 				}
+					#incriment{
+						width:44px;
+						right:-15px;
+						top:25px;
+					}
+					#white_circle_bg{
+						left:0px;
+						top:50px;
+					}
+					#white_circle_stroke_bg{
+						top:66px;
+						left:40px;
+					}
+					#code_animation_container{
+						top:66px;
+						left:40px;
+					}
 		.cta{
 			bottom:0px;
 			left:300px;
@@ -673,6 +728,11 @@
 		width:380px;
 	}
 		/*****------- <HEADER> -------*****/
+		#incriment{
+			width:35px;
+			right:-5px;
+			top:25px;
+		}
 		.blurb{
 			font-size:32px;
 		}
@@ -728,12 +788,8 @@
 	}
 		/*****------- <HEADER> -------*****/
 		.headshotContainer{
-			margin:40px 0px 45px 0px;
+			margin:40px 25px 45px 0px;
 		}
-			#headshot{
-				width:215px;
-
-			}
 		.blurb{
 			width:80%;
 		}

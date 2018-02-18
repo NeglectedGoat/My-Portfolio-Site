@@ -1,5 +1,6 @@
 /* Contents of this file:
 	* |NAVIGATION ON HOVER ANIMATION|
+	* |HEADSHOT GIF|
 	* |CTA ON HOVER ANIMATION|
 	* |SOCIAL ICONS ON HOVER ANIMATION|
 	* |WORK PAGE CASE STUDY IMAGES ON HOVER|
@@ -23,6 +24,21 @@ body.hasHover .nav_links{
 body.hasHover .nav_links:hover {
 	color:#aeaeb7;
 }
+
+/*----- HEADSHOT GIF -----*/
+#code_animation{
+	animation:bg_animation 10s linear infinite;
+}
+
+@keyframes bg_animation{
+	0%{
+		left:-230px;
+	}
+	100%{
+		left:6px;
+	}
+}
+/*----- / HEADSHOT GIF  -----*/
 
 /*----- CTA ON HOVER ANIMATION -----*/
 body.hasHover .cta{

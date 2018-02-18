@@ -59,7 +59,7 @@ nav{
 }
 	#background_animation{
 		width:268px;
-		height:314px;
+		height:auto;
 		position:relative;
 	}
 		#headshot{
@@ -67,21 +67,28 @@ nav{
 			width:73.5%;
 			z-index:1;
 		}
+		#incriment{
+			height:auto;
+			width:44px;
+			position:absolute;
+			right:20px;
+			top:25px;
+		}
 		#white_circle_bg{
 			position:absolute;
-			width:93%;
-			left:-30px;
-			top:48px;
+			width:100%;
+			left:-40px;
+			top:55px;
 		}
 		#white_circle_stroke_bg{
-			height:251px;
+			height:80%;
 			left:-4px;
 			position:absolute;
 			top:68px;
 			width:90.2%;
 		}
 		#code_animation_container{
-			height:251px;
+			height:80%;
 			left:-5px;
 			position:absolute;
 			top:68px;
@@ -91,14 +98,16 @@ nav{
 		}
 			#code_animation{
 			height:251px;
+			left:-230px;
 			position:absolute;
-			width:100%;
-			background-image:url('../images/headshot_gif_background_code.png');
+			width:200%;
+			background-image:url('../images/headshot_gif_background_code_x2.png');
+			background-size:706px auto;
 		}
 
 /*----- BLURB -----*/
 .blurb{
-	bottom:80px;
+	bottom:75px;
 	display:inline-block;
 	left:55px;
 	position:relative;
@@ -110,7 +119,7 @@ nav{
 /*----- CTA BUTTON -----*/
 .cta{
 	border:solid 2px #fff;
-	bottom:25px;
+	bottom:20px;
 	display:inline-block;
 	padding:12px;
 	position:relative;

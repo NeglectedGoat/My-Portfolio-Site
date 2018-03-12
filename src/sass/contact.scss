@@ -46,6 +46,7 @@ form{
 		display:block;
 		padding:5px 5px 0px 10px;
 		width:100%;
+		font-family:iosRegular;
 		font-size:16px;
 		line-height:32px;
 		background-color:transparent;
@@ -112,4 +113,12 @@ form{
 	  	font-family:iosRegular;
 	  	font-size:15px;
 	  	color:#fff;
+	}
+	/* remove autofill icon on safari */
+	input::-webkit-contacts-auto-fill-button {
+  		visibility: hidden;
+  		display: none !important;
+  		pointer-events: none;
+  		position: absolute;
+ 		right: 0;
 	}

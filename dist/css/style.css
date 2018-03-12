@@ -108,6 +108,7 @@ a:link, a:visited {
   left: 55px;
   position: relative;
   width: 40%;
+  font-family: iosRegular;
   font-size: 51px;
   text-align: left; }
 
@@ -397,6 +398,7 @@ textarea:focus {
   margin: 20px 58px 30px 40px;
   font-family: 'PT Sans', sans-serif;
   font-size: 41px;
+  font-weight: bold;
   line-height: 43px;
   text-align: center; }
 
@@ -700,12 +702,6 @@ textarea:focus {
   margin: 0px auto 10px 0px;
   font-size: 16px; }
 
-/*----- BOBBYS BODY BLOG LINK -----*/
-#bobbys_body_blog {
-  border-bottom: 1px solid #fff;
-  padding-bottom: 3px; }
-
-/*----- /BOBBYS BODY BLOG LINK -----*/
 /* Contents of this file:
 	* |INTRO TEXT/FORM BLURB|
 	* |FORM|
@@ -749,6 +745,7 @@ form > input {
   display: block;
   padding: 5px 5px 0px 10px;
   width: 100%;
+  font-family: iosRegular;
   font-size: 16px;
   line-height: 32px;
   background-color: transparent;
@@ -817,6 +814,14 @@ textarea:focus {
   font-size: 15px;
   color: #fff; }
 
+/* remove autofill icon on safari */
+input::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0; }
+
 /* Contents of this file:
 	* |HORIZONTAL LINE DIVDIER|
 	* |SIGNATURE AND SOCIAL ICONS|
@@ -873,13 +878,17 @@ body {
   font-family: iosRegular;
   color: #ffffff; }
 
+/* fix internexr explorer image border issue */
+img {
+  border: none; }
+
 @font-face {
   font-family: iosRegular;
-  src: url("../font/iosevka-regular.woff2") format("woff2"), url("../font/iosevka-regular.woff") format("woff"), url("../font/iosevka-regular.ttf") format("ttf"); }
+  src: url("../font/iosevka-regular.woff2") format("woff2"), url("../font/iosevka-regular.woff") format("woff"), url("../font/iosevka-regular.eot") format("eot"), url("../font/iosevka-regular.ttf") format("ttf"); }
 
 @font-face {
   font-family: iosBold;
-  src: url("../font/iosevka-bold.woff2") format("woff2"), url("../font/iosevka-bold.woff") format("woff"), url("../font/iosevka-bold.ttf") format("ttf"); }
+  src: url("../font/iosevka-bold.woff2") format("woff2"), url("../font/iosevka-bold.woff") format("woff"), url("../font/iosevka-bold.ttf") format("ttf"), url("../font/iosevka-bold.eot") format("eot"); }
 
 /* BREAKPOINTS in this file:
 	* |max-width: 960px|

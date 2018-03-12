@@ -22,10 +22,16 @@ body{
 	color:$primaryTextWhite;
 }
 
+/* fix internexr explorer image border issue */
+img {
+	border:none;
+}
+
 @font-face{
 	font-family:iosRegular;
 	src:url('../font/iosevka-regular.woff2') format('woff2'),
 		url('../font/iosevka-regular.woff') format('woff'),
+		url('../font/iosevka-regular.eot') format('eot'),
 		url('../font/iosevka-regular.ttf') format('ttf');
 }
 
@@ -33,7 +39,8 @@ body{
 	font-family:iosBold;
 	src:url('../font/iosevka-bold.woff2') format('woff2'),
 		url('../font/iosevka-bold.woff') format('woff'),
-		url('../font/iosevka-bold.ttf') format('ttf');
+		url('../font/iosevka-bold.ttf') format('ttf'),
+		url('../font/iosevka-bold.eot') format('eot');
 }
 
 @import "mediaqueries";

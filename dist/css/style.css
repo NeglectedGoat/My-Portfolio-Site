@@ -233,12 +233,21 @@ body.hasHover .linkedinIcon:hover, .linkedinIcon:active {
   transform: scale(1.05); }
 
 /*----- WORK PAGE CASE STUDY IMAGES ON HOVER -----*/
-body.hasHover .overlay {
-  -o-transition: opacity .3s;
-  -ms-transition: opacity .3s;
-  -moz-transition: opacity .3s;
-  -webkit-transition: opacity .3s;
-  transition: opacity .3s; }
+body.hasHover .flip3D > .workImage {
+  transform: perspective(600px) rotateX(0deg);
+  backface-visibility: hidden;
+  transition: transform .3s linear 0s; }
+
+body.hasHover .flip3D:hover > .workImage {
+  transform: perspective(600px) rotateX(-180deg); }
+
+body.hasHover .flip3D > .back {
+  transform: perspective(600px) rotateX(180deg);
+  backface-visibility: hidden;
+  transition: transform .3s linear 0s; }
+
+body.hasHover .flip3D:hover > .back {
+  transform: perspective(600px) rotateX(0deg); }
 
 body.hasHover .overlayTrigger:hover .overlay {
   opacity: .7; }
@@ -529,13 +538,12 @@ textarea:focus {
   text-align: center; }
 
 .workImageContainer {
-  border: 2px solid #fff;
   display: inline-block;
   height: auto;
   margin: 20px;
   width: 42%; }
 
-.overlayTrigger {
+.flip3D {
   display: block;
   height: auto;
   position: relative;
@@ -543,8 +551,22 @@ textarea:focus {
   cursor: pointer; }
 
 .workImage {
+  border: 2px solid #fff;
+  box-sizing: border-box;
   display: block;
-  max-width: 100%; }
+  position: relative;
+  max-width: 100%;
+  z-index: 50; }
+
+.back {
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  background-color: #000; }
 
 .overlay {
   bottom: 0;

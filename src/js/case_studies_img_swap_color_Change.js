@@ -74,6 +74,10 @@ function checkCaseStudy(pageName){
 			var bg_color = "#512D6D";
 			changeCaseStudyBgColor(bg_color);
 			break;
+		case "casestudy_em_lotto":
+			var bg_color = "#983590";
+			changeCaseStudyBgColor(bg_color);
+			break;
 	}
 }
 

@@ -148,7 +148,7 @@ a:link, a:visited {
 	* |HEADSHOT GIF|
 	* |CTA ON HOVER ANIMATION|
 	* |SOCIAL ICONS ON HOVER ANIMATION|
-	* |WORK PAGE CASE STUDY IMAGES ON HOVER|
+	* |WORK PAGE CASE STUDY IMAGES FLIP EFFECT|
 	* |CONTACT FORM ANIMATION|
 */
 /** ELEMENTS ARE LAID OUT HIERACHALLY AS PER THE DOM **/
@@ -232,25 +232,37 @@ body.hasHover .linkedinIcon {
 body.hasHover .linkedinIcon:hover, .linkedinIcon:active {
   transform: scale(1.05); }
 
-/*----- WORK PAGE CASE STUDY IMAGES ON HOVER -----*/
+/*----- WORK PAGE CASE STUDY IMAGES FLIP EFFECT -----*/
 body.hasHover .flip3D > .workImage {
-  transform: perspective(600px) rotateX(0deg);
+  transform: perspective(675px) rotateX(0deg);
   backface-visibility: hidden;
-  transition: transform .3s linear 0s; }
+  transition: transform .25s linear 0s; }
 
 body.hasHover .flip3D:hover > .workImage {
-  transform: perspective(600px) rotateX(-180deg); }
+  transform: perspective(700px) rotateX(-180deg); }
 
 body.hasHover .flip3D > .back {
-  transform: perspective(600px) rotateX(180deg);
+  transform: perspective(675px) rotateX(180deg);
   backface-visibility: hidden;
-  transition: transform .3s linear 0s; }
+  transition: transform .25s linear 0s; }
 
 body.hasHover .flip3D:hover > .back {
-  transform: perspective(600px) rotateX(0deg); }
+  transform: perspective(675px) rotateX(0deg); }
 
-body.hasHover .overlayTrigger:hover .overlay {
-  opacity: .7; }
+body.hasHover .flip3D > .fade_on_overlay {
+  transform: perspective(675px) rotateX(180deg);
+  backface-visibility: hidden;
+  transition: transform .25s linear 0s, opacity .7s linear 0s; }
+
+body.hasHover .flip3D:hover > .fade_on_overlay {
+  transform: perspective(675px) rotateX(0deg);
+  opacity: 0; }
+
+body.hasHover .flip3D > .case_study_text_animated {
+  transition: opacity .25s linear 0s; }
+
+body.hasHover .flip3D:hover > .case_study_text_animated {
+  opacity: 1; }
 
 /*----- CONTACT FORM ANIMATION -----*/
 input[type=submit] {
@@ -559,13 +571,25 @@ textarea:focus {
   z-index: 50; }
 
 .back {
-  border: 2px solid #fff;
+  border: 2px solid #575757;
   box-sizing: border-box;
   display: block;
   position: absolute;
   left: 0;
   top: 0;
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #f1eeee; }
+
+.fade_on_overlay {
+  border: 2px solid #000;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 403px;
+  height: 228px;
   background-color: #000; }
 
 .overlay {
@@ -591,7 +615,27 @@ textarea:focus {
   font-size: 22px;
   color: #0f0aca; }
 
-.caseStudyText {
+.case_study_text_animated {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  opacity: 0;
+  z-index: 80; }
+
+.campaign_name {
+  font-size: 30px;
+  color: #0f0aca;
+  font-family: iosBold; }
+
+.client {
+  margin: 5px 0px 0px 0px;
+  font-size: 22px;
+  color: #0f0aca; }
+
+.case_study_text {
   display: none;
   padding: 8px 0px 8px 15px;
   font-size: 20px;
@@ -1110,7 +1154,7 @@ img {
     margin: 20px 0px 15px 39px; }
   .overlayTrigger:hover .overlay {
     display: none; }
-  .caseStudyText {
+  .case_study_text {
     display: block; }
   /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/

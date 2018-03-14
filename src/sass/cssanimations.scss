@@ -3,7 +3,7 @@
 	* |HEADSHOT GIF|
 	* |CTA ON HOVER ANIMATION|
 	* |SOCIAL ICONS ON HOVER ANIMATION|
-	* |WORK PAGE CASE STUDY IMAGES ON HOVER|
+	* |WORK PAGE CASE STUDY IMAGES FLIP EFFECT|
 	* |CONTACT FORM ANIMATION|
 */
 
@@ -102,29 +102,44 @@ body.hasHover .linkedinIcon:hover, .linkedinIcon:active{
 	transform: scale(1.05);
 }
 
-/*----- WORK PAGE CASE STUDY IMAGES ON HOVER -----*/
+/*----- WORK PAGE CASE STUDY IMAGES FLIP EFFECT -----*/
 body.hasHover .flip3D > .workImage{
-	transform:perspective(600px) rotateX(0deg);
+	transform:perspective(675px) rotateX(0deg);
 	backface-visibility:hidden;
-	transition:transform .3s linear 0s;
+	transition:transform .25s linear 0s;
 }
 
 body.hasHover .flip3D:hover > .workImage{
-	transform:perspective(600px) rotateX(-180deg);
+	transform:perspective(700px) rotateX(-180deg);
 }
 
 body.hasHover .flip3D > .back{
-	transform:perspective(600px) rotateX(180deg);
+	transform:perspective(675px) rotateX(180deg);
 	backface-visibility:hidden;
-	transition:transform .3s linear 0s;
+	transition:transform .25s linear 0s;
 }
 
 body.hasHover .flip3D:hover > .back{
-	transform:perspective(600px) rotateX(0deg);
+	transform:perspective(675px) rotateX(0deg);
 }
 
-body.hasHover .overlayTrigger:hover .overlay{
-	opacity:.7;
+body.hasHover .flip3D > .fade_on_overlay{
+	transform:perspective(675px) rotateX(180deg);
+	backface-visibility:hidden;
+	transition:transform .25s linear 0s, opacity .7s linear 0s;
+}
+
+body.hasHover .flip3D:hover > .fade_on_overlay{
+	transform:perspective(675px) rotateX(0deg);
+	opacity:0;
+}
+
+body.hasHover .flip3D > .case_study_text_animated{
+	transition:opacity .25s linear 0s;
+}
+
+body.hasHover .flip3D:hover > .case_study_text_animated{
+	opacity:1;
 }
 
 /*----- CONTACT FORM ANIMATION -----*/

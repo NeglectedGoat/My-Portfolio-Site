@@ -140,6 +140,10 @@
 			.overlayText{
 				right:95px;
 			}
+		.fade_on_overlay{
+			width:361px;
+			height:204px;
+		}
 		/*****------- </WORK PAGE> -------*****/
 
 			/*****------- <CASE STUDY PAGE> -------*****/
@@ -286,7 +290,15 @@
 			display: block;
 		}
 		/*****------- </WORK PAGE> -------*****/
-
+		.back{
+			visibility:hidden;
+		}
+		.fade_on_overlay{
+			visibility:hidden;
+		}
+		.case_study_text_animated{
+			visibility:hidden;
+		}
 			/*****------- <CASE STUDY PAGE> -------*****/
 			.titleContainer{
 				margin:20px 0px 0px 30px;

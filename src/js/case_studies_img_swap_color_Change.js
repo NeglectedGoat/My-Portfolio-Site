@@ -16,6 +16,7 @@ function getCurrentPageName(){
 	var page = break_up_path.pop(); // removes the last item in the above array (e.g. index.html) and stores it in our page variable
 	var find_html = page.indexOf("."); // finds the position before .html in filename
 	var slice_url = page.slice("0", find_html); //takes everything from the first character up to just before .html and slices it into a new variable
+	// console.log(slice_url);
 	return slice_url;
 }
 

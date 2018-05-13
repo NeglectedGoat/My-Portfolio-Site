@@ -61,7 +61,7 @@ a:link, a:visited {
 
 #headshot {
   position: relative;
-  width: 73.5%;
+  width: 85%;
   z-index: 1; }
 
 #incriment {
@@ -78,18 +78,17 @@ a:link, a:visited {
   top: 55px; }
 
 #white_circle_stroke_bg {
-  height: 80%;
-  left: -4px;
+  left: 20px;
   position: absolute;
-  top: 68px;
-  width: 90.2%; }
+  top: 120px;
+  width: 80.2%; }
 
 #code_animation_container {
-  height: 80%;
-  left: -5px;
+  height: 64%;
+  left: 20px;
   position: absolute;
-  top: 68px;
-  width: 90.2%;
+  top: 120px;
+  width: 79.5%;
   border-radius: 50%;
   overflow: hidden; }
 
@@ -171,9 +170,9 @@ body.hasHover .nav_links:hover {
 
 @keyframes bg_animation {
   0% {
-    left: -230px; }
+    left: -200px; }
   100% {
-    left: 6px; } }
+    left: 36px; } }
 
 /*----- / HEADSHOT GIF  -----*/
 /*----- CTA ON HOVER ANIMATION -----*/
@@ -235,28 +234,10 @@ body.hasHover .linkedinIcon:hover, .linkedinIcon:active {
 /*----- WORK PAGE CASE STUDY IMAGES FLIP EFFECT -----*/
 @media only screen and (min-width: 860px) {
   body.hasHover .flip3D > .workImage {
-    transform: perspective(675px) rotateX(0deg);
-    backface-visibility: hidden;
-    transition: transform .25s linear 0s; }
+    opacity: 1;
+    transition: opacity .25s; }
   body.hasHover .flip3D:hover > .workImage {
-    transform: perspective(700px) rotateX(-180deg); }
-  body.hasHover .flip3D > .back {
-    transform: perspective(675px) rotateX(180deg);
-    backface-visibility: hidden;
-    transition: transform .25s linear 0s; }
-  body.hasHover .flip3D:hover > .back {
-    transform: perspective(675px) rotateX(0deg); }
-  body.hasHover .flip3D > .fade_on_overlay {
-    transform: perspective(675px) rotateX(180deg);
-    backface-visibility: hidden;
-    transition: transform .25s linear 0s, opacity .7s linear 0s; }
-  body.hasHover .flip3D:hover > .fade_on_overlay {
-    transform: perspective(675px) rotateX(0deg);
-    opacity: 0; }
-  body.hasHover .flip3D > .case_study_text_animated {
-    transition: opacity .25s linear 0s; }
-  body.hasHover .flip3D:hover > .case_study_text_animated {
-    opacity: 1; } }
+    opacity: 0; } }
 
 /*----- CONTACT FORM ANIMATION -----*/
 input[type=submit] {
@@ -565,54 +546,26 @@ textarea:focus {
   z-index: 50; }
 
 .back {
-  border: 2px solid #575757;
+  border: 2px solid #fff;
   box-sizing: border-box;
   display: block;
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
   background-color: #fff3f3; }
 
-.fade_on_overlay {
-  border: 2px solid #000;
-  box-sizing: border-box;
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 403px;
-  height: 228px;
-  background-color: #000; }
-
-.case_study_text_animated {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: auto;
-  opacity: 0;
-  z-index: 80; }
-
-.campaign_name {
-  font-size: 30px;
-  color: #0f0aca;
-  font-family: iosBold; }
-
-.client {
-  margin: 5px 0px 0px 0px;
-  font-size: 22px;
-  color: #0f0aca; }
-
 .case_study_text {
-  display: none;
   padding: 8px 0px 8px 15px;
-  font-size: 20px;
+  font-family: iosBold;
+  font-size: 24px;
   background-color: #fff;
   color: #0f0aca;
   text-align: left; }
+
+.client {
+  font-family: iosRegular;
+  font-size: 16px; }
 
 /* Contents of this file:
 	* |CASE STUDY INTRO TEXT|
@@ -964,9 +917,10 @@ img {
     width: 245px; }
   #incriment {
     width: 40px; }
-  #white_circle_bg {
-    top: 52px;
-    left: -37px; }
+  #white_circle_stroke_bg {
+    top: 110px; }
+  #code_animation_container {
+    top: 110px; }
   .blurb {
     left: 64px;
     font-size: 45px; }
@@ -1058,27 +1012,23 @@ img {
   li > a {
     font-size: 14px; }
   .headshotContainer {
-    margin: 70px 60px 20px 100px; }
+    margin: 70px 60px 20px 95px; }
   #background_animation {
     width: 215px; }
   #incriment {
     width: 37px;
     right: 12px; }
-  #white_circle_bg {
-    top: 41px; }
   #white_circle_stroke_bg {
-    top: 58px;
-    left: -7px; }
+    top: 99px; }
   #code_animation_container {
-    top: 58px;
-    left: -7px; }
+    top: 98.5px; }
   .blurb {
     bottom: 65px;
     left: 15px;
     font-size: 40px; }
   .cta {
     bottom: 65px;
-    left: 402px; }
+    left: 397px; }
   /*****------- </HEADER> -------*****/
   /*****------- <INTRO PAGE> -------*****/
   .experienceInCopy {
@@ -1170,7 +1120,7 @@ img {
   li > a {
     font-size: 12px; }
   .headshotContainer {
-    margin: 70px 30px 20px 75px; }
+    margin: 70px 40px 20px 55px; }
   #background_animation {
     width: 190px; }
   #incriment {
@@ -1179,16 +1129,16 @@ img {
   #white_circle_bg {
     top: 33px; }
   #white_circle_stroke_bg {
-    top: 52px; }
+    top: 88px; }
   #code_animation_container {
-    top: 52px; }
+    top: 87.5px; }
   .blurb {
     bottom: 60px;
     left: 45px;
     font-size: 35px; }
   .cta {
     bottom: 63px;
-    left: 352px;
+    left: 342px;
     width: 80px;
     font-size: 13px; }
   /*****------- </HEADER> -------*****/
@@ -1286,7 +1236,7 @@ img {
     font-size: 40px;
     text-align: center; }
   .headshotContainer {
-    margin: 45px 15px 45px 0px; }
+    margin: 45px 0px 45px 0px; }
   #background_animation {
     width: 245px; }
   #incriment {
@@ -1297,10 +1247,10 @@ img {
     left: 0px;
     top: 50px; }
   #white_circle_stroke_bg {
-    top: 66px;
+    top: 112px;
     left: 40px; }
   #code_animation_container {
-    top: 66px;
+    top: 112px;
     left: 40px; }
   .cta {
     bottom: 0px;
@@ -1496,7 +1446,7 @@ img {
     width: 320px; }
   /*****------- <HEADER> -------*****/
   .headshotContainer {
-    margin: 40px 25px 45px 0px; }
+    margin: 40px 0px 45px 0px; }
   .blurb {
     width: 80%; }
   /*****------- </HEADER> -------*****/

@@ -46,9 +46,11 @@
 			#incriment{
 				width:40px;
 			}
-			#white_circle_bg{
-				top:52px;
-				left:-37px;
+			#white_circle_stroke_bg{
+				top:110px;
+			}
+			#code_animation_container{
+				top:110px;
 			}
 		.blurb{
 			left:64px;
@@ -184,7 +186,7 @@
 				font-size:14px;
 			}
 		.headshotContainer{
-			margin:70px 60px 20px 100px;
+			margin:70px 60px 20px 95px;
 		}
 			#background_animation{
 				width:215px;
@@ -193,16 +195,11 @@
 				width:37px;
 				right:12px;
 			}
-			#white_circle_bg{
-				top:41px;
-			}
 			#white_circle_stroke_bg{
-				top:58px;
-				left:-7px;
+				top:99px;
 			}
 			#code_animation_container{
-				top:58px;
-				left:-7px;
+				top:98.5px;
 			}
 		.blurb{
 			bottom:65px;
@@ -211,7 +208,7 @@
 		}
 		.cta{
 			bottom:65px;
-			left:402px;
+			left:397px;
 		}
 		/*****------- </HEADER> -------*****/
 
@@ -348,7 +345,7 @@
 				font-size:12px;
 			}
 		.headshotContainer{
-			margin:70px 30px 20px 75px;
+			margin:70px 40px 20px 55px;
 		}
 			#background_animation{
 				width:190px;
@@ -361,10 +358,10 @@
 					top:33px;
 				}
 				#white_circle_stroke_bg{
-					top:52px;
+					top:88px;
 				}
 				#code_animation_container{
-					top:52px;
+					top:87.5px;
 				}
 		.blurb{
 			bottom:60px;
@@ -373,7 +370,7 @@
 		}
 		.cta{
 			bottom:63px;
-			left:352px;
+			left:342px;
 			width:80px;
 			font-size:13px;
 		}
@@ -513,7 +510,7 @@
 				text-align:center;
 			}
 			.headshotContainer{
-				margin:45px 15px 45px 0px;
+				margin:45px 0px 45px 0px;
 			}
 				#background_animation{
 					width:245px;
@@ -528,11 +525,11 @@
 						top:50px;
 					}
 					#white_circle_stroke_bg{
-						top:66px;
+						top:112px;
 						left:40px;
 					}
 					#code_animation_container{
-						top:66px;
+						top:112px;
 						left:40px;
 					}
 		.cta{
@@ -800,7 +797,7 @@
 	}
 		/*****------- <HEADER> -------*****/
 		.headshotContainer{
-			margin:40px 25px 45px 0px;
+			margin:40px 0px 45px 0px;
 		}
 		.blurb{
 			width:80%;

@@ -76,8 +76,10 @@
 		padding:0px 0px 2px 0px;
 		font-size:22px;
 		position: relative;
-		text-decoration:underline;
-		text-underline-position:under;
+	}
+	.quick_link_work{
+		border-bottom: 1px solid #fff;
+		padding-bottom:3px;
 	}
 	.work_selects{
 		margin:10px 0px 20px 0px;

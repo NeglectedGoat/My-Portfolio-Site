@@ -64,7 +64,7 @@
 
 /*----- QUICK LINKS WORK SHOWCASE -----*/
 .work_showcase_container{
-	margin:40px 49px 40px 49px;
+	margin:40px 49px 0px 49px;
 }
 	.selected_work_copy{
 		margin:0px 0px 20px 0px;
@@ -85,7 +85,8 @@
 		margin:10px 0px 20px 0px;
 		font-size:16px;
 	}
-	.view_all_work{
+	#view_all_work{
+		display:inline-block;
 		margin:30px 0px 30px 0px;
 		font-size:18px;
 	}

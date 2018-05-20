@@ -166,13 +166,23 @@ body.hasHover .nav_links:hover {
 
 /*----- HEADSHOT GIF -----*/
 #code_animation {
-  animation: bg_animation 10s linear infinite; }
+  animation: bg_animation 9s linear infinite; }
 
 @keyframes bg_animation {
   0% {
     left: -200px; }
   100% {
     left: 36px; } }
+
+@media only screen and (max-width: 860px) {
+  /*----- HEADSHOT GIF -----*/
+  #code_animation {
+    animation: bg_animation 5s linear infinite; }
+  @keyframes bg_animation {
+    0% {
+      left: -155px; }
+    100% {
+      left: -37px; } } }
 
 /*----- / HEADSHOT GIF  -----*/
 /*----- CTA ON HOVER ANIMATION -----*/
@@ -200,6 +210,18 @@ body.hasHover .quick_link_work {
 body.hasHover .quick_link_work:hover {
   color: #aeaeb7; }
 
+body.hasHover .view_all_work {
+  color: #fff;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition: .3s; }
+
+body.hasHover .view_all_work:hover {
+  color: #aeaeb7; }
+
+/*----- /QUICK LINKS WORK ON HOVER ANIMATION -----*/
 /*----- SOCIAL ICONS ON HOVER ANIMATION -----*/
 body.hasHover .githubIcon {
   -o-transition: .3s;
@@ -348,7 +370,7 @@ textarea:focus {
 
 /*----- QUICK LINKS WORK SHOWCASE -----*/
 .work_showcase_container {
-  margin: 40px 49px 0px 49px; }
+  margin: 40px 49px 40px 49px; }
 
 .selected_work_copy {
   margin: 0px 0px 20px 0px;
@@ -359,27 +381,17 @@ textarea:focus {
   margin: 10px 0px 0px 0px;
   padding: 0px 0px 2px 0px;
   font-size: 22px;
-  text-decoration: none;
-  position: relative; }
-
-.work_selects_title:after {
-  content: '';
-  width: 100%;
-  border-bottom: solid 1px #fff;
-  position: absolute;
-  left: 0px;
-  top: 30px; }
+  position: relative;
+  text-decoration: underline;
+  text-underline-position: under; }
 
 .work_selects {
   margin: 10px 0px 20px 0px;
   font-size: 16px; }
 
-#view_all_work {
-  border-bottom: 1px solid #fff;
-  display: inline-block;
+.view_all_work {
   margin: 30px 0px 30px 0px;
-  padding: 0px 0px 3px 0px;
-  font-size: 16px; }
+  font-size: 18px; }
 
 /* Contents of this file:
 	* |QUOTE|

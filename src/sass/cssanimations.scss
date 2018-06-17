@@ -100,14 +100,14 @@ body.hasHover .githubIcon{
 body.hasHover .githubIcon:hover, .githubIcon:active{
 	transform: scale(1.05);
 }
-body.hasHover .twitterIcon{
+body.hasHover .wordpressIcon{
 	-o-transition: transform .6s;
 	-ms-transition: transform .6s;
 	-moz-transition: transform .6s;
 	-webkit-transition: transform .6s;
 	transition: transform .6s;
 }
-body.hasHover .twitterIcon:hover, .twitterIcon:active{
+body.hasHover .wordpressIcon:hover, .wordpressIcon:active{
 	transform: scale(1.05);
 }
 body.hasHover .linkedinIcon{

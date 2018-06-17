@@ -32,7 +32,7 @@
 /*----- NAVIGATION -----*/
 nav {
   display: inline-block;
-  margin: 48px 0px 0px 248px; }
+  margin: 48px 0px 0px 350px; }
 
 .active {
   border-bottom: 1px solid #fff;
@@ -224,14 +224,14 @@ body.hasHover .githubIcon {
 body.hasHover .githubIcon:hover, .githubIcon:active {
   transform: scale(1.05); }
 
-body.hasHover .twitterIcon {
+body.hasHover .wordpressIcon {
   -o-transition: transform .6s;
   -ms-transition: transform .6s;
   -moz-transition: transform .6s;
   -webkit-transition: transform .6s;
   transition: transform .6s; }
 
-body.hasHover .twitterIcon:hover, .twitterIcon:active {
+body.hasHover .wordpressIcon:hover, .wordpressIcon:active {
   transform: scale(1.05); }
 
 body.hasHover .linkedinIcon {
@@ -865,7 +865,7 @@ input::-webkit-contacts-auto-fill-button {
   padding: 2px;
   cursor: pointer; }
 
-.twitterIcon {
+.wordpressIcon {
   padding: 2px;
   cursor: pointer; }
 
@@ -925,7 +925,7 @@ img {
   .logoContainer {
     margin: 50px 20px 0px 95px; }
   nav {
-    margin: 50px 0px 0px 180px; }
+    margin: 50px 0px 0px 275px; }
   .headshotContainer {
     margin: 75px 52px 20px 95px; }
   #background_animation {
@@ -1023,7 +1023,7 @@ img {
   .logoContainer {
     margin: 45px 0px 0px 85px; }
   nav {
-    margin: 45px 0px 0px 130px; }
+    margin: 45px 0px 0px 215px; }
   li > a {
     font-size: 14px; }
   .headshotContainer {
@@ -1131,9 +1131,7 @@ img {
     width: 150px;
     height: auto; }
   nav {
-    margin: 35px 0px 0px 140px; }
-  li > a {
-    font-size: 12px; }
+    margin: 35px 0px 0px 200px; }
   .headshotContainer {
     margin: 70px 40px 20px 55px; }
   #background_animation {

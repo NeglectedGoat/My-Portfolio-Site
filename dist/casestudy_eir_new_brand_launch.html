@@ -12,7 +12,8 @@
 	<script src="js/main.js"></script>
 
 </head>
-<body>
+<body style="font-family: iosRegular;">
+	<div id="loading-eir"></div>
 	<header>
 		<div class="container">
 			<div class="logoContainer">
@@ -37,13 +38,13 @@
 					</div>
 				</div>
 				<p class="blurb">
-					AN ASPIRING FRONT-END DEVELOPER BASED IN DUBLIN.
+					A DIGITAL DEVELOPER BASED OUT OF DUBLIN, IRELAND.
 				</p>
 				<a class="cta" href="mailto:gregcallan@live.ie">Get in touch</a>
 			</div>
 		</div>
 
-		<hr class="hrHeader">
+		<hr id="target" class="hrHeader">
 		<hr class="hrHeader">
 	</header>
 
@@ -77,7 +78,9 @@
 				</ul>
 				<br>
 				<p class="resources">RESOURCES</p>
-				<div class="resourcesInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus alias totam debitis.</div>
+				<video width="300" height="250" controls autoplay muted loop>
+  					<source src="videos/300x250_video_example_boat.mp4" type="video/mp4">
+  				</video>
 				<br>
 			</div>
 	</div>
@@ -100,6 +103,9 @@
 		</div>
 	</div>
 
+<script language="javascript" type="text/javascript">
+	    window.onload = function(){ document.getElementById("loading-eir").style.display = "none" }
+</script>
 
 </body>
 </html>

@@ -514,6 +514,45 @@ textarea:focus {
   font-size: 18px;
   text-align: center; }
 
+.ct {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-size: 40px; }
+
+.sz {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-size: 40px; }
+
+.dc {
+  display: inline-block;
+  margin: 0px 120px 15px 125px;
+  font-size: 40px; }
+
+.celtraTitle {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 67px 55px 68px;
+  width: 150px;
+  font-size: 18px;
+  text-align: center; }
+
+.sizmekTitle {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 68px 55px 67px;
+  width: 150px;
+  font-size: 18px;
+  text-align: center; }
+
+.doubleclickTitle {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  margin: 0px 0px 55px 69px;
+  width: 150px;
+  font-size: 18px;
+  text-align: center; }
+
 /* Contents of this file:
 	* |WORKED ON GRID|
 */
@@ -699,13 +738,23 @@ textarea:focus {
 .resources {
   border-bottom: 2px solid;
   display: inline-block;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 100% 20px 0px;
   font-size: 32px;
   text-align: left; }
+
+video {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0px 15px 20px 0px; }
 
 .resourcesInfo {
   margin: 0px auto 10px 0px;
   font-size: 16px; }
+
+.here {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px; }
 
 /* Contents of this file:
 	* |INTRO TEXT/FORM BLURB|
@@ -886,6 +935,102 @@ body {
 /* fix internexr explorer image border issue */
 img {
   border: none; }
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  background-color: #0f0aca;
+  z-index: 99;
+  text-align: center; }
+
+#loading-idf {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  background-color: #000;
+  z-index: 99;
+  text-align: center; }
+
+#loading-failte {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  background-color: #01446b;
+  z-index: 99;
+  text-align: center; }
+
+#loading-lotto {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  background-color: #983590;
+  z-index: 99;
+  text-align: center; }
+
+#loading-eir {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  background-color: #a6092a;
+  z-index: 99;
+  text-align: center; }
+
+#loading-aib-third-level {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  background-color: #512d6d;
+  z-index: 99;
+  text-align: center; }
+
+#loading-virgin-media {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  background-color: #005d1f;
+  z-index: 99;
+  text-align: center; }
+
+#loading-hrc {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 1;
+  background-color: #005d1f;
+  z-index: 99;
+  text-align: center; }
 
 @font-face {
   font-family: iosRegular;
@@ -1463,6 +1608,10 @@ img {
   .blurb {
     width: 80%; }
   /*****------- </HEADER> -------*****/
+  /*****------- <WORK PAGE> -------*****/
+  .case_study_text {
+    font-size: 23px; }
+  /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .titleContainer {
     margin: 20px 0px 0px 11px; }

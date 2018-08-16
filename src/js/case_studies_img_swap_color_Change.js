@@ -4,7 +4,9 @@ window.addEventListener('load', function(){
 	checkCaseStudy(pageName);
 });
 window.addEventListener('resize', function(){
+	var pageName = getCurrentPageName();
 	setImgSrc(getCurrentPageName());
+	checkCaseStudy(pageName);
 });
 
 var container_element = document.getElementsByClassName("container");
@@ -36,12 +38,21 @@ function setImgSrc(pageName){
 	}
 }
 
+function adjustCTATextColor(textColor){
+	var w = window.innerWidth;
+	if(w < 660){
+		get_in_touch_cta[0].style.color = textColor;
+	}else {
+		get_in_touch_cta[0].style.color = "#ffffff";
+	}
+}
+
 function changeCaseStudyBgColor(color){
 	for(var i = 0; i < container_element.length; i++){
 		container_element[i].style.backgroundColor = color;
 	}
 	document.body.style.backgroundColor = color;
-	// get_in_touch_cta[0].style.color = "black";
+	// get_in_touch_cta[0].style.color = color;
 }
 
 
@@ -50,34 +61,42 @@ function checkCaseStudy(pageName){
 		case "casestudy_eir_new_brand_launch":
 			var bg_color = "#a6092a";
 			changeCaseStudyBgColor(bg_color);
+			adjustCTATextColor(bg_color);
 			break;
 		case "casestudy_defense_forces":
 			var bg_color = "black";
 			changeCaseStudyBgColor(bg_color);
+			adjustCTATextColor(bg_color);
 			break;
 		case "casestudy_millionaire_raffle":
 			var bg_color = "#983590";
 			changeCaseStudyBgColor(bg_color);
+			adjustCTATextColor(bg_color);
 			break;
 		case "casestudy_heineken_rugby_club":
 			var bg_color = "#005d1f";
 			changeCaseStudyBgColor(bg_color);
+			adjustCTATextColor(bg_color);
 			break;
 		case "casestudy_virgin_media":
 			var bg_color = "#005d1f";
 			changeCaseStudyBgColor(bg_color);
+			adjustCTATextColor(bg_color);
 			break;
 		case "casestudy_failte_dublin":
 			var bg_color = "#01446b";
 			changeCaseStudyBgColor(bg_color);
+			adjustCTATextColor(bg_color);
 			break;
 		case "casestudy_aib_third_level":
 			var bg_color = "#512D6D";
 			changeCaseStudyBgColor(bg_color);
+			adjustCTATextColor(bg_color);
 			break;
 		case "casestudy_em_lotto":
 			var bg_color = "#983590";
 			changeCaseStudyBgColor(bg_color);
+			adjustCTATextColor(bg_color);
 			break;
 	}
 }

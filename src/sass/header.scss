@@ -45,6 +45,9 @@ nav{
 			color:#fff;
 			text-decoration:none;
 		}
+	a.cta:link{
+	color:#0f0aca;
+		}
 	.clearfix > li{ 
 		float:left;
 		margin:0;
@@ -126,8 +129,7 @@ nav{
 	right:332px;
 	width:100px;	
 	font-size:16px;
-	background-color:transparent;
-	color:#fff;
+	background-color:#fff;
 	text-align:center;	
 	text-decoration:none;
 }

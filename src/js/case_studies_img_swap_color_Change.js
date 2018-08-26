@@ -39,12 +39,8 @@ function setImgSrc(pageName){
 }
 
 function adjustCTATextColor(textColor){
-	var w = window.innerWidth;
-	if(w < 660){
+		get_in_touch_cta[0].style.backgroundColor = "#fff";
 		get_in_touch_cta[0].style.color = textColor;
-	}else {
-		get_in_touch_cta[0].style.color = "#ffffff";
-	}
 }
 
 function changeCaseStudyBgColor(color){

@@ -79,7 +79,7 @@ function checkCaseStudy(pageName){
 			changeCaseStudyBgColor(bg_color);
 			adjustCTATextColor(bg_color);
 			break;
-		case "casestudy_failte_dublin":
+		case "casestudy_failte_waw":
 			var bg_color = "#01446b";
 			changeCaseStudyBgColor(bg_color);
 			adjustCTATextColor(bg_color);

@@ -1132,6 +1132,8 @@ img {
     margin: 10px; }
   .overlayText {
     right: 95px; }
+  .case_study_text {
+    font-size: 21px; }
   .fade_on_overlay {
     width: 361px;
     height: 204px; }
@@ -1229,7 +1231,8 @@ img {
   .overlayTrigger:hover .overlay {
     display: none; }
   .case_study_text {
-    display: block; }
+    display: block;
+    font-size: 18px; }
   /*****------- </WORK PAGE> -------*****/
   .back {
     visibility: hidden; }
@@ -1340,6 +1343,9 @@ img {
   /*****------- <WORK PAGE> -------*****/
   .worked_on_copy {
     margin: 20px 0px 15px 33px; }
+  .case_study_text {
+    display: block;
+    font-size: 16.5px; }
   /*****------- </WORK PAGE> -------*****/
   /*****------- <CASE STUDY PAGE> -------*****/
   .titleContainer {
@@ -1465,6 +1471,8 @@ img {
     margin: 20px 0px 15px 0px;
     font-size: 43px;
     text-align: center; }
+  .case_study_text {
+    font-size: 24px; }
   .workImageContainer {
     margin: 20px;
     width: auto; }

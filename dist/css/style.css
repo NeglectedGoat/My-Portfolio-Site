@@ -370,7 +370,7 @@ textarea:focus {
 
 .work_selects {
   margin: 10px 0px 20px 0px;
-  font-size: 16px; }
+  font-size: 18px; }
 
 #view_all_work {
   display: inline-block;
@@ -416,7 +416,7 @@ textarea:focus {
 
 .aboutMe {
   margin: 0px 0px 10px 0px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left; }
 
 /*----- SKILLS -----*/
@@ -709,7 +709,7 @@ textarea:focus {
 
 .projectInfo {
   margin: 0px 40px 10px 0px;
-  font-size: 16px; }
+  font-size: 18px; }
 
 .technologiesUsed {
   border-bottom: 2px solid;
@@ -720,7 +720,7 @@ textarea:focus {
 
 .techInfo {
   margin: 0px 0px 10px 17px;
-  font-size: 16px; }
+  font-size: 18px; }
 
 .techInfo > li {
   margin: 0px auto 5px 0px; }
@@ -728,7 +728,7 @@ textarea:focus {
 .resources {
   border-bottom: 2px solid;
   display: inline-block;
-  margin: 0px 100% 20px 0px;
+  margin: 0px 0px 20px 0px;
   font-size: 32px;
   text-align: left; }
 
@@ -740,7 +740,7 @@ video {
 
 .resourcesInfo {
   margin: 0px auto 10px 0px;
-  font-size: 16px; }
+  font-size: 18px; }
 
 .here {
   border-bottom: 1px solid #fff;
@@ -1351,7 +1351,7 @@ img {
   .titleContainer {
     margin: 20px 0px 0px 25px; }
   .projectContainer {
-    margin: 0px 0px 0px 30px; }
+    margin: 0px 30px 0px 30px; }
   .projectInfo {
     margin: 0px 15px 10px 0px; }
   /*****------- </CASE STUDY PAGE> -------*****/
@@ -1553,7 +1553,7 @@ img {
   .theCampaign {
     font-size: 31px; }
   .projectContainer {
-    margin: 0px 0px 0px 19px; }
+    margin: 0px 19px 0px 19px; }
   /*****------- </CASE STUDY PAGE> -------*****/ }
 
 @media only screen and (max-width: 420px) {
@@ -1590,7 +1590,7 @@ img {
   .titleContainer {
     margin: 20px 0px 0px 14px; }
   .projectContainer {
-    margin: 0px 0px 0px 18px; }
+    margin: 0px 18px 0px 18px; }
   /*****------- </CASE STUDY PAGE> -------*****/
   /*****------- <CONTACT PAGE> -------*****/
   .letsTalk {
@@ -1614,5 +1614,5 @@ img {
   .titleContainer {
     margin: 20px 0px 0px 11px; }
   .projectContainer {
-    margin: 0px 0px 0px 14px; }
+    margin: 0px 14px 0px 14px; }
   /*****------- </CASE STUDY PAGE> -------*****/ }

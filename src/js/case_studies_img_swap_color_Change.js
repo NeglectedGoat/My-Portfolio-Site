@@ -84,8 +84,8 @@ function checkCaseStudy(pageName){
 			changeCaseStudyBgColor(bg_color);
 			adjustCTATextColor(bg_color);
 			break;
-		case "casestudy_aib_third_level":
-			var bg_color = "#512D6D";
+		case "casestudy_more_winners_more_millionaires":
+			var bg_color = "#983590";
 			changeCaseStudyBgColor(bg_color);
 			adjustCTATextColor(bg_color);
 			break;

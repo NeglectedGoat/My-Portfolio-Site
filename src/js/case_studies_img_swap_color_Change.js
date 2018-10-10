@@ -1,3 +1,5 @@
+
+
 window.addEventListener('load', function(){
 	var pageName = getCurrentPageName();
 	setImgSrc(pageName);

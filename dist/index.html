@@ -12,7 +12,7 @@
 	<script src="js/main.js"></script>
 
 </head>
-<body style="font-family: iosRegular;">
+<body onload="myLoader()" style="font-family: iosRegular;">
 	<header>
 		<div class="container">
 			<div class="logoContainer">
@@ -113,6 +113,18 @@
 		</div>
 	</div>
 
+<script language="javascript" type="text/javascript">
+		var timerCountdown;
+
+		function myLoader(){
+			timerCountdown = setTimeout(showPage, 1250);
+		}
+
+		function showPage(){
+			document.getElementById("loader").style.display = "none";
+			document.getElementById("content").style.display = "block";
+		}
+</script>
 
 </body>
 </html>

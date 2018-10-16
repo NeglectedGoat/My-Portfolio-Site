@@ -187,7 +187,6 @@ body.hasHover .nav_links:hover {
       left: -37px; } } }
 
 /*----- / HEADSHOT GIF  -----*/
-/*----- CTA ON HOVER ANIMATION -----*/
 /*----- QUICK LINKS WORK ON HOVER ANIMATION -----*/
 body.hasHover .quick_link_work {
   border-color: #fff;
@@ -242,7 +241,7 @@ body.hasHover .workImage {
   transition: .3s; }
 
 body.hasHover .workImage:hover {
-  opacity: 2; }
+  filter: brightness(108%); }
 
 /*----- CONTACT FORM ANIMATION -----*/
 input[type=submit] {
@@ -589,8 +588,7 @@ textarea:focus {
   display: block;
   position: relative;
   max-width: 100%;
-  z-index: 50;
-  opacity: .95; }
+  z-index: 50; }
 
 .back {
   border: 2px solid #fff;

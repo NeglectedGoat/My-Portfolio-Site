@@ -56,8 +56,6 @@ body.hasHover .nav_links:hover {
 }
 /*----- / HEADSHOT GIF  -----*/
 
-/*----- CTA ON HOVER ANIMATION -----*/
-
 /*----- QUICK LINKS WORK ON HOVER ANIMATION -----*/
 
 body.hasHover .quick_link_work{
@@ -118,7 +116,7 @@ body.hasHover .workImage{
 }
 
 body.hasHover .workImage:hover{
-	opacity:2;
+filter: brightness(108%);
 }
 
 /*----- CONTACT FORM ANIMATION -----*/

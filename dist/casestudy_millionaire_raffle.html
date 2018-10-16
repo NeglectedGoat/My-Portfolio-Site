@@ -13,7 +13,9 @@
 
 </head>
 <body style="font-family: iosRegular;">
-	<div id="loading-lotto"></div>
+	<div id="loading-lotto">
+	  <img id="loading-image" src="images/Dual_Ring_200px.gif" alt="Loading..." width="100" height="100">
+	</div>
 	<header>
 		<div class="container">
 			<div class="logoContainer">
@@ -103,7 +105,9 @@
 	</div>
 
 <script language="javascript" type="text/javascript">
-	    window.onload = function(){ document.getElementById("loading-lotto").style.display = "none" }
+     $(window).on('load', function () {
+     $('#loading-lotto').hide();
+  });
 </script>
 
 </body>
